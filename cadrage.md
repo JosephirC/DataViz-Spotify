@@ -50,3 +50,10 @@ todo
 Nous travaillerons la plupart du temps à distance tout en se tenant informés des changements et améliorations.
 
 ### 6. Esquisses et Maquettes :
+
+#### Comparaison entre pays :
+![1](/pics/1.png)
+#### Comparaison des métriques retenues :
+![2](/pics/2.png)
+#### Comparaison des genres les plus écoutés selon les années :
+![3](/pics/3.png)
