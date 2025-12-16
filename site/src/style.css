@@ -1,0 +1,66 @@
+/* Reset basique */
+* {
+    box-sizing: border-box;
+}
+
+/* Corps de la page */
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: #121212;
+    color: #000000;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 30px 15px;
+    background: linear-gradient(180deg, #1DB954, #1ED760);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Titre principal */
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* Sous-titre */
+header h2 {
+    margin: 8px 0 12px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+/* Auteurs */
+.authors {
+    font-size: 13px;
+    color: #000000;
+    opacity: 0.9;
+}
+
+/* Optionnel : zone de contenu plus tard */
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Titres de sections (si tu ajoutes des graphiques) */
+h3 {
+    color: #1ED760;
+    font-weight: 600;
+}
+
+/* Liens (si besoin) */
+a {
+    color: #1ED760;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
