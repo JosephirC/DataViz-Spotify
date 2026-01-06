@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Deezer Product';
+    src: url('DeezerProduct-Medium.eot');
+    src: local('Deezer Product Medium'), local('DeezerProduct-Medium'),
+        url('DeezerProduct-Medium.eot?#iefix') format('embedded-opentype'),
+        url('DeezerProduct-Medium.woff2') format('woff2'),
+        url('DeezerProduct-Medium.woff') format('woff'),
+        url('DeezerProduct-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Deezer Product';
+    src: url('DeezerProduct-Regular.eot');
+    src: local('Deezer Product Regular'), local('DeezerProduct-Regular'),
+        url('DeezerProduct-Regular.eot?#iefix') format('embedded-opentype'),
+        url('DeezerProduct-Regular.woff2') format('woff2'),
+        url('DeezerProduct-Regular.woff') format('woff'),
+        url('DeezerProduct-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Deezer Product';
+    src: url('DeezerProduct-Extrabold.eot');
+    src: local('Deezer Product Extrabold'), local('DeezerProduct-Extrabold'),
+        url('DeezerProduct-Extrabold.eot?#iefix') format('embedded-opentype'),
+        url('DeezerProduct-Extrabold.woff2') format('woff2'),
+        url('DeezerProduct-Extrabold.woff') format('woff'),
+        url('DeezerProduct-Extrabold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Deezer Product';
+    src: url('DeezerProduct-Light.eot');
+    src: local('Deezer Product Light'), local('DeezerProduct-Light'),
+        url('DeezerProduct-Light.eot?#iefix') format('embedded-opentype'),
+        url('DeezerProduct-Light.woff2') format('woff2'),
+        url('DeezerProduct-Light.woff') format('woff'),
+        url('DeezerProduct-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Deezer Product';
+    src: url('DeezerProduct-Bold.eot');
+    src: local('Deezer Product Bold'), local('DeezerProduct-Bold'),
+        url('DeezerProduct-Bold.eot?#iefix') format('embedded-opentype'),
+        url('DeezerProduct-Bold.woff2') format('woff2'),
+        url('DeezerProduct-Bold.woff') format('woff'),
+        url('DeezerProduct-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Deezer-Font-Icon';
+    src: url('Deezer-Font-Icon.eot');
+    src: local('Deezer-Font-Icon'),
+        url('Deezer-Font-Icon.eot?#iefix') format('embedded-opentype'),
+        url('Deezer-Font-Icon.woff2') format('woff2'),
+        url('Deezer-Font-Icon.woff') format('woff'),
+        url('Deezer-Font-Icon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

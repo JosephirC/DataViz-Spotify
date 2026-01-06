@@ -1,0 +1,12 @@
+{
+  "name": "site-dataviz",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx live-server"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
