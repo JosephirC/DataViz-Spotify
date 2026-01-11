@@ -145,3 +145,16 @@ label{
     fill: none;
     stroke-width: 2;
 }
+
+#tooltip {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    pointer-events: none;
+    opacity: 0;
+    font-size: 14px;
+    transition: opacity 0.3s;
+    z-index: 1000;
+}
