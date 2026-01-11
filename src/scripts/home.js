@@ -19,7 +19,37 @@ const projection = d3.geoNaturalEarth1()
 
 const path = d3.geoPath().projection(projection);
 
-// Charger les données TopoJSON
+// on oublie le select car on a ps le bon dataset
+/** pas bon dataset donc on oublie
+let selectedYear = 2023;
+
+const yearSlider = document.getElementById('yearSlider');
+const yearDisplay = document.getElementById('yearDisplay');
+
+// Vérification
+console.log("Slider trouvé:", yearSlider);
+console.log("Display trouvé:", yearDisplay);
+
+// Écouteur d'événement pour le curseur
+yearSlider.addEventListener('input', function() {
+    selectedYear = parseInt(this.value);
+    yearDisplay.textContent = selectedYear;
+
+    // Mettre à jour le remplissage violet
+    const percent = ((this.value - this.min) / (this.max - this.min)) * 100;
+    this.style.background = `linear-gradient(to right, #A238FF ${percent}%, #e0e0e0 ${percent}%)`;
+
+    console.log("Année sélectionnée:", selectedYear);
+    updateMap(selectedYear);
+});
+
+// Initialiser le remplissage au chargement
+const initialPercent = ((yearSlider.value - yearSlider.min) / (yearSlider.max - yearSlider.min)) * 100;
+yearSlider.style.background = `linear-gradient(to right, #A238FF ${initialPercent}%, #e0e0e0 ${initialPercent}%)`;
+
+**/
+
+
 d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json")
     .then(data => {
         console.log("TopoJSON chargé :", data);
@@ -49,10 +79,10 @@ d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json")
                 // Afficher le tooltip avec le nom
                 tooltip
                     .style("opacity", 1)
+                    //.html(`<strong>${countryName}</strong><br>Année: ${selectedYear}`)
                     .html(`<strong>${countryName}</strong>`)
                     .style("left", (event.pageX + 10) + "px")
                     .style("top", (event.pageY - 20) + "px");
-
             })
             // Événement quand on quitte
             .on("mouseout", function() {
@@ -67,3 +97,9 @@ d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json")
     .catch(error => {
         console.error("Erreur chargement TopoJSON :", error);
     });
+
+/**
+function updateMap(year) {
+    console.log("Mise à jour de la carte pour l'année:", year);
+}
+ **/

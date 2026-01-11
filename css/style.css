@@ -158,3 +158,47 @@ label{
     transition: opacity 0.3s;
     z-index: 1000;
 }
+
+#yearSlider {
+    cursor: pointer;
+    height: 6px;
+    border-radius: 3px;
+    outline: none;
+    -webkit-appearance: none;
+    background: linear-gradient(to right, #A238FF 0%, #A238FF var(--value), #e0e0e0 var(--value), #e0e0e0 100%);
+}
+
+/* Curseur blanc pour Chrome/Safari */
+#yearSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+/* Curseur blanc pour Firefox */
+#yearSlider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Track VIOLET qui se remplit pour Firefox */
+#yearSlider::-moz-range-track {
+    background: #e0e0e0;
+    border-radius: 3px;
+    height: 6px;
+}
+
+#yearSlider::-moz-range-progress {
+    background: #A238FF;
+    border-radius: 3px;
+    height: 6px;
+}
