@@ -7,30 +7,38 @@
 </head>
 <body>
 
-<nav>
+  <nav>
     <a href="index.html" class="active">Home</a>
-    <a href="pages/page1.html">Page 1</a>
+    <a href="pages/page1.html">Pie charts</a>
     <a href="pages/page2.html">Metrics</a>
-    <a href="pages/page3.html">Page 3</a>
+    <a href="pages/page3.html">Clustering</a>
   </nav>
 
   <main>
-    <h1>Accueil</h1>
-    <p>Contexte du projet</p>
-    <div>
-      Les plateformes de streaming comme Spotify publient des classements de type « Top 50 » par pays, 
-      mais ces listes sont difficiles à comparer entre elles et ne permettent pas de comprendre facilement les grandes tendances musicales mondiales. 
-      Un utilisateur curieux ne voit qu’un classement local, sans savoir comment se situent les autres pays, 
-      ni comment les caractéristiques musicales des hits évoluent dans le temps.
-    </div><br>
-    <div>
-      Notre projet vise à répondre à ce besoin en proposant une visualisation interactive des titres du Top 50 Spotify par pays, 
-      continents et grandes régions du monde. Nous nous concentrons sur quelques indicateurs musicaux clés BPM (tempo), 
-      danceability et volume d’écoutes afin de mettre en évidence des tendances culturelles, géographiques et temporelles. 
-      L’objectif est d’offrir un outil simple à manipuler qui permette de passer d’une vue d’ensemble mondiale à des analyses plus fines par pays ou période.
-  </div>
+    <section id="home-presentation">
+      <h1>Accueil</h1>
+      <p>Contexte du projet</p>
+      <div>
+        Les plateformes de streaming comme Spotify publient des classements de type « Top 50 » par pays,
+        mais ces listes sont difficiles à comparer entre elles et ne permettent pas de comprendre facilement les grandes tendances musicales mondiales.
+        Un utilisateur curieux ne voit qu’un classement local, sans savoir comment se situent les autres pays,
+        ni comment les caractéristiques musicales des hits évoluent dans le temps.
+      </div><br>
+      <div>
+        Notre projet vise à répondre à ce besoin en proposant une visualisation interactive des titres du Top 50 Spotify par pays,
+        continents et grandes régions du monde. Nous nous concentrons sur quelques indicateurs musicaux clés BPM (tempo),
+        danceability et volume d’écoutes afin de mettre en évidence des tendances culturelles, géographiques et temporelles.
+        L’objectif est d’offrir un outil simple à manipuler qui permette de passer d’une vue d’ensemble mondiale à des analyses plus fines par pays ou période.
+      </div>
+    </section>
+    <section>
+      <script src="/src/scripts/home.js"></script>
+
+    </section>
+
   </main>
 
-  <script src="js/home.js"></script>
+
+  <script src="src/scripts/home.js"></script>
 </body>
 </html>

@@ -1,3 +1,5 @@
+console.log("Home chargé");
+
 const width = 900;
 const height = 600;
 
