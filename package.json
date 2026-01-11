@@ -1,12 +1,12 @@
 {
-    "name": "d3-spotify-data-visualization",
-    "version": "1.0.0",
-    "scripts": {
-        "dev": "vite",
-        "build": "vite build",
-        "preview": "vite preview"
-    },
-    "devDependencies": {
-        "vite": "^7.2.6"
-    }
+  "name": "site-dataviz",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx live-server"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
