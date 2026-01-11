@@ -1,44 +1,36 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-    <meta charset="utf-8" />
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <title>Projet DataViz: Visualisation et analyse des top 50 Spotify</title>
-
-    <!-- Style du projet -->
-    <link rel="stylesheet" href="./src/style.css">
+  <meta charset="UTF-8" />
+  <title>Home</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-
 <body>
-    <!-- Header -->
-    <header>
-        <h1>Projet DataViz: Visualisation et analyse des top 50 Spotify</h1>
-        <h2>Université Lyon 1 — Master 2 — 2025-2026</h2>
-        <p class="authors">Youssef Abida (p2024398) — Nathan Corroller (p2208035) - Arthur Yvarse (p2006219)</p>
-    </header>
 
-    <!-- Script du projet -->
-    <script type="module" src="./src/script.js"></script>
+<nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="pages/page1.html">Page 1</a>
+    <a href="pages/page2.html">Metrics</a>
+    <a href="pages/page3.html">Page 3</a>
+  </nav>
 
-    <section id="player">
-        <h3>Écouter le Top 50 Spotify</h3>
+  <main>
+    <h1>Accueil</h1>
+    <p>Contexte du projet</p>
+    <div>
+      Les plateformes de streaming comme Spotify publient des classements de type « Top 50 » par pays, 
+      mais ces listes sont difficiles à comparer entre elles et ne permettent pas de comprendre facilement les grandes tendances musicales mondiales. 
+      Un utilisateur curieux ne voit qu’un classement local, sans savoir comment se situent les autres pays, 
+      ni comment les caractéristiques musicales des hits évoluent dans le temps.
+    </div><br>
+    <div>
+      Notre projet vise à répondre à ce besoin en proposant une visualisation interactive des titres du Top 50 Spotify par pays, 
+      continents et grandes régions du monde. Nous nous concentrons sur quelques indicateurs musicaux clés BPM (tempo), 
+      danceability et volume d’écoutes afin de mettre en évidence des tendances culturelles, géographiques et temporelles. 
+      L’objectif est d’offrir un outil simple à manipuler qui permette de passer d’une vue d’ensemble mondiale à des analyses plus fines par pays ou période.
+  </div>
+  </main>
 
-<!--        <iframe data-testid="embed-iframe"-->
-<!--                style="border-radius:50px"-->
-<!--                src="https://open.spotify.com/embed/playlist/37i9dQZEVXdaw4OMMGqgB2?utm_source=generator"-->
-<!--                width="100%"-->
-<!--                height="152px"-->
-<!--                frameBorder="0"-->
-<!--                allowfullscreen=""-->
-<!--                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"-->
-<!--                loading="lazy">-->
-<!--        </iframe>-->
-
-
-
-    </section>
-
+  <script src="js/home.js"></script>
 </body>
-
 </html>
