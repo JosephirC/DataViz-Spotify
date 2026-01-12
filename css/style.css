@@ -84,7 +84,8 @@ p {
 }
 
 h3{
-    font-size: 40px
+    font-size: 40px;
+    color: #e0e0e0;
 }
 
 div {
@@ -208,4 +209,62 @@ label{
     background: #A238FF;
     border-radius: 3px;
     height: 6px;
+}
+
+.column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    overflow-y: auto;
+    border-right: 1px solid #333;
+}
+
+.column:last-child {
+    border-right: none;
+}
+
+.chart-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+}
+
+.chart-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.legend {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: default;
+}
+
+.legend-color {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+}
+
+.legend-title {
+    margin-top: 0;
+}
+
+input[type="range"] {
+    width: 150px;
+    margin-top: 10px;
 }
