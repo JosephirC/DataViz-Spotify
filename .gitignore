@@ -7,4 +7,4 @@ __pycache__/
 *.pyc
 .DS_Store
 venv/
-raw_data/universal_top_spotify_songs.csv
+raw_data\universal_top_spotify_songs.csv
