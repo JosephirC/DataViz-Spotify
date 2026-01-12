@@ -1,0 +1,1151 @@
+title,artist,top genre,year,bpm,energy,danceability ,dB,liveness,valence,duration,acousticness,speechiness ,popularity,country
+Yellow,Coldplay,permanent wave,2000.0,173.0,66.0,43.0,-7.0,23.0,28.0,267.0,0.0,3.0,90.0,GB
+The Real Slim Shady,Eminem,detroit hip hop,2000.0,105.0,66.0,95.0,-4.0,5.0,76.0,284.0,3.0,6.0,89.0,US
+In the End,Linkin Park,alternative metal,2000.0,105.0,86.0,56.0,-6.0,21.0,40.0,217.0,1.0,6.0,87.0,US
+Stan,Eminem,detroit hip hop,2000.0,80.0,77.0,78.0,-4.0,52.0,51.0,404.0,4.0,24.0,85.0,US
+Ms. Jackson,Outkast,atl hip hop,2000.0,95.0,81.0,84.0,-6.0,8.0,61.0,271.0,14.0,27.0,83.0,US
+It's My Life,Bon Jovi,glam metal,2000.0,120.0,91.0,55.0,-4.0,35.0,54.0,224.0,3.0,5.0,82.0,US
+Kryptonite,3 Doors Down,alternative metal,2000.0,99.0,87.0,55.0,-6.0,17.0,54.0,234.0,1.0,3.0,81.0,US
+It Wasn't Me,Shaggy,dance pop,2000.0,95.0,61.0,85.0,-5.0,31.0,65.0,228.0,6.0,7.0,80.0,JM
+Oops!...I Did It Again,Britney Spears,dance pop,2000.0,95.0,83.0,75.0,-5.0,36.0,89.0,211.0,30.0,4.0,80.0,US
+Dancing in the Moonlight,Toploader,british alternative rock,2000.0,119.0,86.0,63.0,-3.0,35.0,87.0,233.0,6.0,3.0,79.0,GB
+Rollin' (Air Raid Vehicle),Limp Bizkit,alternative metal,2000.0,96.0,93.0,60.0,-3.0,21.0,71.0,214.0,1.0,17.0,79.0,US
+Angel,Shaggy,dance pop,2000.0,171.0,77.0,74.0,-3.0,4.0,81.0,235.0,12.0,18.0,78.0,JM
+Better Off Alone,Alice Deejay,bouncy house,2000.0,137.0,88.0,67.0,-6.0,28.0,79.0,215.0,0.0,6.0,78.0,NL
+Ride Wit Me,Nelly,dance pop,2000.0,102.0,70.0,85.0,-6.0,24.0,72.0,292.0,6.0,5.0,77.0,US
+Beautiful Day,U2,irish rock,2000.0,136.0,93.0,54.0,-6.0,20.0,39.0,248.0,2.0,6.0,76.0,IE
+Take A Look Around,Limp Bizkit,alternative metal,2000.0,102.0,85.0,43.0,-6.0,9.0,51.0,321.0,2.0,5.0,76.0,US
+Shape of My Heart,Backstreet Boys,boy band,2000.0,96.0,79.0,57.0,-4.0,16.0,52.0,230.0,25.0,3.0,74.0,US
+Follow Me,Uncle Kracker,country,2000.0,105.0,59.0,82.0,-5.0,15.0,92.0,218.0,44.0,3.0,73.0,US
+I'm Like A Bird,Nelly Furtado,canadian latin,2000.0,90.0,61.0,62.0,-5.0,23.0,61.0,243.0,15.0,4.0,73.0,CA
+7 Days,Craig David,british soul,2000.0,83.0,81.0,66.0,-7.0,10.0,89.0,235.0,23.0,5.0,72.0,UNKNOWN
+Again,Lenny Kravitz,permanent wave,2000.0,79.0,80.0,55.0,-5.0,11.0,79.0,232.0,1.0,3.0,71.0,US
+Breathless,The Corrs,celtic rock,2000.0,127.0,82.0,61.0,-8.0,27.0,77.0,208.0,5.0,6.0,71.0,IE
+Country Grammar (Hot Shit),Nelly,dance pop,2000.0,163.0,66.0,87.0,-7.0,14.0,56.0,287.0,1.0,11.0,71.0,US
+He Wasn't Man Enough,Toni Braxton,contemporary r&b,2000.0,88.0,95.0,74.0,-2.0,33.0,77.0,262.0,1.0,4.0,71.0,US
+My Love,Westlife,boy band,2000.0,144.0,59.0,49.0,-6.0,26.0,33.0,232.0,10.0,3.0,71.0,IE
+Rock DJ,Robbie Williams,dance rock,2000.0,103.0,77.0,71.0,-4.0,47.0,86.0,259.0,3.0,3.0,71.0,GB
+Absolutely (Story of a Girl) - Radio Mix,Nine Days,pop rock,2000.0,96.0,94.0,48.0,-5.0,9.0,66.0,189.0,0.0,7.0,69.0,US
+Bye Bye Bye,*NSYNC,boy band,2000.0,173.0,93.0,61.0,-5.0,8.0,88.0,201.0,4.0,5.0,69.0,US
+Lucky,Britney Spears,dance pop,2000.0,95.0,79.0,77.0,-6.0,7.0,97.0,206.0,26.0,3.0,69.0,US
+Uptown Girl - Radio Edit,Westlife,boy band,2000.0,129.0,92.0,65.0,-5.0,41.0,86.0,186.0,1.0,3.0,69.0,IE
+I Hope You Dance,Lee Ann Womack,contemporary country,2000.0,151.0,44.0,39.0,-10.0,9.0,28.0,295.0,6.0,3.0,68.0,US
+I Wanna Know,Joe,contemporary r&b,2000.0,136.0,49.0,73.0,-6.0,43.0,60.0,297.0,26.0,4.0,68.0,GB
+Who Let The Dogs Out,Baha Men,bahamian pop,2000.0,129.0,89.0,87.0,-5.0,15.0,78.0,198.0,6.0,10.0,67.0,BS
+It Feels So Good,Sonique,dance,2000.0,135.0,68.0,63.0,-7.0,13.0,56.0,241.0,1.0,3.0,66.0,GB
+Put It On Me,Ja Rule,dance pop,2000.0,93.0,79.0,83.0,-5.0,5.0,79.0,263.0,0.0,17.0,66.0,UNKNOWN
+Shackles (Praise You),Mary Mary,gospel,2000.0,100.0,83.0,78.0,-3.0,9.0,80.0,198.0,3.0,16.0,66.0,US
+It's Gonna Be Me,*NSYNC,boy band,2000.0,165.0,87.0,64.0,-5.0,6.0,88.0,191.0,5.0,8.0,65.0,US
+Hanging By A Moment,Lifehouse,neo mellow,2000.0,125.0,86.0,54.0,-5.0,8.0,50.0,216.0,0.0,3.0,64.0,US
+Never Had A Dream Come True,S Club 7,dance pop,2000.0,123.0,53.0,64.0,-6.0,9.0,43.0,240.0,51.0,3.0,64.0,UNKNOWN
+Pure Shores,All Saints,dance pop,2000.0,101.0,66.0,63.0,-9.0,7.0,41.0,269.0,5.0,2.0,64.0,GB
+Fill Me In,Craig David,british soul,2000.0,132.0,74.0,68.0,-7.0,6.0,83.0,257.0,38.0,4.0,63.0,UNKNOWN
+Hemorrhage (In My Hands),Fuel,alternative metal,2000.0,152.0,82.0,30.0,-4.0,8.0,37.0,237.0,0.0,4.0,63.0,US
+I Just Wanna Love U (Give It 2 Me),JAY-Z,east coast hip hop,2000.0,99.0,92.0,80.0,-5.0,4.0,80.0,228.0,30.0,24.0,63.0,US
+Shalala Lala,Vengaboys,bubblegum dance,2000.0,124.0,90.0,75.0,-6.0,4.0,97.0,215.0,5.0,3.0,62.0,NL
+Idioteque,Radiohead,alternative rock,2000.0,138.0,93.0,62.0,-8.0,9.0,53.0,309.0,4.0,27.0,61.0,GB
+Life Is A Rollercoaster,Ronan Keating,europop,2000.0,119.0,79.0,66.0,-9.0,33.0,86.0,235.0,10.0,3.0,61.0,IE
+Music,Madonna,dance pop,2000.0,120.0,80.0,74.0,-9.0,14.0,87.0,226.0,0.0,7.0,61.0,US
+Turn Off The Light,Nelly Furtado,canadian latin,2000.0,180.0,69.0,59.0,-6.0,42.0,65.0,276.0,8.0,10.0,61.0,CA
+Case Of The Ex (Whatcha Gonna Do),Mýa,contemporary r&b,2000.0,98.0,69.0,77.0,-5.0,7.0,35.0,237.0,5.0,4.0,60.0,US
+Promise,Jagged Edge,atl hip hop,2000.0,128.0,57.0,75.0,-5.0,3.0,65.0,247.0,14.0,9.0,60.0,US
+The Middle,Jimmy Eat World,alternative metal,2001.0,162.0,85.0,64.0,-5.0,6.0,90.0,166.0,4.0,5.0,83.0,US
+Whenever Wherever,Shakira,colombian pop,2001.0,108.0,83.0,79.0,-5.0,20.0,87.0,196.0,24.0,4.0,83.0,CO
+How You Remind Me,Nickelback,alternative metal,2001.0,172.0,76.0,45.0,-5.0,10.0,54.0,224.0,0.0,3.0,81.0,CA
+Drops of Jupiter (Tell Me),Train,dance pop,2001.0,79.0,64.0,48.0,-6.0,15.0,50.0,260.0,15.0,3.0,80.0,US
+Island In The Sun,Weezer,alternative rock,2001.0,115.0,81.0,65.0,-6.0,17.0,66.0,200.0,1.0,3.0,80.0,US
+One More Time,Daft Punk,electro,2001.0,123.0,70.0,61.0,-9.0,33.0,48.0,320.0,2.0,13.0,79.0,FR
+Clint Eastwood,Gorillaz,alternative hip hop,2001.0,168.0,69.0,66.0,-9.0,7.0,53.0,341.0,3.0,17.0,78.0,UNKNOWN
+Family Affair,Mary J. Blige,dance pop,2001.0,93.0,55.0,91.0,-4.0,9.0,97.0,266.0,13.0,4.0,78.0,US
+Lady - Hear Me Tonight,Modjo,disco house,2001.0,126.0,81.0,72.0,-6.0,6.0,87.0,307.0,1.0,4.0,78.0,FR
+Can't Get You out of My Head,Kylie Minogue,australian dance,2001.0,126.0,56.0,77.0,-8.0,12.0,96.0,231.0,3.0,3.0,77.0,AU
+In Too Deep,Sum 41,alternative metal,2001.0,116.0,84.0,57.0,-6.0,6.0,77.0,207.0,0.0,5.0,77.0,CA
+Let Me Blow Ya Mind,Eve,contemporary r&b,2001.0,90.0,56.0,91.0,-4.0,7.0,90.0,230.0,24.0,11.0,77.0,JP
+Smooth Criminal,Alien Ant Farm,alternative metal,2001.0,127.0,96.0,65.0,-4.0,14.0,87.0,209.0,0.0,6.0,77.0,US
+Fat Lip,Sum 41,alternative metal,2001.0,197.0,91.0,40.0,-5.0,7.0,63.0,178.0,0.0,14.0,76.0,CA
+L'Amour Toujours,Gigi D'Agostino,eurodance,2001.0,139.0,88.0,64.0,-4.0,36.0,74.0,242.0,8.0,3.0,76.0,IT
+Wherever You Will Go,The Calling,neo mellow,2001.0,112.0,72.0,56.0,-5.0,12.0,37.0,209.0,4.0,3.0,76.0,US
+Last Nite,The Strokes,alternative rock,2001.0,104.0,91.0,62.0,-6.0,8.0,77.0,193.0,3.0,3.0,75.0,US
+What's Luv? (feat. Ja-Rule & Ashanti),Fat Joe,bronx hip hop,2001.0,94.0,71.0,84.0,-5.0,11.0,92.0,267.0,2.0,6.0,75.0,US
+Your Body Is a Wonderland,John Mayer,neo mellow,2001.0,94.0,73.0,65.0,-6.0,13.0,69.0,250.0,2.0,2.0,75.0,US
+She Hates Me,Puddle Of Mudd,alternative metal,2001.0,110.0,75.0,58.0,-5.0,75.0,58.0,217.0,1.0,3.0,73.0,US
+Someday,The Strokes,alternative rock,2001.0,106.0,53.0,54.0,-7.0,34.0,67.0,183.0,0.0,3.0,73.0,US
+U Got It Bad,Usher,atl hip hop,2001.0,124.0,50.0,82.0,-5.0,7.0,65.0,248.0,2.0,3.0,73.0,US
+U Remind Me,Usher,atl hip hop,2001.0,94.0,63.0,66.0,-5.0,25.0,73.0,267.0,19.0,8.0,73.0,US
+Get the Party Started,P!nk,dance pop,2001.0,129.0,90.0,80.0,-3.0,17.0,96.0,193.0,0.0,5.0,72.0,US
+I'm a Slave 4 U,Britney Spears,dance pop,2001.0,110.0,84.0,85.0,-4.0,11.0,96.0,204.0,42.0,11.0,72.0,US
+My Sacrifice,Creed,alternative metal,2001.0,146.0,88.0,32.0,-6.0,8.0,26.0,295.0,0.0,5.0,72.0,US
+Sandstorm,Darude,eurodance,2001.0,136.0,97.0,53.0,-8.0,8.0,59.0,225.0,14.0,5.0,72.0,FI
+Survivor,Destiny's Child,dance pop,2001.0,161.0,91.0,51.0,-2.0,78.0,62.0,254.0,6.0,41.0,72.0,US
+Youth of the Nation,P.O.D.,alternative metal,2001.0,98.0,86.0,56.0,-8.0,39.0,52.0,256.0,1.0,6.0,72.0,US
+Can't Fight The Moonlight,LeAnn Rimes,contemporary country,2001.0,98.0,83.0,63.0,-6.0,5.0,63.0,216.0,40.0,5.0,71.0,US
+Get Ur Freak On,Missy Elliott,dance pop,2001.0,178.0,75.0,80.0,-9.0,10.0,74.0,211.0,53.0,25.0,71.0,US
+Hero,Enrique Iglesias,dance pop,2001.0,77.0,64.0,35.0,-6.0,11.0,16.0,264.0,14.0,5.0,70.0,ES
+Hit 'Em Up Style (Oops!),Blu Cantrell,hip pop,2001.0,90.0,77.0,67.0,-5.0,40.0,67.0,251.0,20.0,6.0,70.0,US
+Just Like a Pill,P!nk,dance pop,2001.0,102.0,77.0,69.0,-5.0,9.0,25.0,237.0,0.0,3.0,70.0,US
+Out Of Reach,GABRIELLE,british soul,2001.0,183.0,48.0,51.0,-7.0,11.0,50.0,197.0,50.0,5.0,70.0,GB
+Picture (feat. Sheryl Crow),Kid Rock,nu metal,2001.0,98.0,50.0,69.0,-7.0,11.0,38.0,299.0,17.0,2.0,70.0,US
+You Rock My World,Michael Jackson,r&b,2001.0,95.0,67.0,85.0,-3.0,26.0,96.0,338.0,4.0,19.0,70.0,US
+Because I Got High,Afroman,comedy rap,2001.0,166.0,34.0,80.0,-9.0,8.0,85.0,198.0,17.0,49.0,69.0,US
+Differences,Ginuwine,contemporary r&b,2001.0,63.0,59.0,56.0,-5.0,31.0,42.0,266.0,32.0,6.0,69.0,US
+Fallin',Alicia Keys,neo soul,2001.0,96.0,61.0,65.0,-8.0,23.0,48.0,210.0,26.0,4.0,69.0,US
+I'm A Believer,Smash Mouth,pop rock,2001.0,82.0,98.0,55.0,-4.0,44.0,87.0,185.0,2.0,6.0,69.0,US
+Love Don't Cost a Thing,Jennifer Lopez,dance pop,2001.0,98.0,84.0,79.0,-5.0,47.0,69.0,221.0,0.0,7.0,69.0,US
+Purple Pills,D12,detroit hip hop,2001.0,125.0,63.0,78.0,-6.0,29.0,75.0,305.0,2.0,16.0,69.0,US
+Rock The Boat,Aaliyah,contemporary r&b,2001.0,93.0,73.0,64.0,-5.0,20.0,42.0,275.0,7.0,3.0,69.0,US
+Sing,Travis,britpop,2001.0,163.0,91.0,33.0,-5.0,7.0,26.0,229.0,0.0,5.0,69.0,UNKNOWN
+Try Again,Aaliyah,contemporary r&b,2001.0,93.0,66.0,79.0,-5.0,9.0,68.0,285.0,8.0,25.0,69.0,US
+I'm Real (feat. Ja Rule) - Murder Remix,Jennifer Lopez,dance pop,2001.0,83.0,59.0,71.0,-8.0,7.0,55.0,262.0,27.0,15.0,68.0,US
+Independent Women Pt. 1,Destiny's Child,dance pop,2001.0,98.0,60.0,73.0,-4.0,17.0,93.0,221.0,36.0,21.0,68.0,US
+"Lady Marmalade - From ""Moulin Rouge"" Soundtrack",Christina Aguilera,dance pop,2001.0,110.0,80.0,76.0,-4.0,67.0,65.0,265.0,1.0,5.0,68.0,US
+Somethin' Stupid,Robbie Williams,dance rock,2001.0,106.0,52.0,65.0,-12.0,17.0,68.0,170.0,43.0,3.0,68.0,GB
+Without Me,Eminem,detroit hip hop,2002.0,112.0,67.0,91.0,-3.0,24.0,66.0,290.0,0.0,7.0,90.0,US
+The Scientist,Coldplay,permanent wave,2002.0,146.0,44.0,56.0,-7.0,11.0,21.0,310.0,73.0,2.0,86.0,GB
+Till I Collapse,Eminem,detroit hip hop,2002.0,171.0,85.0,55.0,-3.0,8.0,10.0,298.0,6.0,19.0,86.0,US
+Can't Stop,Red Hot Chili Peppers,alternative rock,2002.0,91.0,94.0,62.0,-3.0,17.0,88.0,269.0,2.0,5.0,83.0,US
+Clocks,Coldplay,permanent wave,2002.0,131.0,75.0,58.0,-7.0,18.0,26.0,308.0,60.0,3.0,83.0,GB
+Complicated,Avril Lavigne,canadian pop,2002.0,78.0,78.0,59.0,-6.0,30.0,43.0,245.0,6.0,5.0,81.0,CA
+She Will Be Loved - Radio Mix,Maroon 5,pop,2002.0,102.0,66.0,65.0,-6.0,10.0,47.0,259.0,23.0,3.0,81.0,US
+This Love,Maroon 5,pop,2002.0,95.0,86.0,71.0,-5.0,9.0,81.0,206.0,5.0,4.0,81.0,US
+Dilemma,Nelly,dance pop,2002.0,168.0,55.0,73.0,-8.0,20.0,61.0,289.0,23.0,14.0,80.0,US
+Sing For The Moment,Eminem,detroit hip hop,2002.0,164.0,82.0,67.0,-4.0,4.0,19.0,340.0,0.0,14.0,80.0,US
+All The Things She Said,t.A.T.u.,dance pop,2002.0,90.0,83.0,60.0,-6.0,11.0,38.0,214.0,4.0,4.0,79.0,RU
+Like a Stone,Audioslave,alternative metal,2002.0,108.0,57.0,61.0,-5.0,10.0,52.0,294.0,1.0,3.0,79.0,US
+A Thousand Miles,Vanessa Carlton,lilith,2002.0,95.0,83.0,56.0,-4.0,16.0,27.0,237.0,32.0,4.0,78.0,US
+Here Without You,3 Doors Down,alternative metal,2002.0,144.0,53.0,56.0,-7.0,21.0,23.0,239.0,5.0,3.0,78.0,US
+Rock Your Body,Justin Timberlake,dance pop,2002.0,101.0,71.0,89.0,-6.0,5.0,82.0,267.0,20.0,14.0,78.0,US
+Sk8er Boi,Avril Lavigne,canadian pop,2002.0,150.0,90.0,49.0,-4.0,36.0,48.0,204.0,0.0,5.0,78.0,CA
+By the Way,Red Hot Chili Peppers,alternative rock,2002.0,122.0,97.0,45.0,-5.0,10.0,20.0,217.0,3.0,11.0,77.0,US
+Don't Know Why,Norah Jones,contemporary vocal jazz,2002.0,89.0,22.0,75.0,-11.0,7.0,64.0,186.0,85.0,3.0,77.0,US
+Hot In Herre,Nelly,dance pop,2002.0,107.0,75.0,96.0,-5.0,6.0,91.0,228.0,21.0,12.0,77.0,US
+Cleanin' Out My Closet,Eminem,detroit hip hop,2002.0,148.0,76.0,91.0,-5.0,8.0,87.0,298.0,7.0,17.0,76.0,US
+Cry Me a River,Justin Timberlake,dance pop,2002.0,74.0,65.0,62.0,-7.0,10.0,56.0,288.0,58.0,18.0,76.0,US
+In My Place,Coldplay,permanent wave,2002.0,145.0,59.0,42.0,-5.0,30.0,19.0,227.0,6.0,3.0,76.0,GB
+Foolish,Ashanti,dance pop,2002.0,90.0,70.0,67.0,-6.0,11.0,71.0,227.0,35.0,5.0,75.0,US
+Headstrong,Trapt,alternative metal,2002.0,185.0,90.0,49.0,-6.0,19.0,53.0,286.0,0.0,12.0,74.0,UNKNOWN
+I Know What You Want (feat. Flipmode Squad),Busta Rhymes,east coast hip hop,2002.0,86.0,76.0,65.0,-4.0,65.0,52.0,324.0,1.0,31.0,74.0,US
+I'm with You,Avril Lavigne,canadian pop,2002.0,152.0,41.0,46.0,-7.0,12.0,21.0,223.0,8.0,3.0,74.0,CA
+03' Bonnie & Clyde,JAY-Z,east coast hip hop,2002.0,90.0,68.0,76.0,-5.0,15.0,33.0,206.0,23.0,31.0,73.0,US
+Jenny from the Block (feat. Jadakiss & Styles P.) - Track Masters Remix,Jennifer Lopez,dance pop,2002.0,100.0,77.0,85.0,-5.0,6.0,96.0,188.0,1.0,19.0,73.0,US
+Stop Crying Your Heart Out,Oasis,beatlesque,2002.0,75.0,57.0,38.0,-5.0,8.0,9.0,303.0,8.0,3.0,72.0,GB
+Beautiful,Christina Aguilera,dance pop,2002.0,76.0,57.0,46.0,-4.0,11.0,10.0,239.0,58.0,3.0,71.0,US
+Lifestyles of the Rich & Famous,Good Charlotte,alternative metal,2002.0,106.0,93.0,62.0,-4.0,7.0,61.0,190.0,0.0,4.0,71.0,US
+When I'm Gone,3 Doors Down,alternative metal,2002.0,148.0,77.0,53.0,-6.0,10.0,37.0,260.0,0.0,3.0,71.0,US
+Work It,Missy Elliott,dance pop,2002.0,102.0,68.0,88.0,-6.0,7.0,58.0,263.0,8.0,28.0,71.0,US
+Dirrty (feat. Redman),Christina Aguilera,dance pop,2002.0,100.0,89.0,64.0,-3.0,34.0,44.0,299.0,11.0,32.0,70.0,US
+Landslide,The Chicks,contemporary country,2002.0,146.0,44.0,57.0,-7.0,19.0,44.0,231.0,53.0,3.0,70.0,US
+Drift Away,Uncle Kracker,country,2002.0,152.0,66.0,58.0,-5.0,10.0,86.0,256.0,18.0,4.0,69.0,US
+Fighter,Christina Aguilera,dance pop,2002.0,189.0,92.0,44.0,-1.0,55.0,45.0,246.0,24.0,20.0,69.0,US
+Move Your Feet,Junior Senior,danish pop,2002.0,119.0,90.0,75.0,-3.0,20.0,85.0,182.0,5.0,8.0,69.0,DK
+Unwell,Matchbox Twenty,neo mellow,2002.0,81.0,79.0,26.0,-5.0,71.0,43.0,229.0,3.0,4.0,69.0,US
+The Ketchup Song (Aserejé) - Spanglish Version,Las Ketchup,pop,2002.0,185.0,92.0,61.0,-7.0,9.0,87.0,214.0,2.0,9.0,68.0,ES
+Heaven,DJ Sammy,eurodance,2002.0,138.0,95.0,57.0,-6.0,23.0,60.0,234.0,0.0,5.0,67.0,ES
+Still Fly,Big Tymers,crunk,2002.0,178.0,61.0,68.0,-4.0,34.0,56.0,336.0,3.0,16.0,66.0,US
+The Tide Is High - Radio Mix,Atomic Kitten,candy pop,2002.0,104.0,65.0,78.0,-4.0,7.0,67.0,206.0,2.0,3.0,66.0,GB
+The Game of Love (feat. Michelle Branch) - Main / Radio Mix,Santana,blues rock,2002.0,120.0,93.0,59.0,-3.0,6.0,67.0,254.0,7.0,5.0,65.0,US
+The Seed (2.0),The Roots,conscious hip hop,2002.0,111.0,96.0,76.0,-2.0,13.0,97.0,268.0,4.0,4.0,65.0,US
+This Love,Maroon 5,pop,2002.0,95.0,86.0,71.0,-5.0,9.0,81.0,206.0,5.0,4.0,65.0,US
+Air Force Ones,Nelly,dance pop,2002.0,164.0,46.0,78.0,-10.0,8.0,62.0,304.0,8.0,32.0,64.0,US
+Happy,Ashanti,dance pop,2002.0,89.0,52.0,73.0,-7.0,12.0,70.0,262.0,24.0,3.0,64.0,US
+How You Gonna Act Like That,Tyrese,contemporary r&b,2002.0,113.0,52.0,73.0,-4.0,7.0,53.0,295.0,11.0,5.0,64.0,UNKNOWN
+If You're Not The One,Daniel Bedingfield,europop,2002.0,120.0,54.0,69.0,-8.0,11.0,27.0,257.0,57.0,3.0,64.0,GB
+Numb,Linkin Park,alternative metal,2003.0,110.0,86.0,50.0,-4.0,64.0,24.0,186.0,0.0,4.0,87.0,US
+Seven Nation Army,The White Stripes,alternative rock,2003.0,124.0,45.0,74.0,-8.0,34.0,28.0,232.0,0.0,7.0,86.0,US
+Bring Me To Life,Evanescence,alternative metal,2003.0,95.0,94.0,33.0,-3.0,24.0,30.0,236.0,1.0,7.0,84.0,US
+In Da Club,50 Cent,east coast hip hop,2003.0,90.0,71.0,90.0,-3.0,7.0,78.0,193.0,26.0,37.0,84.0,US
+Toxic,Britney Spears,dance pop,2003.0,143.0,84.0,77.0,-4.0,24.0,92.0,199.0,2.0,11.0,84.0,US
+Hey Ya!,Outkast,atl hip hop,2003.0,80.0,97.0,73.0,-2.0,17.0,97.0,235.0,10.0,7.0,83.0,US
+The Reason,Hoobastank,alternative metal,2003.0,83.0,67.0,47.0,-5.0,16.0,7.0,233.0,1.0,3.0,83.0,US
+If I Ain't Got You,Alicia Keys,neo soul,2003.0,118.0,44.0,61.0,-9.0,10.0,17.0,229.0,60.0,11.0,82.0,US
+Where Is The Love?,Black Eyed Peas,dance pop,2003.0,94.0,70.0,83.0,-3.0,13.0,81.0,273.0,11.0,18.0,82.0,US
+Crazy In Love (feat. Jay-Z),Beyoncé,pop,2003.0,99.0,77.0,65.0,-7.0,7.0,68.0,236.0,0.0,23.0,80.0,US
+Faint,Linkin Park,alternative metal,2003.0,135.0,98.0,55.0,-4.0,7.0,59.0,163.0,11.0,13.0,80.0,US
+P.I.M.P.,50 Cent,east coast hip hop,2003.0,85.0,77.0,71.0,-3.0,4.0,85.0,249.0,5.0,35.0,80.0,US
+Are You Gonna Be My Girl,Jet,garage rock,2003.0,105.0,95.0,61.0,-3.0,15.0,54.0,214.0,0.0,9.0,78.0,AU
+I Miss You,blink-182,alternative metal,2003.0,110.0,71.0,42.0,-8.0,9.0,59.0,227.0,0.0,5.0,78.0,US
+21 Questions,50 Cent,east coast hip hop,2003.0,93.0,81.0,65.0,-4.0,4.0,90.0,224.0,35.0,30.0,77.0,US
+Reptilia,The Strokes,alternative rock,2003.0,158.0,65.0,49.0,-5.0,10.0,77.0,220.0,0.0,3.0,77.0,US
+Behind Blue Eyes,Limp Bizkit,alternative metal,2003.0,120.0,49.0,60.0,-7.0,12.0,9.0,270.0,50.0,3.0,76.0,US
+I Hate Everything About You,Three Days Grace,alternative metal,2003.0,89.0,83.0,50.0,-5.0,14.0,45.0,231.0,0.0,4.0,76.0,CA
+Stacy's Mom,Fountains Of Wayne,pop rock,2003.0,118.0,75.0,77.0,-5.0,8.0,93.0,198.0,0.0,4.0,76.0,US
+Breaking the Habit,Linkin Park,alternative metal,2003.0,100.0,85.0,58.0,-5.0,9.0,58.0,197.0,11.0,3.0,75.0,US
+Suga Suga,Baby Bash,chicano rap,2003.0,82.0,75.0,66.0,-3.0,8.0,54.0,239.0,69.0,27.0,75.0,US
+Roses,Outkast,atl hip hop,2003.0,109.0,71.0,75.0,-6.0,11.0,51.0,370.0,5.0,5.0,73.0,US
+Someday,Nickelback,alternative metal,2003.0,163.0,86.0,46.0,-6.0,23.0,60.0,207.0,0.0,4.0,73.0,CA
+Sway,Michael Bublé,adult standards,2003.0,126.0,64.0,71.0,-6.0,9.0,74.0,188.0,75.0,3.0,73.0,CA
+I Believe in a Thing Called Love,The Darkness,glam metal,2003.0,128.0,85.0,44.0,-5.0,28.0,62.0,218.0,5.0,8.0,71.0,GB
+Rock Wit U (Awww Baby),Ashanti,dance pop,2003.0,95.0,80.0,71.0,-3.0,16.0,85.0,209.0,41.0,6.0,71.0,US
+Superstar,Jamelia,europop,2003.0,110.0,65.0,80.0,-7.0,4.0,82.0,215.0,5.0,4.0,71.0,GB
+The Way You Move (feat. Sleepy Brown),Outkast,atl hip hop,2003.0,126.0,60.0,87.0,-5.0,6.0,64.0,234.0,13.0,5.0,71.0,US
+Baby Boy (feat. Sean Paul),Beyoncé,pop,2003.0,91.0,49.0,66.0,-9.0,22.0,79.0,245.0,8.0,22.0,70.0,US
+In the Shadows,The Rasmus,finnish alternative rock,2003.0,106.0,80.0,60.0,-4.0,48.0,75.0,258.0,0.0,3.0,70.0,FI
+Maps,Yeah Yeah Yeahs,alternative dance,2003.0,120.0,94.0,50.0,-5.0,55.0,12.0,220.0,0.0,7.0,70.0,US
+Right Thurr,Chingy,crunk,2003.0,92.0,75.0,87.0,-4.0,6.0,89.0,251.0,15.0,25.0,70.0,US
+Frontin' (feat. Jay-Z) - Club Mix,Pharrell Williams,dance pop,2003.0,102.0,40.0,89.0,-6.0,8.0,76.0,237.0,45.0,13.0,69.0,US
+Into You (feat. Tamia),Fabolous,gangster rap,2003.0,182.0,54.0,55.0,-8.0,12.0,58.0,296.0,23.0,5.0,69.0,US
+Milkshake,Kelis,dance pop,2003.0,113.0,77.0,88.0,-6.0,21.0,76.0,183.0,1.0,4.0,69.0,US
+Daughters,John Mayer,neo mellow,2003.0,125.0,41.0,67.0,-8.0,10.0,50.0,238.0,84.0,3.0,68.0,US
+Everytime,Britney Spears,dance pop,2003.0,110.0,28.0,40.0,-13.0,12.0,11.0,230.0,97.0,3.0,68.0,US
+Naughty Girl,Beyoncé,pop,2003.0,100.0,47.0,74.0,-9.0,10.0,64.0,209.0,24.0,9.0,68.0,US
+Hero (feat. Josey Scott),Chad Kroeger,alternative rock,2003.0,147.0,84.0,43.0,-5.0,18.0,30.0,200.0,0.0,4.0,67.0,CA
+No Letting Go,Wayne Wonder,dancehall,2003.0,100.0,82.0,50.0,-6.0,18.0,32.0,202.0,5.0,4.0,67.0,US
+Satisfaction - Isak Original Extended,Benny Benassi,edm,2003.0,130.0,70.0,79.0,-4.0,7.0,34.0,286.0,16.0,10.0,67.0,IT
+You Don't Know My Name,Alicia Keys,neo soul,2003.0,167.0,66.0,26.0,-8.0,34.0,25.0,367.0,59.0,19.0,67.0,US
+Slow Motion,JUVENILE,bounce,2003.0,173.0,73.0,71.0,-5.0,7.0,89.0,248.0,55.0,33.0,66.0,US
+Trick Me,Kelis,dance pop,2003.0,107.0,72.0,97.0,-3.0,33.0,96.0,206.0,4.0,15.0,66.0,US
+Can't Let You Go (feat. Mike Shorey & Lil' Mo),Fabolous,gangster rap,2003.0,192.0,60.0,65.0,-7.0,8.0,81.0,224.0,23.0,46.0,65.0,US
+Hey Mama,Black Eyed Peas,dance pop,2003.0,100.0,88.0,87.0,-6.0,60.0,94.0,215.0,11.0,24.0,65.0,US
+Meant to Live,Switchfoot,ccm,2003.0,152.0,90.0,40.0,-5.0,36.0,56.0,201.0,1.0,5.0,65.0,US
+Mundian To Bach Ke,Panjabi MC,bhangra,2003.0,98.0,85.0,78.0,-7.0,14.0,91.0,246.0,30.0,4.0,65.0,GB
+So Gone,Monica,contemporary r&b,2003.0,82.0,55.0,62.0,-7.0,25.0,59.0,243.0,18.0,10.0,65.0,US
+It's My Life,No Doubt,dance pop,2003.0,126.0,74.0,61.0,-5.0,33.0,78.0,226.0,0.0,3.0,64.0,US
+Mockingbird,Eminem,detroit hip hop,2004.0,84.0,68.0,64.0,-4.0,16.0,25.0,251.0,21.0,27.0,92.0,US
+Mr. Brightside,The Killers,alternative rock,2004.0,148.0,91.0,35.0,-5.0,10.0,24.0,223.0,0.0,7.0,87.0,US
+Somewhere Only We Know,Keane,neo mellow,2004.0,172.0,67.0,45.0,-4.0,8.0,30.0,237.0,6.0,3.0,87.0,GB
+Yeah! (feat. Lil Jon & Ludacris),Usher,atl hip hop,2004.0,105.0,79.0,89.0,-5.0,4.0,58.0,250.0,2.0,11.0,84.0,US
+Gasolina,Daddy Yankee,latin hip hop,2004.0,96.0,80.0,85.0,-7.0,8.0,74.0,193.0,32.0,6.0,83.0,PR
+Lose Yourself,Eminem,detroit hip hop,2004.0,171.0,74.0,69.0,-5.0,34.0,6.0,322.0,1.0,26.0,82.0,US
+All Falls Down,Kanye West,chicago rap,2004.0,91.0,73.0,66.0,-5.0,14.0,43.0,224.0,15.0,48.0,81.0,US
+Numb / Encore,JAY-Z,east coast hip hop,2004.0,107.0,79.0,69.0,-4.0,58.0,75.0,206.0,6.0,17.0,81.0,US
+Take Me Out,Franz Ferdinand,alternative rock,2004.0,105.0,66.0,28.0,-9.0,14.0,53.0,237.0,0.0,4.0,81.0,GB
+American Idiot,Green Day,modern rock,2004.0,186.0,99.0,38.0,-2.0,37.0,77.0,176.0,0.0,6.0,80.0,US
+My Boo,Usher,atl hip hop,2004.0,86.0,51.0,66.0,-8.0,5.0,68.0,223.0,26.0,12.0,80.0,US
+Drop It Like It's Hot,Snoop Dogg,g funk,2004.0,92.0,63.0,89.0,-4.0,10.0,66.0,266.0,19.0,22.0,78.0,US
+Unwritten,Natasha Bedingfield,dance pop,2004.0,100.0,80.0,71.0,-6.0,8.0,63.0,259.0,1.0,4.0,78.0,GB
+Call on Me - Radio Mix,Eric Prydz,edm,2004.0,126.0,84.0,60.0,-7.0,84.0,45.0,171.0,0.0,38.0,77.0,SE
+Let Me Love You,Mario,dance pop,2004.0,95.0,58.0,66.0,-9.0,12.0,56.0,257.0,24.0,9.0,76.0,US
+Boulevard of Broken Dreams,Green Day,modern rock,2004.0,167.0,68.0,49.0,-4.0,4.0,51.0,261.0,0.0,3.0,75.0,US
+Everybody's Changing,Keane,neo mellow,2004.0,94.0,84.0,52.0,-4.0,11.0,42.0,216.0,0.0,3.0,75.0,GB
+La Camisa Negra,Juanes,colombian pop,2004.0,97.0,73.0,75.0,-4.0,6.0,97.0,217.0,8.0,3.0,75.0,CO
+My Band,D12,detroit hip hop,2004.0,120.0,85.0,85.0,-3.0,12.0,84.0,299.0,50.0,8.0,75.0,US
+Through The Wire,Kanye West,chicago rap,2004.0,83.0,74.0,57.0,-6.0,16.0,66.0,221.0,1.0,25.0,75.0,US
+Because of You,Kelly Clarkson,dance pop,2004.0,140.0,58.0,59.0,-5.0,12.0,15.0,219.0,25.0,3.0,74.0,US
+Burn,Usher,atl hip hop,2004.0,120.0,48.0,80.0,-7.0,12.0,69.0,232.0,31.0,11.0,74.0,US
+Since U Been Gone,Kelly Clarkson,dance pop,2004.0,131.0,74.0,66.0,-5.0,11.0,38.0,189.0,0.0,3.0,74.0,US
+I Need a Girl (Pt. 2) [feat. Loon & Ginuwine & Mario Winans],Diddy,dance pop,2004.0,200.0,47.0,71.0,-7.0,3.0,78.0,286.0,42.0,48.0,73.0,US
+Beautiful Soul,Jesse McCartney,dance pop,2004.0,90.0,67.0,66.0,-4.0,3.0,93.0,214.0,8.0,5.0,72.0,GB
+Confessions Part II,Usher,atl hip hop,2004.0,138.0,47.0,85.0,-8.0,7.0,70.0,211.0,6.0,14.0,72.0,US
+Hollaback Girl,Gwen Stefani,dance pop,2004.0,110.0,92.0,93.0,-2.0,2.0,90.0,200.0,35.0,9.0,72.0,US
+Slow Jamz,Twista,chicago rap,2004.0,145.0,73.0,56.0,-6.0,28.0,61.0,316.0,31.0,17.0,72.0,US
+Jesus Walks,Kanye West,chicago rap,2004.0,87.0,83.0,64.0,-5.0,32.0,72.0,194.0,61.0,32.0,71.0,US
+Just Lose It,Eminem,detroit hip hop,2004.0,121.0,63.0,94.0,-4.0,28.0,96.0,249.0,6.0,5.0,71.0,US
+Live Like You Were Dying,Tim McGraw,contemporary country,2004.0,160.0,55.0,42.0,-8.0,8.0,42.0,300.0,49.0,3.0,71.0,US
+Turn Me On,Kevin Lyttle,soca,2004.0,106.0,68.0,68.0,-7.0,4.0,88.0,192.0,4.0,4.0,71.0,VC
+Like Toy Soldiers,Eminem,detroit hip hop,2004.0,79.0,77.0,52.0,-3.0,10.0,40.0,297.0,2.0,36.0,70.0,US
+Lovers And Friends,Lil Jon & The East Side Boyz,atl hip hop,2004.0,140.0,50.0,68.0,-6.0,43.0,53.0,261.0,5.0,22.0,70.0,US
+Move Ya Body,Nina Sky,hip pop,2004.0,121.0,71.0,87.0,-6.0,6.0,88.0,232.0,2.0,4.0,70.0,US
+Rich Girl,Gwen Stefani,dance pop,2004.0,98.0,75.0,86.0,-3.0,21.0,72.0,236.0,3.0,4.0,70.0,US
+Dragostea din tei,O-Zone,eurodance,2004.0,130.0,97.0,80.0,-4.0,6.0,68.0,215.0,18.0,4.0,69.0,MD
+Ghetto Gospel,2Pac,g funk,2004.0,81.0,61.0,79.0,-5.0,8.0,66.0,238.0,10.0,5.0,69.0,US
+Goodies (feat. Petey Pablo),Ciara,dance pop,2004.0,102.0,65.0,83.0,-6.0,30.0,87.0,223.0,3.0,5.0,69.0,UNKNOWN
+Leave (Get Out),JoJo,dance pop,2004.0,87.0,56.0,70.0,-7.0,8.0,46.0,243.0,16.0,20.0,69.0,US
+Black Betty - Edit,Spiderbait,australian alternative rock,2004.0,124.0,87.0,56.0,-6.0,22.0,35.0,206.0,0.0,9.0,68.0,AU
+Lean Back,Terror Squad,bronx hip hop,2004.0,95.0,92.0,78.0,-3.0,7.0,70.0,247.0,11.0,42.0,68.0,US
+Overnight Celebrity,Twista,chicago rap,2004.0,134.0,79.0,83.0,-5.0,28.0,78.0,233.0,18.0,18.0,68.0,US
+Breakaway,Kelly Clarkson,dance pop,2004.0,160.0,72.0,27.0,-4.0,11.0,39.0,237.0,4.0,3.0,67.0,US
+Lola's Theme - Radio Edit,The Shapeshifters,disco house,2004.0,124.0,84.0,75.0,-5.0,13.0,67.0,207.0,0.0,5.0,67.0,GB
+Bring Em Out,T.I.,atl hip hop,2004.0,99.0,89.0,76.0,-3.0,14.0,59.0,217.0,3.0,26.0,66.0,US
+Caught Up,Usher,atl hip hop,2004.0,110.0,81.0,82.0,-5.0,12.0,81.0,225.0,3.0,6.0,66.0,US
+Fuck It (I Don't Want You Back),Eamon,r&b/soul,2004.0,69.0,65.0,83.0,-6.0,4.0,57.0,225.0,21.0,7.0,66.0,US
+Left Outside Alone,Anastacia,metal,2004.0,103.0,75.0,66.0,-4.0,9.0,33.0,257.0,7.0,3.0,66.0,US
+Luxurious,Gwen Stefani,dance pop,2004.0,131.0,73.0,81.0,-4.0,12.0,67.0,265.0,15.0,8.0,66.0,US
+Hips Don't Lie (feat. Wyclef Jean),Shakira,colombian pop,2005.0,100.0,82.0,78.0,-6.0,41.0,76.0,218.0,28.0,7.0,86.0,CO
+Feel Good Inc.,Gorillaz,alternative hip hop,2005.0,139.0,71.0,82.0,-7.0,61.0,77.0,223.0,1.0,18.0,85.0,UNKNOWN
+Fix You,Coldplay,permanent wave,2005.0,138.0,42.0,21.0,-9.0,11.0,12.0,296.0,16.0,3.0,85.0,GB
+Hate It Or Love It,The Game,gangster rap,2005.0,100.0,79.0,80.0,-5.0,12.0,44.0,206.0,14.0,21.0,83.0,US
+Candy Shop,50 Cent,east coast hip hop,2005.0,125.0,57.0,61.0,-8.0,38.0,76.0,209.0,3.0,47.0,82.0,US
+Before He Cheats,Carrie Underwood,classic oklahoma country,2005.0,148.0,75.0,52.0,-3.0,12.0,29.0,200.0,27.0,4.0,81.0,US
+Gold Digger,Kanye West,chicago rap,2005.0,93.0,70.0,63.0,-6.0,6.0,62.0,208.0,2.0,35.0,81.0,US
+How to Save a Life,The Fray,neo mellow,2005.0,122.0,74.0,64.0,-4.0,10.0,36.0,263.0,27.0,4.0,81.0,US
+Love,Keyshia Cole,hip pop,2005.0,117.0,52.0,69.0,-4.0,10.0,32.0,255.0,6.0,3.0,81.0,US
+Pon de Replay,Rihanna,barbadian pop,2005.0,99.0,64.0,78.0,-8.0,10.0,50.0,247.0,0.0,16.0,81.0,US
+Temperature,Sean Paul,dance pop,2005.0,125.0,60.0,95.0,-5.0,7.0,82.0,219.0,11.0,7.0,81.0,JM
+Hey There Delilah,Plain White T's,modern rock,2005.0,104.0,29.0,66.0,-11.0,11.0,30.0,233.0,87.0,3.0,80.0,US
+Just A Lil Bit,50 Cent,east coast hip hop,2005.0,97.0,69.0,49.0,-7.0,32.0,53.0,238.0,3.0,41.0,80.0,US
+Lonely,Akon,dance pop,2005.0,90.0,53.0,63.0,-8.0,26.0,62.0,236.0,34.0,3.0,80.0,SN
+How We Do,The Game,gangster rap,2005.0,98.0,65.0,86.0,-7.0,3.0,64.0,236.0,5.0,25.0,78.0,US
+La Tortura (feat. Alejandro Sanz),Shakira,colombian pop,2005.0,100.0,78.0,74.0,-5.0,12.0,81.0,213.0,3.0,4.0,78.0,CO
+Pump It,Black Eyed Peas,dance pop,2005.0,154.0,93.0,65.0,-3.0,75.0,74.0,213.0,1.0,18.0,78.0,US
+The Kill,Thirty Seconds To Mars,modern rock,2005.0,183.0,91.0,18.0,-4.0,58.0,29.0,232.0,0.0,8.0,78.0,US
+Best of You,Foo Fighters,alternative metal,2005.0,130.0,94.0,37.0,-5.0,19.0,37.0,256.0,0.0,7.0,77.0,US
+DARE,Gorillaz,alternative hip hop,2005.0,120.0,89.0,76.0,-6.0,30.0,97.0,245.0,2.0,4.0,77.0,UNKNOWN
+Hung Up,Madonna,dance pop,2005.0,125.0,65.0,65.0,-8.0,7.0,41.0,338.0,0.0,5.0,77.0,US
+You're Beautiful,James Blunt,neo mellow,2005.0,82.0,48.0,68.0,-10.0,9.0,45.0,209.0,63.0,3.0,77.0,GB
+Bad Day,Daniel Powter,canadian pop,2005.0,140.0,79.0,60.0,-4.0,15.0,52.0,234.0,45.0,3.0,76.0,CA
+Better Together,Jack Johnson,neo mellow,2005.0,110.0,35.0,87.0,-9.0,11.0,66.0,208.0,30.0,5.0,76.0,UNKNOWN
+Shake That,Eminem,detroit hip hop,2005.0,107.0,64.0,96.0,-6.0,16.0,53.0,274.0,5.0,12.0,76.0,US
+You And Me,Lifehouse,neo mellow,2005.0,140.0,43.0,46.0,-8.0,17.0,35.0,195.0,11.0,3.0,76.0,US
+Disco Inferno,50 Cent,east coast hip hop,2005.0,97.0,66.0,93.0,-5.0,28.0,71.0,214.0,21.0,23.0,75.0,US
+Run It! (feat. Juelz Santana),Chris Brown,r&b,2005.0,101.0,48.0,85.0,-7.0,39.0,21.0,230.0,2.0,13.0,75.0,US
+Suddenly I See,KT Tunstall,ectofolk,2005.0,100.0,77.0,59.0,-6.0,11.0,66.0,202.0,23.0,4.0,75.0,GB
+We Belong Together,Mariah Carey,dance pop,2005.0,140.0,48.0,84.0,-8.0,9.0,77.0,201.0,3.0,6.0,75.0,US
+Don't Cha,The Pussycat Dolls,dance pop,2005.0,120.0,63.0,88.0,-3.0,13.0,55.0,272.0,1.0,10.0,74.0,US
+Far Away,Nickelback,alternative metal,2005.0,133.0,80.0,52.0,-5.0,11.0,29.0,238.0,0.0,3.0,74.0,CA
+Remember the Name (feat. Styles of Beyond),Fort Minor,rap rock,2005.0,85.0,84.0,69.0,-4.0,8.0,88.0,230.0,6.0,9.0,74.0,US
+Speed of Sound,Coldplay,permanent wave,2005.0,123.0,90.0,51.0,-7.0,7.0,35.0,288.0,0.0,6.0,74.0,GB
+Yo (Excuse Me Miss),Chris Brown,r&b,2005.0,87.0,61.0,54.0,-6.0,21.0,57.0,229.0,12.0,27.0,74.0,US
+Touch The Sky,Kanye West,chicago rap,2005.0,99.0,85.0,55.0,-5.0,31.0,55.0,237.0,1.0,34.0,73.0,US
+As Good As I Once Was,Toby Keith,classic oklahoma country,2005.0,119.0,87.0,68.0,-4.0,11.0,65.0,228.0,27.0,4.0,72.0,US
+Banana Pancakes,Jack Johnson,neo mellow,2005.0,115.0,37.0,81.0,-8.0,9.0,63.0,192.0,60.0,12.0,72.0,UNKNOWN
+Beverly Hills,Weezer,alternative rock,2005.0,88.0,82.0,69.0,-4.0,33.0,74.0,196.0,9.0,7.0,72.0,US
+Goodbye My Lover,James Blunt,neo mellow,2005.0,90.0,26.0,43.0,-13.0,9.0,27.0,259.0,95.0,5.0,72.0,GB
+Home,Michael Bublé,adult standards,2005.0,128.0,37.0,61.0,-9.0,11.0,35.0,226.0,84.0,3.0,72.0,CA
+I'm Sprung,T-Pain,dance pop,2005.0,100.0,33.0,73.0,-12.0,10.0,20.0,231.0,9.0,10.0,72.0,US
+Rockstar,Nickelback,alternative metal,2005.0,144.0,91.0,62.0,-3.0,34.0,69.0,252.0,5.0,4.0,72.0,CA
+Stickwitu,The Pussycat Dolls,dance pop,2005.0,80.0,55.0,55.0,-6.0,7.0,38.0,208.0,28.0,6.0,72.0,US
+Axel F,Crazy Frog,techno,2005.0,138.0,91.0,86.0,-3.0,6.0,79.0,169.0,28.0,4.0,71.0,DE
+Buttons,The Pussycat Dolls,dance pop,2005.0,211.0,82.0,56.0,-4.0,25.0,48.0,226.0,15.0,27.0,71.0,US
+Dakota,Stereophonics,britpop,2005.0,147.0,93.0,51.0,-3.0,9.0,31.0,297.0,13.0,7.0,71.0,GB
+I Write Sins Not Tragedies,Panic! At The Disco,pop,2005.0,170.0,82.0,57.0,-4.0,12.0,67.0,186.0,7.0,14.0,71.0,US
+My Humps,Black Eyed Peas,dance pop,2005.0,124.0,68.0,80.0,-6.0,11.0,59.0,327.0,11.0,22.0,71.0,US
+Over My Head (Cable Car),The Fray,neo mellow,2005.0,116.0,73.0,59.0,-4.0,7.0,71.0,236.0,2.0,4.0,71.0,US
+Promiscuous,Nelly Furtado,canadian latin,2006.0,114.0,97.0,81.0,-6.0,15.0,87.0,242.0,6.0,5.0,85.0,CA
+Smack That,Akon,dance pop,2006.0,119.0,74.0,94.0,-5.0,11.0,92.0,212.0,32.0,5.0,83.0,SN
+Chasing Cars,Snow Patrol,irish rock,2006.0,104.0,60.0,56.0,-5.0,13.0,14.0,268.0,20.0,3.0,82.0,GB
+Maneater,Nelly Furtado,canadian latin,2006.0,133.0,78.0,80.0,-5.0,12.0,79.0,259.0,3.0,4.0,82.0,CA
+Say It Right,Nelly Furtado,canadian latin,2006.0,117.0,87.0,87.0,-6.0,5.0,81.0,223.0,5.0,14.0,82.0,CA
+Teenagers,My Chemical Romance,emo,2006.0,112.0,86.0,46.0,-3.0,18.0,86.0,162.0,5.0,6.0,82.0,US
+Back To Black,Amy Winehouse,british soul,2006.0,123.0,42.0,40.0,-14.0,9.0,38.0,241.0,13.0,4.0,81.0,GB
+Snow (Hey Oh),Red Hot Chili Peppers,alternative rock,2006.0,105.0,90.0,43.0,-4.0,12.0,60.0,335.0,12.0,5.0,81.0,US
+Put Your Records On,Corinne Bailey Rae,british soul,2006.0,96.0,51.0,74.0,-8.0,13.0,54.0,215.0,17.0,4.0,80.0,GB
+SexyBack (feat. Timbaland),Justin Timberlake,dance pop,2006.0,117.0,58.0,97.0,-6.0,5.0,96.0,243.0,6.0,8.0,80.0,US
+Crazy,Gnarls Barkley,atl hip hop,2006.0,112.0,59.0,86.0,-5.0,11.0,64.0,177.0,5.0,3.0,79.0,US
+Dani California,Red Hot Chili Peppers,alternative rock,2006.0,96.0,91.0,56.0,-2.0,35.0,73.0,282.0,2.0,4.0,79.0,US
+So Sick,Ne-Yo,dance pop,2006.0,93.0,57.0,45.0,-8.0,19.0,58.0,207.0,25.0,31.0,79.0,US
+Supermassive Black Hole,Muse,modern rock,2006.0,120.0,92.0,67.0,-4.0,9.0,78.0,212.0,5.0,4.0,79.0,GB
+Welcome to the Black Parade,My Chemical Romance,emo,2006.0,97.0,91.0,22.0,-4.0,22.0,24.0,311.0,0.0,8.0,79.0,US
+Me & U,Cassie,dance pop,2006.0,100.0,45.0,80.0,-5.0,7.0,74.0,192.0,35.0,3.0,78.0,US
+SOS,Rihanna,barbadian pop,2006.0,137.0,67.0,68.0,-5.0,41.0,53.0,239.0,0.0,4.0,78.0,US
+When You Were Young,The Killers,alternative rock,2006.0,130.0,99.0,47.0,-3.0,28.0,32.0,220.0,0.0,11.0,78.0,US
+Face Down,The Red Jumpsuit Apparatus,alternative metal,2006.0,93.0,93.0,55.0,-2.0,13.0,46.0,192.0,0.0,4.0,77.0,US
+Life is a Highway,Rascal Flatts,contemporary country,2006.0,103.0,95.0,58.0,-4.0,22.0,66.0,276.0,0.0,7.0,76.0,US
+Naive,The Kooks,brighton indie,2006.0,100.0,81.0,39.0,-6.0,15.0,74.0,204.0,8.0,9.0,76.0,GB
+Who Knew,P!nk,dance pop,2006.0,140.0,73.0,69.0,-5.0,8.0,46.0,208.0,0.0,3.0,76.0,US
+Don't Matter,Akon,dance pop,2006.0,125.0,44.0,80.0,-6.0,33.0,35.0,293.0,24.0,4.0,75.0,SN
+I Bet You Look Good On The Dancefloor,Arctic Monkeys,garage rock,2006.0,103.0,95.0,54.0,-4.0,38.0,78.0,174.0,0.0,4.0,75.0,GB
+I Wanna Love You,Akon,dance pop,2006.0,100.0,45.0,87.0,-9.0,28.0,37.0,247.0,4.0,4.0,75.0,SN
+My Love (feat. T.I.),Justin Timberlake,dance pop,2006.0,120.0,68.0,77.0,-6.0,68.0,81.0,276.0,28.0,22.0,75.0,US
+Waiting On the World to Change,John Mayer,neo mellow,2006.0,177.0,76.0,58.0,-6.0,25.0,66.0,201.0,16.0,12.0,75.0,US
+When The Sun Goes Down,Arctic Monkeys,garage rock,2006.0,169.0,88.0,35.0,-5.0,12.0,41.0,202.0,3.0,20.0,75.0,GB
+Grace Kelly,MIKA,pop,2006.0,122.0,83.0,68.0,-6.0,36.0,67.0,188.0,2.0,5.0,74.0,GB
+Rehab,Amy Winehouse,british soul,2006.0,72.0,56.0,41.0,-14.0,34.0,78.0,215.0,5.0,6.0,74.0,GB
+She Moves In Her Own Way,The Kooks,brighton indie,2006.0,153.0,80.0,41.0,-5.0,10.0,81.0,169.0,24.0,6.0,73.0,GB
+Too Little Too Late,JoJo,dance pop,2006.0,82.0,80.0,42.0,-5.0,8.0,73.0,222.0,1.0,6.0,73.0,US
+Unfaithful,Rihanna,barbadian pop,2006.0,144.0,39.0,59.0,-9.0,23.0,35.0,227.0,84.0,3.0,73.0,US
+What Goes Around.../...Comes Around (Interlude),Justin Timberlake,dance pop,2006.0,76.0,72.0,69.0,-5.0,57.0,43.0,449.0,12.0,7.0,73.0,US
+Big Girls Don't Cry (Personal),Fergie,dance pop,2006.0,113.0,64.0,71.0,-4.0,9.0,25.0,268.0,21.0,3.0,72.0,US
+Smile,Lily Allen,dance pop,2006.0,96.0,64.0,63.0,-6.0,22.0,73.0,197.0,0.0,3.0,72.0,GB
+Sexy Love,Ne-Yo,dance pop,2006.0,94.0,52.0,69.0,-6.0,6.0,49.0,221.0,30.0,4.0,71.0,US
+The Sweet Escape,Gwen Stefani,dance pop,2006.0,120.0,77.0,76.0,-4.0,18.0,73.0,246.0,19.0,3.0,71.0,US
+What Hurts The Most,Rascal Flatts,contemporary country,2006.0,136.0,67.0,54.0,-5.0,27.0,33.0,214.0,1.0,3.0,71.0,US
+Rock This Party - Everybody Dance Now,Bob Sinclar,disco house,2006.0,128.0,82.0,89.0,-4.0,5.0,90.0,245.0,7.0,12.0,70.0,FR
+Love Is A Losing Game,Amy Winehouse,british soul,2006.0,165.0,29.0,48.0,-17.0,15.0,56.0,155.0,34.0,3.0,69.0,GB
+Snap Yo Fingers,Lil Jon,atl hip hop,2006.0,82.0,76.0,84.0,-5.0,29.0,63.0,274.0,1.0,23.0,69.0,US
+Summer Love,Justin Timberlake,dance pop,2006.0,96.0,59.0,61.0,-7.0,33.0,48.0,253.0,8.0,9.0,69.0,US
+(When You Gonna) Give It Up to Me (feat. Keyshia Cole) - Radio Version,Sean Paul,dance pop,2006.0,96.0,76.0,71.0,-3.0,4.0,72.0,244.0,7.0,23.0,68.0,JM
+America,Razorlight,britpop,2006.0,91.0,57.0,45.0,-5.0,36.0,15.0,250.0,30.0,3.0,67.0,GB
+It's Goin' Down (feat. Nitti),Yung Joc,atl hip hop,2006.0,84.0,58.0,89.0,-8.0,13.0,61.0,242.0,10.0,6.0,67.0,US
+Patience,Take That,boy band,2006.0,176.0,78.0,31.0,-4.0,12.0,37.0,202.0,14.0,4.0,67.0,GB
+You Give Me Something,James Morrison,neo mellow,2006.0,80.0,69.0,56.0,-6.0,9.0,58.0,213.0,22.0,11.0,67.0,UNKNOWN
+Ain't No Other Man,Christina Aguilera,dance pop,2006.0,128.0,74.0,86.0,-5.0,10.0,51.0,229.0,0.0,22.0,66.0,US
+All Good Things (Come To An End),Nelly Furtado,canadian latin,2006.0,101.0,65.0,66.0,-8.0,11.0,39.0,311.0,25.0,3.0,66.0,CA
+Flashing Lights,Kanye West,chicago rap,2007.0,90.0,63.0,64.0,-8.0,39.0,43.0,238.0,4.0,4.0,86.0,US
+Stronger,Kanye West,chicago rap,2007.0,104.0,72.0,62.0,-8.0,41.0,49.0,312.0,1.0,15.0,83.0,US
+The Way I Are,Timbaland,dance pop,2007.0,115.0,81.0,73.0,-6.0,32.0,77.0,179.0,18.0,10.0,83.0,US
+Homecoming,Kanye West,chicago rap,2007.0,87.0,75.0,67.0,-7.0,12.0,92.0,203.0,34.0,19.0,82.0,US
+What I've Done,Linkin Park,alternative metal,2007.0,120.0,93.0,62.0,-5.0,14.0,29.0,206.0,1.0,3.0,82.0,US
+Gimme More,Britney Spears,dance pop,2007.0,113.0,84.0,79.0,-3.0,7.0,38.0,251.0,25.0,3.0,81.0,US
+This Is The Life,Amy Macdonald,scottish singer-songwriter,2007.0,95.0,88.0,63.0,-5.0,7.0,85.0,184.0,26.0,3.0,81.0,GB
+Bleed It Out,Linkin Park,alternative metal,2007.0,140.0,97.0,53.0,-4.0,61.0,60.0,166.0,11.0,5.0,80.0,US
+Fluorescent Adolescent,Arctic Monkeys,garage rock,2007.0,112.0,83.0,65.0,-5.0,12.0,79.0,184.0,0.0,3.0,80.0,GB
+The Pretender,Foo Fighters,alternative metal,2007.0,173.0,96.0,43.0,-4.0,3.0,37.0,269.0,0.0,4.0,80.0,US
+Thnks fr th Mmrs,Fall Out Boy,emo,2007.0,155.0,89.0,46.0,-5.0,11.0,59.0,204.0,1.0,6.0,80.0,US
+Beautiful Girls,Sean Kingston,dance pop,2007.0,130.0,66.0,76.0,-6.0,26.0,77.0,225.0,15.0,7.0,79.0,JM
+Can't Tell Me Nothing,Kanye West,chicago rap,2007.0,80.0,62.0,60.0,-6.0,82.0,10.0,272.0,1.0,4.0,79.0,US
+Give It To Me,Timbaland,dance pop,2007.0,111.0,71.0,98.0,-4.0,8.0,82.0,234.0,17.0,6.0,79.0,US
+Kids,MGMT,alternative rock,2007.0,123.0,93.0,45.0,-4.0,36.0,17.0,303.0,0.0,7.0,79.0,US
+Paper Planes,M.I.A.,escape room,2007.0,172.0,85.0,45.0,-6.0,65.0,49.0,205.0,3.0,22.0,79.0,UNKNOWN
+Valerie (feat. Amy Winehouse) - Version Revisited,Mark Ronson,pop soul,2007.0,106.0,83.0,70.0,-5.0,10.0,89.0,219.0,0.0,6.0,78.0,GB
+Bleeding Love,Leona Lewis,british soul,2007.0,104.0,66.0,64.0,-6.0,15.0,23.0,262.0,19.0,4.0,77.0,GB
+Buy U a Drank (Shawty Snappin') (feat. Yung Joc),T-Pain,dance pop,2007.0,80.0,55.0,69.0,-8.0,7.0,61.0,228.0,1.0,12.0,77.0,US
+Because Of You,Ne-Yo,dance pop,2007.0,110.0,54.0,81.0,-6.0,10.0,83.0,267.0,53.0,4.0,76.0,US
+Crank That (Soulja Boy),Soulja Boy,atl hip hop,2007.0,140.0,74.0,74.0,-2.0,5.0,80.0,222.0,52.0,8.0,76.0,US
+Destination Calabria - Radio Edit,Alex Gaudino,disco house,2007.0,128.0,95.0,63.0,-5.0,29.0,31.0,223.0,0.0,4.0,76.0,IT
+Girlfriend,Avril Lavigne,canadian pop,2007.0,164.0,96.0,56.0,-2.0,21.0,67.0,217.0,0.0,10.0,76.0,CA
+Good Life,Kanye West,chicago rap,2007.0,83.0,81.0,44.0,-7.0,44.0,49.0,207.0,0.0,35.0,76.0,US
+Misery Business,Paramore,candy pop,2007.0,173.0,91.0,52.0,-4.0,11.0,73.0,212.0,0.0,7.0,76.0,US
+No One,Alicia Keys,neo soul,2007.0,90.0,55.0,64.0,-5.0,13.0,17.0,254.0,2.0,3.0,76.0,US
+Paralyzer,Finger Eleven,alternative metal,2007.0,106.0,94.0,64.0,-3.0,23.0,86.0,208.0,16.0,5.0,76.0,CA
+With You,Chris Brown,r&b,2007.0,86.0,69.0,66.0,-4.0,14.0,66.0,252.0,13.0,7.0,76.0,US
+All Summer Long,Kid Rock,nu metal,2007.0,103.0,86.0,70.0,-4.0,10.0,89.0,298.0,2.0,3.0,75.0,US
+Apologize,OneRepublic,piano rock,2007.0,118.0,74.0,59.0,-6.0,10.0,50.0,208.0,36.0,3.0,75.0,US
+Bartender (feat. Akon),T-Pain,dance pop,2007.0,105.0,39.0,83.0,-9.0,22.0,44.0,239.0,6.0,6.0,75.0,US
+Beautiful Liar,Beyoncé,pop,2007.0,92.0,75.0,76.0,-4.0,16.0,42.0,200.0,1.0,7.0,75.0,US
+Love Song,Sara Bareilles,acoustic pop,2007.0,123.0,79.0,58.0,-3.0,19.0,57.0,259.0,2.0,3.0,75.0,US
+Apologize,Timbaland,dance pop,2007.0,118.0,60.0,65.0,-6.0,10.0,10.0,184.0,3.0,3.0,74.0,US
+Bubbly,Colbie Caillat,dance pop,2007.0,128.0,48.0,69.0,-7.0,12.0,26.0,196.0,59.0,4.0,74.0,US
+No Air (feat. Chris Brown),Jordin Sparks,dance pop,2007.0,160.0,76.0,47.0,-5.0,6.0,33.0,264.0,5.0,20.0,74.0,US
+X Gon' Give It To Ya,DMX,east coast hip hop,2007.0,95.0,90.0,76.0,-3.0,7.0,67.0,218.0,1.0,18.0,74.0,US
+You,Lloyd,r&b,2007.0,130.0,88.0,41.0,-6.0,30.0,70.0,273.0,10.0,47.0,74.0,GB
+Everything,Michael Bublé,adult standards,2007.0,123.0,69.0,69.0,-5.0,9.0,49.0,212.0,39.0,3.0,73.0,CA
+Kiss Kiss (feat. T-Pain),Chris Brown,r&b,2007.0,140.0,66.0,73.0,-3.0,7.0,55.0,251.0,5.0,23.0,73.0,US
+Time to Pretend,MGMT,alternative rock,2007.0,101.0,94.0,44.0,-3.0,30.0,42.0,261.0,0.0,5.0,73.0,US
+Beggin (original version),Madcon,norwegian hip hop,2007.0,129.0,80.0,72.0,-5.0,6.0,45.0,216.0,3.0,6.0,72.0,NO
+Brianstorm,Arctic Monkeys,garage rock,2007.0,165.0,97.0,42.0,-5.0,9.0,46.0,173.0,0.0,19.0,72.0,GB
+Irreplaceable,Beyoncé,pop,2007.0,176.0,69.0,45.0,-5.0,17.0,51.0,228.0,3.0,38.0,72.0,US
+1973,James Blunt,neo mellow,2007.0,123.0,67.0,72.0,-8.0,8.0,77.0,280.0,7.0,3.0,71.0,GB
+Pocketful of Sunshine,Natasha Bedingfield,dance pop,2007.0,110.0,88.0,72.0,-4.0,8.0,66.0,203.0,19.0,5.0,71.0,GB
+Ayo Technology,50 Cent,east coast hip hop,2007.0,140.0,78.0,63.0,-5.0,3.0,42.0,248.0,8.0,13.0,70.0,US
+Last Request,Paolo Nutini,british soul,2007.0,81.0,70.0,61.0,-7.0,14.0,40.0,220.0,24.0,5.0,70.0,GB
+See You Again,Miley Cyrus,pop,2007.0,139.0,91.0,69.0,-5.0,11.0,80.0,190.0,2.0,18.0,70.0,US
+Cry for You,September,swedish electropop,2007.0,130.0,88.0,77.0,-4.0,6.0,96.0,210.0,0.0,3.0,69.0,SE
+Viva La Vida,Coldplay,permanent wave,2008.0,138.0,62.0,49.0,-7.0,11.0,42.0,242.0,10.0,3.0,88.0,GB
+Heartless,Kanye West,chicago rap,2008.0,88.0,65.0,79.0,-6.0,25.0,65.0,211.0,5.0,14.0,87.0,US
+Umbrella,Rihanna,barbadian pop,2008.0,174.0,83.0,58.0,-5.0,4.0,57.0,276.0,1.0,13.0,85.0,US
+Sex on Fire,Kings of Leon,modern rock,2008.0,153.0,91.0,54.0,-6.0,14.0,37.0,203.0,0.0,5.0,83.0,US
+Don't Stop The Music,Rihanna,barbadian pop,2008.0,123.0,67.0,84.0,-6.0,5.0,54.0,267.0,3.0,6.0,82.0,US
+I'm Yours,Jason Mraz,acoustic pop,2008.0,151.0,44.0,70.0,-9.0,10.0,71.0,243.0,56.0,4.0,82.0,US
+Low (feat. T-Pain),Flo Rida,dance pop,2008.0,128.0,61.0,92.0,-6.0,14.0,30.0,231.0,9.0,8.0,82.0,US
+Poker Face,Lady Gaga,art pop,2008.0,119.0,81.0,85.0,-5.0,12.0,79.0,237.0,12.0,8.0,82.0,US
+Just Dance,Lady Gaga,art pop,2008.0,119.0,74.0,82.0,-5.0,18.0,75.0,242.0,3.0,3.0,81.0,US
+Walking On A Dream,Empire of the Sun,australian dance,2008.0,127.0,70.0,87.0,-6.0,6.0,72.0,198.0,26.0,5.0,81.0,AU
+Disturbia,Rihanna,barbadian pop,2008.0,125.0,81.0,71.0,-5.0,17.0,72.0,239.0,9.0,6.0,80.0,US
+American Boy,Estelle,neo soul,2008.0,118.0,73.0,69.0,-3.0,7.0,52.0,285.0,17.0,38.0,79.0,GB
+Forever,Chris Brown,r&b,2008.0,120.0,82.0,67.0,-4.0,18.0,44.0,279.0,4.0,5.0,79.0,US
+Kiss Me Thru The Phone,Soulja Boy,atl hip hop,2008.0,150.0,71.0,76.0,-4.0,7.0,80.0,193.0,2.0,11.0,79.0,US
+Love Story,Taylor Swift,pop,2008.0,119.0,74.0,62.0,-4.0,8.0,31.0,236.0,13.0,3.0,79.0,US
+So What,P!nk,dance pop,2008.0,126.0,87.0,53.0,-3.0,24.0,46.0,215.0,0.0,4.0,79.0,US
+Take A Bow,Rihanna,barbadian pop,2008.0,82.0,47.0,70.0,-8.0,9.0,57.0,229.0,25.0,7.0,78.0,US
+Use Somebody,Kings of Leon,modern rock,2008.0,137.0,72.0,28.0,-5.0,20.0,17.0,231.0,1.0,4.0,78.0,US
+Womanizer,Britney Spears,dance pop,2008.0,139.0,70.0,72.0,-5.0,9.0,24.0,224.0,7.0,6.0,78.0,US
+Halo,Beyoncé,pop,2008.0,80.0,72.0,51.0,-6.0,6.0,47.0,262.0,27.0,6.0,77.0,US
+Human,The Killers,alternative rock,2008.0,135.0,80.0,56.0,-8.0,9.0,58.0,245.0,0.0,6.0,77.0,US
+Live Your Life,T.I.,atl hip hop,2008.0,160.0,86.0,38.0,-3.0,21.0,48.0,339.0,7.0,26.0,77.0,US
+Chasing Pavements,Adele,british soul,2008.0,80.0,47.0,62.0,-6.0,11.0,33.0,211.0,29.0,3.0,76.0,GB
+Circus,Britney Spears,dance pop,2008.0,115.0,73.0,79.0,-5.0,7.0,76.0,192.0,15.0,5.0,76.0,US
+Infinity 2008 - Klaas Vocal Edit,Guru Josh Project,acid house,2008.0,128.0,86.0,50.0,-6.0,35.0,47.0,192.0,0.0,6.0,76.0,JE
+Free Fallin' - Live at the Nokia Theatre Los Angeles CA - December 2007,John Mayer,neo mellow,2008.0,174.0,30.0,32.0,-13.0,70.0,44.0,264.0,77.0,3.0,75.0,US
+Hot N Cold,Katy Perry,pop,2008.0,132.0,84.0,71.0,-4.0,7.0,86.0,220.0,0.0,4.0,75.0,US
+Paparazzi,Lady Gaga,art pop,2008.0,115.0,69.0,76.0,-4.0,9.0,40.0,208.0,11.0,4.0,75.0,US
+Whatever You Like,T.I.,atl hip hop,2008.0,150.0,69.0,68.0,-6.0,26.0,47.0,250.0,2.0,7.0,75.0,US
+Dangerous,Kardinal Offishall,canadian old school hip hop,2008.0,117.0,79.0,95.0,-6.0,8.0,81.0,246.0,0.0,8.0,74.0,CA
+Love in This Club (feat. Young Jeezy),Usher,atl hip hop,2008.0,140.0,71.0,57.0,-6.0,17.0,35.0,260.0,6.0,7.0,74.0,US
+LoveGame,Lady Gaga,art pop,2008.0,105.0,68.0,89.0,-6.0,32.0,84.0,216.0,1.0,5.0,74.0,US
+A-Punk,Vampire Weekend,baroque pop,2008.0,175.0,82.0,55.0,-4.0,15.0,85.0,138.0,1.0,5.0,73.0,US
+Burnin' Up,Jonas Brothers,boy band,2008.0,114.0,95.0,67.0,-3.0,33.0,81.0,175.0,3.0,8.0,73.0,US
+Hate That I Love You,Rihanna,barbadian pop,2008.0,94.0,73.0,64.0,-5.0,10.0,73.0,219.0,32.0,9.0,73.0,US
+I Kissed A Girl,Katy Perry,pop,2008.0,130.0,76.0,70.0,-3.0,13.0,70.0,180.0,0.0,7.0,73.0,US
+Right Now (Na Na Na),Akon,dance pop,2008.0,138.0,86.0,83.0,-4.0,41.0,61.0,241.0,26.0,15.0,73.0,SN
+Skinny Love,Bon Iver,chamber pop,2008.0,76.0,26.0,59.0,-14.0,13.0,11.0,239.0,85.0,6.0,73.0,US
+When I Grow Up,The Pussycat Dolls,dance pop,2008.0,118.0,69.0,67.0,-6.0,40.0,37.0,246.0,0.0,5.0,73.0,US
+If U Seek Amy,Britney Spears,dance pop,2008.0,130.0,59.0,72.0,-7.0,5.0,54.0,217.0,2.0,3.0,72.0,US
+Lollipop,Lil Wayne,hip hop,2008.0,148.0,43.0,83.0,-9.0,14.0,45.0,299.0,6.0,8.0,72.0,US
+Shut Up And Drive,Rihanna,barbadian pop,2008.0,133.0,83.0,74.0,-5.0,20.0,74.0,212.0,0.0,3.0,72.0,US
+A Milli,Lil Wayne,hip hop,2008.0,151.0,70.0,67.0,-9.0,19.0,77.0,222.0,4.0,28.0,71.0,US
+Broken Strings,James Morrison,neo mellow,2008.0,112.0,72.0,57.0,-5.0,8.0,32.0,250.0,1.0,3.0,71.0,UNKNOWN
+DONTTRUSTME,3OH!3,electropowerpop,2008.0,130.0,71.0,79.0,-4.0,19.0,51.0,193.0,2.0,25.0,71.0,US
+Gives You Hell,The All-American Rejects,alternative metal,2008.0,100.0,69.0,72.0,-6.0,6.0,55.0,213.0,2.0,4.0,71.0,US
+Mercy,Duffy,british soul,2008.0,130.0,86.0,79.0,-4.0,13.0,96.0,220.0,27.0,3.0,71.0,GB
+Pjanoo - Radio Edit,Eric Prydz,edm,2008.0,126.0,87.0,61.0,-5.0,11.0,84.0,157.0,0.0,3.0,71.0,SE
+Second Chance,Shinedown,alternative metal,2008.0,100.0,80.0,46.0,-5.0,11.0,18.0,222.0,0.0,3.0,71.0,US
+Touch My Body,Mariah Carey,dance pop,2008.0,79.0,67.0,71.0,-8.0,23.0,84.0,205.0,10.0,5.0,71.0,US
+Bad Romance,Lady Gaga,art pop,2009.0,119.0,92.0,70.0,-4.0,8.0,71.0,295.0,0.0,4.0,84.0,US
+Empire State Of Mind,JAY-Z,east coast hip hop,2009.0,174.0,96.0,49.0,-2.0,46.0,81.0,277.0,3.0,39.0,84.0,US
+I Gotta Feeling,Black Eyed Peas,dance pop,2009.0,128.0,77.0,74.0,-6.0,51.0,61.0,289.0,9.0,3.0,83.0,US
+Party In The U.S.A.,Miley Cyrus,pop,2009.0,96.0,70.0,65.0,-5.0,9.0,47.0,202.0,0.0,4.0,83.0,US
+Dog Days Are Over,Florence + The Machine,baroque pop,2009.0,150.0,81.0,50.0,-5.0,12.0,26.0,253.0,3.0,9.0,82.0,UNKNOWN
+Rude Boy,Rihanna,barbadian pop,2009.0,174.0,75.0,56.0,-4.0,8.0,81.0,223.0,11.0,13.0,81.0,US
+Run This Town,JAY-Z,east coast hip hop,2009.0,87.0,92.0,63.0,-2.0,26.0,44.0,268.0,28.0,29.0,81.0,US
+Down,Jay Sean,dance pop,2009.0,132.0,68.0,73.0,-4.0,8.0,73.0,213.0,1.0,3.0,80.0,GB
+Fireflies,Owl City,indietronica,2009.0,180.0,66.0,51.0,-7.0,12.0,47.0,228.0,3.0,4.0,80.0,US
+Monster,Skillet,alternative metal,2009.0,135.0,96.0,64.0,-2.0,8.0,69.0,178.0,4.0,7.0,79.0,US
+Replay,Iyaz,dance pop,2009.0,91.0,75.0,71.0,-6.0,17.0,20.0,182.0,17.0,7.0,78.0,VG
+Right Round,Flo Rida,dance pop,2009.0,125.0,67.0,72.0,-7.0,23.0,71.0,205.0,1.0,6.0,78.0,US
+Secrets,OneRepublic,piano rock,2009.0,148.0,76.0,52.0,-6.0,12.0,38.0,225.0,7.0,4.0,77.0,US
+She Wolf,Shakira,colombian pop,2009.0,122.0,69.0,87.0,-7.0,23.0,87.0,189.0,28.0,4.0,77.0,CO
+The Climb,Miley Cyrus,pop,2009.0,161.0,60.0,34.0,-6.0,14.0,30.0,235.0,6.0,3.0,77.0,US
+You've Got The Love,Florence + The Machine,baroque pop,2009.0,110.0,69.0,57.0,-5.0,10.0,40.0,169.0,0.0,3.0,77.0,UNKNOWN
+4 Minutes (feat. Justin Timberlake & Timbaland),Madonna,dance pop,2009.0,113.0,93.0,75.0,-5.0,23.0,77.0,190.0,1.0,7.0,75.0,US
+Forever,Drake,canadian hip hop,2009.0,104.0,91.0,46.0,-2.0,18.0,54.0,358.0,25.0,34.0,75.0,CA
+Intro,The xx,downtempo,2009.0,100.0,78.0,62.0,-9.0,13.0,15.0,128.0,46.0,3.0,75.0,GB
+Loba,Shakira,colombian pop,2009.0,122.0,71.0,85.0,-8.0,8.0,78.0,189.0,40.0,5.0,75.0,CO
+Meet Me Halfway,Black Eyed Peas,dance pop,2009.0,130.0,63.0,80.0,-7.0,32.0,40.0,284.0,0.0,7.0,75.0,US
+Obsessed,Mariah Carey,dance pop,2009.0,86.0,47.0,74.0,-6.0,83.0,37.0,242.0,5.0,6.0,75.0,US
+Telephone,Lady Gaga,art pop,2009.0,122.0,84.0,82.0,-6.0,11.0,72.0,221.0,1.0,4.0,75.0,US
+You Found Me,The Fray,neo mellow,2009.0,152.0,80.0,34.0,-5.0,14.0,40.0,242.0,2.0,4.0,75.0,US
+Good Life,OneRepublic,piano rock,2009.0,95.0,69.0,63.0,-8.0,13.0,65.0,253.0,8.0,5.0,74.0,US
+Replay,Iyaz,dance pop,2009.0,91.0,75.0,71.0,-6.0,17.0,20.0,182.0,17.0,7.0,74.0,VG
+Alejandro,Lady Gaga,art pop,2009.0,99.0,79.0,62.0,-7.0,38.0,36.0,274.0,0.0,5.0,73.0,US
+Bulletproof,La Roux,alternative dance,2009.0,123.0,88.0,67.0,-3.0,7.0,68.0,206.0,0.0,5.0,73.0,GB
+Crack A Bottle,Eminem,detroit hip hop,2009.0,170.0,87.0,52.0,-3.0,17.0,39.0,298.0,9.0,19.0,73.0,US
+Day 'N' Nite (Nightmare),Kid Cudi,hip hop,2009.0,138.0,44.0,88.0,-6.0,12.0,80.0,221.0,46.0,7.0,73.0,US
+Empire State of Mind (Part II) Broken Down,Alicia Keys,neo soul,2009.0,93.0,37.0,48.0,-8.0,12.0,14.0,216.0,74.0,3.0,73.0,US
+Fire Burning,Sean Kingston,dance pop,2009.0,123.0,80.0,84.0,-3.0,33.0,89.0,240.0,2.0,3.0,73.0,JM
+Te Amo,Rihanna,barbadian pop,2009.0,172.0,71.0,57.0,-5.0,10.0,75.0,208.0,54.0,8.0,73.0,US
+BedRock,Young Money,dirty south rap,2009.0,148.0,66.0,73.0,-6.0,19.0,56.0,288.0,10.0,30.0,72.0,US
+One Time,Justin Bieber,canadian pop,2009.0,146.0,85.0,69.0,-3.0,8.0,76.0,216.0,6.0,4.0,72.0,CA
+Boom Boom Pow,Black Eyed Peas,dance pop,2009.0,130.0,86.0,87.0,-6.0,13.0,40.0,251.0,13.0,7.0,71.0,US
+Do You Remember,Jay Sean,dance pop,2009.0,126.0,67.0,85.0,-5.0,10.0,82.0,211.0,2.0,7.0,71.0,GB
+Haven't Met You Yet,Michael Bublé,adult standards,2009.0,123.0,73.0,62.0,-5.0,11.0,80.0,245.0,15.0,3.0,71.0,CA
+Big Green Tractor,Jason Aldean,contemporary country,2009.0,137.0,59.0,62.0,-5.0,30.0,58.0,204.0,65.0,3.0,70.0,US
+Birthday Sex,Jeremih,chicago rap,2009.0,60.0,52.0,68.0,-6.0,15.0,45.0,227.0,30.0,4.0,70.0,US
+Carry Out (Featuring Justin Timberlake),Timbaland,dance pop,2009.0,116.0,57.0,53.0,-7.0,26.0,27.0,232.0,11.0,11.0,70.0,US
+If We Ever Meet Again (Featuring Katy Perry),Timbaland,dance pop,2009.0,126.0,61.0,65.0,-7.0,6.0,39.0,293.0,0.0,4.0,70.0,US
+Little Lion Man,Mumford & Sons,modern folk rock,2009.0,139.0,49.0,52.0,-8.0,9.0,46.0,245.0,3.0,3.0,70.0,GB
+My Life Would Suck Without You,Kelly Clarkson,dance pop,2009.0,145.0,88.0,53.0,-4.0,14.0,42.0,211.0,0.0,5.0,70.0,US
+Never Say Never,The Fray,neo mellow,2009.0,160.0,49.0,23.0,-6.0,18.0,26.0,257.0,57.0,3.0,69.0,US
+Stereo Love - Edit,Edward Maya,romanian house,2009.0,127.0,79.0,80.0,-4.0,10.0,55.0,184.0,4.0,3.0,69.0,RO
+All The Right Moves,OneRepublic,piano rock,2009.0,146.0,95.0,53.0,-4.0,28.0,65.0,238.0,26.0,5.0,68.0,US
+Dancing in the Moonlight,Toploader,british alternative rock,2009.0,119.0,85.0,64.0,-3.0,34.0,87.0,233.0,5.0,4.0,68.0,GB
+Smile,Uncle Kracker,country,2009.0,141.0,81.0,54.0,-4.0,42.0,61.0,202.0,20.0,3.0,68.0,US
+Young Forever,JAY-Z,east coast hip hop,2009.0,140.0,69.0,64.0,-3.0,21.0,10.0,254.0,42.0,7.0,68.0,US
+Sure Thing,Miguel,r&b,2010.0,81.0,61.0,68.0,-8.0,19.0,50.0,195.0,3.0,10.0,91.0,ES
+Love The Way You Lie,Eminem,detroit hip hop,2010.0,87.0,93.0,75.0,-5.0,52.0,64.0,263.0,24.0,23.0,84.0,US
+Only Girl (In The World),Rihanna,barbadian pop,2010.0,126.0,71.0,79.0,-4.0,6.0,64.0,235.0,11.0,4.0,84.0,US
+Baby,Justin Bieber,canadian pop,2010.0,65.0,86.0,73.0,-5.0,11.0,54.0,214.0,4.0,14.0,83.0,CA
+TiK ToK,Kesha,dance pop,2010.0,120.0,84.0,76.0,-3.0,29.0,71.0,200.0,10.0,14.0,83.0,US
+Dynamite,Taio Cruz,dance pop,2010.0,120.0,78.0,75.0,-4.0,4.0,82.0,203.0,0.0,9.0,82.0,GB
+"Moves Like Jagger - Studio Recording From ""The Voice"" Performance",Maroon 5,pop,2010.0,128.0,76.0,72.0,-4.0,32.0,62.0,201.0,1.0,5.0,82.0,US
+Not Afraid,Eminem,detroit hip hop,2010.0,115.0,95.0,86.0,-1.0,21.0,67.0,248.0,53.0,26.0,82.0,US
+S&M,Rihanna,barbadian pop,2010.0,128.0,68.0,77.0,-5.0,9.0,84.0,244.0,1.0,4.0,82.0,US
+Danza Kuduro,Don Omar,latin hip hop,2010.0,89.0,92.0,40.0,-5.0,5.0,88.0,199.0,8.0,28.0,81.0,PR
+DJ Got Us Fallin' In Love (feat. Pitbull),Usher,atl hip hop,2010.0,120.0,86.0,66.0,-3.0,8.0,65.0,221.0,3.0,11.0,81.0,US
+Just the Way You Are,Bruno Mars,dance pop,2010.0,109.0,84.0,64.0,-5.0,6.0,42.0,221.0,1.0,4.0,81.0,US
+Super Bass,Nicki Minaj,hip pop,2010.0,127.0,86.0,72.0,-4.0,60.0,67.0,200.0,27.0,20.0,81.0,US
+All Of The Lights,Kanye West,chicago rap,2010.0,142.0,80.0,53.0,-3.0,18.0,22.0,300.0,8.0,7.0,80.0,US
+Alors on danse - Radio Edit,Stromae,belgian pop,2010.0,120.0,59.0,79.0,-9.0,7.0,71.0,206.0,10.0,8.0,80.0,BE
+Grenade,Bruno Mars,dance pop,2010.0,110.0,56.0,70.0,-7.0,11.0,25.0,222.0,15.0,5.0,80.0,US
+Raise Your Glass,P!nk,dance pop,2010.0,122.0,71.0,70.0,-5.0,3.0,62.0,203.0,0.0,8.0,80.0,US
+Runaway,Kanye West,chicago rap,2010.0,85.0,57.0,37.0,-4.0,51.0,11.0,548.0,22.0,11.0,80.0,US
+Marry You,Bruno Mars,dance pop,2010.0,145.0,82.0,62.0,-5.0,10.0,45.0,230.0,33.0,4.0,79.0,US
+Memories (feat. Kid Cudi),David Guetta,big room,2010.0,130.0,92.0,55.0,-4.0,25.0,38.0,211.0,0.0,26.0,79.0,FR
+Sexy Bitch (feat. Akon),David Guetta,big room,2010.0,130.0,63.0,81.0,-5.0,13.0,80.0,196.0,8.0,5.0,79.0,FR
+The Lazy Song,Bruno Mars,dance pop,2010.0,175.0,71.0,79.0,-5.0,10.0,96.0,189.0,30.0,7.0,79.0,US
+Club Can't Handle Me (feat. David Guetta),Flo Rida,dance pop,2010.0,128.0,87.0,62.0,-4.0,6.0,47.0,235.0,3.0,3.0,78.0,US
+Just Can’t Get Enough,Black Eyed Peas,dance pop,2010.0,94.0,63.0,66.0,-9.0,11.0,26.0,219.0,19.0,18.0,78.0,US
+Waka Waka (This Time for Africa) [The Official 2010 FIFA World Cup (TM) Song] (feat. Freshlyground),Shakira,colombian pop,2010.0,127.0,87.0,76.0,-6.0,7.0,75.0,203.0,1.0,15.0,78.0,CO
+Break Your Heart,Taio Cruz,dance pop,2010.0,122.0,93.0,61.0,-4.0,9.0,57.0,202.0,3.0,3.0,77.0,GB
+Cooler Than Me - Single Mix,Mike Posner,dance pop,2010.0,130.0,82.0,77.0,-5.0,69.0,63.0,213.0,18.0,5.0,77.0,US
+Firework,Katy Perry,pop,2010.0,124.0,83.0,64.0,-5.0,11.0,65.0,228.0,14.0,5.0,77.0,US
+No Hands (feat. Roscoe Dash & Wale),Waka Flocka Flame,atl hip hop,2010.0,131.0,60.0,76.0,-6.0,24.0,36.0,264.0,1.0,4.0,77.0,US
+Talking to the Moon,Bruno Mars,dance pop,2010.0,146.0,59.0,50.0,-5.0,11.0,8.0,218.0,51.0,3.0,77.0,US
+Airplanes (feat. Hayley Williams of Paramore),B.o.B,atl hip hop,2010.0,93.0,87.0,66.0,-4.0,4.0,38.0,180.0,11.0,12.0,76.0,US
+Down On Me,Jeremih,chicago rap,2010.0,160.0,60.0,70.0,-8.0,11.0,59.0,228.0,4.0,11.0,76.0,US
+Eenie Meenie,Sean Kingston,dance pop,2010.0,121.0,61.0,72.0,-4.0,11.0,83.0,202.0,5.0,3.0,76.0,JM
+Just A Dream,Nelly,dance pop,2010.0,90.0,75.0,53.0,-6.0,12.0,10.0,238.0,4.0,3.0,76.0,US
+Like A G6,Far East Movement,asian american hip hop,2010.0,125.0,84.0,44.0,-8.0,12.0,78.0,217.0,1.0,45.0,76.0,US
+Nothin' on You (feat. Bruno Mars),B.o.B,atl hip hop,2010.0,104.0,85.0,69.0,-6.0,9.0,74.0,268.0,39.0,5.0,76.0,US
+Dirt Road Anthem,Jason Aldean,contemporary country,2010.0,127.0,74.0,68.0,-5.0,12.0,64.0,229.0,35.0,4.0,75.0,US
+Need You Now,Lady A,contemporary country,2010.0,108.0,72.0,58.0,-4.0,24.0,32.0,236.0,3.0,3.0,75.0,UNKNOWN
+OMG (feat. will.i.am),Usher,atl hip hop,2010.0,130.0,75.0,78.0,-6.0,36.0,33.0,269.0,20.0,3.0,75.0,US
+Only Girl (In The World),Rihanna,barbadian pop,2010.0,126.0,72.0,79.0,-4.0,7.0,61.0,235.0,13.0,4.0,75.0,US
+S&M,Rihanna,barbadian pop,2010.0,128.0,68.0,77.0,-5.0,10.0,83.0,244.0,1.0,4.0,75.0,US
+Teenage Dream,Katy Perry,pop,2010.0,120.0,80.0,72.0,-5.0,13.0,59.0,228.0,2.0,4.0,75.0,US
+What You Know,Two Door Cinema Club,indie rock,2010.0,139.0,75.0,55.0,-4.0,9.0,83.0,190.0,0.0,4.0,75.0,UNKNOWN
+Back To December,Taylor Swift,pop,2010.0,142.0,61.0,52.0,-6.0,32.0,30.0,293.0,2.0,3.0,74.0,US
+Billionaire (feat. Bruno Mars),Travie McCoy,pop rap,2010.0,87.0,67.0,63.0,-6.0,21.0,66.0,211.0,30.0,26.0,74.0,US
+Bottoms Up (feat. Nicki Minaj),Trey Songz,dance pop,2010.0,74.0,60.0,84.0,-5.0,39.0,33.0,242.0,2.0,16.0,74.0,US
+When Love Takes Over (feat. Kelly Rowland),David Guetta,big room,2010.0,130.0,86.0,68.0,-5.0,17.0,50.0,191.0,2.0,3.0,74.0,FR
+We R Who We R,Kesha,dance pop,2010.0,120.0,82.0,74.0,-5.0,12.0,65.0,205.0,1.0,4.0,73.0,US
+Whatcha Say,Jason Derulo,dance pop,2010.0,144.0,71.0,62.0,-6.0,14.0,71.0,221.0,4.0,8.0,73.0,US
+The Time (Dirty Bit),Black Eyed Peas,dance pop,2010.0,128.0,81.0,82.0,-8.0,60.0,44.0,308.0,7.0,7.0,72.0,US
+Ni**as In Paris,JAY-Z,east coast hip hop,2011.0,140.0,86.0,79.0,-6.0,35.0,78.0,219.0,13.0,31.0,86.0,US
+Set Fire to the Rain,Adele,british soul,2011.0,108.0,67.0,60.0,-4.0,11.0,45.0,243.0,0.0,2.0,86.0,GB
+Paradise,Coldplay,permanent wave,2011.0,140.0,59.0,45.0,-7.0,8.0,21.0,279.0,5.0,3.0,85.0,GB
+We Found Love,Rihanna,barbadian pop,2011.0,128.0,77.0,73.0,-4.0,11.0,60.0,215.0,3.0,4.0,85.0,US
+Pumped Up Kicks,Foster The People,indietronica,2011.0,128.0,71.0,73.0,-6.0,10.0,97.0,240.0,14.0,3.0,84.0,US
+Love You Like A Love Song,Selena Gomez & The Scene,pop,2011.0,117.0,68.0,86.0,-4.0,7.0,92.0,188.0,8.0,5.0,83.0,US
+Rolling in the Deep,Adele,british soul,2011.0,105.0,77.0,73.0,-5.0,5.0,51.0,228.0,14.0,3.0,83.0,GB
+Someone Like You,Adele,british soul,2011.0,135.0,32.0,56.0,-8.0,10.0,29.0,285.0,89.0,3.0,83.0,GB
+Stereo Hearts (feat. Adam Levine),Gym Class Heroes,dance pop,2011.0,90.0,80.0,65.0,-3.0,27.0,80.0,211.0,3.0,10.0,83.0,US
+A Thousand Years,Christina Perri,pop,2011.0,139.0,41.0,42.0,-7.0,11.0,16.0,285.0,31.0,3.0,82.0,US
+Levels - Radio Edit,Avicii,edm,2011.0,126.0,89.0,58.0,-6.0,31.0,46.0,200.0,5.0,3.0,82.0,SE
+Glad You Came,The Wanted,boy band,2011.0,127.0,85.0,72.0,-4.0,11.0,45.0,198.0,3.0,6.0,80.0,GB
+On The Floor,Jennifer Lopez,dance pop,2011.0,130.0,78.0,73.0,-5.0,7.0,57.0,285.0,11.0,5.0,80.0,US
+Tongue Tied,GROUPLOVE,indie rock,2011.0,113.0,94.0,56.0,-6.0,16.0,37.0,218.0,1.0,4.0,80.0,US
+Black and Yellow,Wiz Khalifa,hip hop,2011.0,164.0,83.0,68.0,-5.0,27.0,54.0,218.0,6.0,7.0,79.0,US
+Headlines,Drake,canadian hip hop,2011.0,152.0,57.0,64.0,-7.0,9.0,43.0,236.0,37.0,11.0,79.0,CA
+Midnight City,M83,french shoegaze,2011.0,105.0,73.0,51.0,-5.0,7.0,27.0,244.0,2.0,4.0,79.0,FR
+It Will Rain,Bruno Mars,dance pop,2011.0,150.0,84.0,58.0,-7.0,8.0,48.0,258.0,34.0,5.0,78.0,US
+Who Says,Selena Gomez & The Scene,pop,2011.0,101.0,93.0,68.0,-3.0,15.0,74.0,196.0,8.0,5.0,78.0,US
+International Love (feat. Chris Brown),Pitbull,dance pop,2011.0,120.0,86.0,67.0,-3.0,34.0,65.0,227.0,1.0,5.0,77.0,US
+Love On Top,Beyoncé,pop,2011.0,94.0,75.0,65.0,-5.0,60.0,65.0,267.0,8.0,9.0,77.0,US
+Price Tag,Jessie J,dance pop,2011.0,175.0,83.0,64.0,-4.0,27.0,67.0,223.0,3.0,18.0,77.0,GB
+Stronger (What Doesn't Kill You),Kelly Clarkson,dance pop,2011.0,116.0,94.0,56.0,-4.0,11.0,68.0,222.0,5.0,5.0,77.0,US
+Take Care,Drake,canadian hip hop,2011.0,122.0,52.0,63.0,-10.0,9.0,30.0,277.0,3.0,27.0,77.0,CA
+Domino,Jessie J,dance pop,2011.0,127.0,56.0,76.0,-5.0,4.0,78.0,232.0,1.0,3.0,76.0,GB
+Sail,AWOLNATION,la indie,2011.0,119.0,44.0,83.0,-10.0,10.0,27.0,259.0,44.0,6.0,76.0,US
+Springsteen,Eric Church,contemporary country,2011.0,104.0,81.0,69.0,-6.0,19.0,93.0,263.0,10.0,3.0,76.0,US
+The A Team,Ed Sheeran,pop,2011.0,85.0,29.0,64.0,-10.0,18.0,41.0,258.0,67.0,4.0,76.0,GB
+The Motto,Drake,canadian hip hop,2011.0,202.0,44.0,77.0,-9.0,11.0,39.0,182.0,0.0,36.0,76.0,CA
+Where Have You Been,Rihanna,barbadian pop,2011.0,128.0,85.0,72.0,-6.0,22.0,44.0,243.0,0.0,9.0,76.0,US
+Hangover,Taio Cruz,dance pop,2011.0,128.0,88.0,61.0,-3.0,7.0,61.0,245.0,1.0,4.0,75.0,GB
+Hey Baby (Drop It to the Floor) (feat. T-Pain),Pitbull,dance pop,2011.0,128.0,91.0,60.0,-3.0,26.0,76.0,234.0,4.0,9.0,75.0,US
+Lego House,Ed Sheeran,pop,2011.0,160.0,64.0,59.0,-8.0,13.0,56.0,185.0,56.0,10.0,75.0,GB
+On The Floor - Radio Edit,Jennifer Lopez,dance pop,2011.0,130.0,69.0,76.0,-6.0,14.0,44.0,231.0,8.0,8.0,75.0,US
+Party Rock Anthem,LMFAO,dance pop,2011.0,130.0,74.0,75.0,-4.0,27.0,35.0,262.0,2.0,16.0,75.0,US
+What the Hell,Avril Lavigne,canadian pop,2011.0,150.0,93.0,58.0,-4.0,14.0,88.0,221.0,0.0,5.0,75.0,CA
+Every Teardrop Is a Waterfall,Coldplay,permanent wave,2011.0,118.0,73.0,43.0,-7.0,17.0,33.0,241.0,0.0,4.0,74.0,GB
+Jar of Hearts,Christina Perri,pop,2011.0,75.0,35.0,35.0,-6.0,12.0,9.0,247.0,73.0,3.0,74.0,US
+Mr. Saxobeat - Radio Edit,Alexandra Stan,romanian pop,2011.0,127.0,93.0,73.0,-4.0,14.0,80.0,195.0,2.0,5.0,74.0,RO
+Spectrum (Say My Name) - Calvin Harris Remix,Florence + The Machine,baroque pop,2011.0,126.0,95.0,58.0,-4.0,10.0,59.0,218.0,0.0,5.0,74.0,UNKNOWN
+Look At Me Now (feat. Lil' Wayne & Busta Rhymes),Chris Brown,r&b,2011.0,146.0,68.0,77.0,-6.0,14.0,54.0,223.0,3.0,18.0,73.0,US
+Never Say Never,Justin Bieber,canadian pop,2011.0,97.0,81.0,74.0,-5.0,30.0,63.0,228.0,2.0,7.0,73.0,CA
+Skinny Love,Birdy,neo mellow,2011.0,166.0,29.0,38.0,-8.0,12.0,17.0,201.0,95.0,5.0,73.0,GB
+Bangarang (feat. Sirah),Skrillex,brostep,2011.0,110.0,97.0,72.0,-2.0,32.0,58.0,215.0,1.0,20.0,72.0,US
+I Need A Doctor,Dr. Dre,g funk,2011.0,156.0,95.0,59.0,-5.0,31.0,40.0,284.0,9.0,45.0,72.0,US
+Princess of China,Coldplay,permanent wave,2011.0,85.0,69.0,42.0,-6.0,29.0,24.0,239.0,0.0,3.0,72.0,GB
+The Show Goes On,Lupe Fiasco,chicago rap,2011.0,143.0,89.0,59.0,-4.0,16.0,65.0,240.0,2.0,12.0,72.0,US
+Tonight Tonight,Hot Chelle Rae,dance rock,2011.0,100.0,78.0,69.0,-5.0,16.0,81.0,200.0,8.0,12.0,72.0,US
+Best Thing I Never Had,Beyoncé,pop,2011.0,99.0,65.0,55.0,-4.0,9.0,30.0,254.0,14.0,3.0,71.0,US
+Deuces (feat. Tyga & Kevin McCall),Chris Brown,r&b,2011.0,74.0,74.0,69.0,-5.0,8.0,22.0,277.0,3.0,11.0,71.0,US
+When I Was Your Man,Bruno Mars,dance pop,2012.0,73.0,28.0,61.0,-9.0,9.0,39.0,214.0,93.0,4.0,89.0,US
+Locked out of Heaven,Bruno Mars,dance pop,2012.0,144.0,70.0,73.0,-4.0,31.0,87.0,233.0,5.0,4.0,88.0,US
+Demons,Imagine Dragons,modern rock,2012.0,90.0,71.0,51.0,-3.0,27.0,43.0,178.0,19.0,3.0,86.0,US
+Lost,Frank Ocean,lgbtq+ hip hop,2012.0,123.0,60.0,91.0,-5.0,17.0,50.0,234.0,3.0,23.0,86.0,US
+What Makes You Beautiful,One Direction,boy band,2012.0,125.0,79.0,73.0,-2.0,6.0,89.0,200.0,1.0,7.0,86.0,UNKNOWN
+Payphone,Maroon 5,pop,2012.0,110.0,75.0,74.0,-5.0,29.0,55.0,231.0,2.0,4.0,85.0,US
+Call Me Maybe,Carly Rae Jepsen,canadian pop,2012.0,120.0,58.0,78.0,-7.0,11.0,66.0,193.0,1.0,4.0,83.0,CA
+Can't Hold Us (feat. Ray Dalton),Macklemore & Ryan Lewis,pop rap,2012.0,146.0,92.0,64.0,-4.0,9.0,85.0,258.0,3.0,8.0,83.0,US
+Don't You Worry Child - Radio Edit,Swedish House Mafia,edm,2012.0,129.0,84.0,61.0,-3.0,12.0,44.0,213.0,11.0,5.0,83.0,SE
+Feel So Close - Radio Edit,Calvin Harris,dance pop,2012.0,128.0,92.0,71.0,-3.0,20.0,92.0,206.0,0.0,3.0,83.0,UNKNOWN
+Just Give Me a Reason (feat. Nate Ruess),P!nk,dance pop,2012.0,95.0,55.0,78.0,-7.0,13.0,44.0,243.0,35.0,5.0,83.0,US
+Timber (feat. Ke$ha),Pitbull,dance pop,2012.0,130.0,96.0,58.0,-4.0,14.0,79.0,204.0,3.0,10.0,83.0,US
+Titanium (feat. Sia),David Guetta,big room,2012.0,126.0,79.0,60.0,-4.0,13.0,30.0,245.0,7.0,10.0,83.0,FR
+Classic,MKTO,pop,2012.0,102.0,79.0,72.0,-5.0,16.0,76.0,175.0,4.0,12.0,82.0,US
+Treasure,Bruno Mars,dance pop,2012.0,116.0,69.0,87.0,-5.0,32.0,94.0,179.0,4.0,4.0,82.0,US
+Everybody Talks,Neon Trees,modern rock,2012.0,155.0,92.0,47.0,-4.0,31.0,73.0,177.0,0.0,6.0,81.0,US
+Hall of Fame (feat. will.i.am),The Script,celtic rock,2012.0,85.0,87.0,42.0,-4.0,12.0,63.0,203.0,7.0,6.0,81.0,IE
+Little Talks,Of Monsters and Men,folk-pop,2012.0,103.0,76.0,46.0,-5.0,15.0,42.0,267.0,2.0,3.0,81.0,IS
+Radioactive,Imagine Dragons,modern rock,2012.0,136.0,78.0,45.0,-4.0,67.0,24.0,187.0,11.0,6.0,81.0,US
+Girl on Fire,Alicia Keys,neo soul,2012.0,93.0,71.0,48.0,-6.0,11.0,14.0,225.0,14.0,6.0,80.0,US
+Ho Hey,The Lumineers,folk-pop,2012.0,80.0,47.0,68.0,-9.0,9.0,42.0,163.0,77.0,3.0,80.0,US
+I Knew You Were Trouble.,Taylor Swift,pop,2012.0,77.0,47.0,62.0,-7.0,3.0,68.0,220.0,0.0,4.0,80.0,US
+Starships,Nicki Minaj,hip pop,2012.0,125.0,72.0,75.0,-2.0,25.0,75.0,211.0,14.0,8.0,80.0,US
+Thinkin Bout You,Frank Ocean,lgbtq+ hip hop,2012.0,130.0,34.0,72.0,-11.0,10.0,20.0,201.0,41.0,5.0,80.0,US
+Thrift Shop (feat. Wanz),Macklemore & Ryan Lewis,pop rap,2012.0,95.0,53.0,78.0,-7.0,5.0,67.0,236.0,6.0,29.0,80.0,US
+Whistle,Flo Rida,dance pop,2012.0,104.0,94.0,75.0,-6.0,29.0,74.0,225.0,2.0,5.0,80.0,US
+Wild Ones (feat. Sia),Flo Rida,dance pop,2012.0,127.0,86.0,61.0,-5.0,26.0,44.0,233.0,10.0,6.0,80.0,US
+Die Young,Kesha,dance pop,2012.0,128.0,70.0,71.0,-5.0,22.0,80.0,212.0,0.0,5.0,79.0,US
+Drive By,Train,dance pop,2012.0,122.0,84.0,77.0,-3.0,8.0,72.0,196.0,0.0,3.0,79.0,US
+Feel This Moment (feat. Christina Aguilera),Pitbull,dance pop,2012.0,136.0,76.0,67.0,-4.0,34.0,54.0,230.0,4.0,16.0,79.0,US
+Good Feeling,Flo Rida,dance pop,2012.0,128.0,89.0,71.0,-4.0,31.0,68.0,248.0,6.0,7.0,79.0,US
+Good Time,Owl City,indietronica,2012.0,126.0,87.0,56.0,-4.0,37.0,68.0,206.0,2.0,14.0,79.0,US
+Skyfall,Adele,british soul,2012.0,76.0,55.0,35.0,-7.0,11.0,8.0,286.0,42.0,3.0,79.0,GB
+Stay,Rihanna,barbadian pop,2012.0,112.0,31.0,62.0,-10.0,12.0,13.0,241.0,95.0,3.0,79.0,US
+Diamonds,Rihanna,barbadian pop,2012.0,92.0,71.0,56.0,-5.0,11.0,39.0,225.0,0.0,5.0,78.0,US
+On Top Of The World,Imagine Dragons,modern rock,2012.0,100.0,92.0,63.0,-6.0,8.0,76.0,192.0,8.0,15.0,78.0,US
+One More Night,Maroon 5,pop,2012.0,93.0,82.0,72.0,-3.0,8.0,62.0,220.0,6.0,3.0,78.0,US
+Video Games,Lana Del Rey,art pop,2012.0,73.0,25.0,24.0,-10.0,9.0,18.0,282.0,81.0,3.0,78.0,US
+We Are Young (feat. Janelle Monáe),fun.,baroque pop,2012.0,184.0,64.0,38.0,-6.0,8.0,74.0,251.0,2.0,8.0,78.0,IT
+Beauty And A Beat,Justin Bieber,canadian pop,2012.0,128.0,84.0,60.0,-5.0,7.0,53.0,228.0,0.0,6.0,77.0,CA
+California Gurls,Katy Perry,pop,2012.0,125.0,75.0,79.0,-4.0,16.0,43.0,235.0,0.0,6.0,77.0,US
+Clarity,Zedd,complextro,2012.0,128.0,78.0,51.0,-3.0,7.0,18.0,271.0,4.0,7.0,77.0,DE
+Part Of Me,Katy Perry,pop,2012.0,130.0,92.0,68.0,-5.0,7.0,77.0,216.0,0.0,4.0,77.0,US
+We Are Never Ever Getting Back Together,Taylor Swift,pop,2012.0,86.0,68.0,63.0,-6.0,12.0,75.0,193.0,1.0,9.0,77.0,US
+Last Friday Night (T.G.I.F.),Katy Perry,pop,2012.0,126.0,82.0,65.0,-4.0,67.0,77.0,231.0,0.0,4.0,76.0,US
+Little Things,One Direction,boy band,2012.0,110.0,22.0,71.0,-12.0,18.0,53.0,219.0,81.0,3.0,76.0,UNKNOWN
+Live While We're Young,One Direction,boy band,2012.0,126.0,86.0,66.0,-2.0,14.0,93.0,200.0,5.0,5.0,76.0,UNKNOWN
+Troublemaker (feat. Flo Rida),Olly Murs,dance pop,2012.0,106.0,86.0,76.0,-4.0,13.0,97.0,186.0,2.0,6.0,76.0,GB
+Where Them Girls At (feat. Nicki Minaj & Flo Rida),David Guetta,big room,2012.0,130.0,88.0,67.0,-3.0,26.0,55.0,195.0,6.0,4.0,76.0,FR
+Boyfriend,Justin Bieber,canadian pop,2012.0,97.0,55.0,72.0,-6.0,13.0,33.0,171.0,4.0,5.0,75.0,CA
+Another Love,Tom Odell,chill pop,2013.0,123.0,54.0,45.0,-9.0,9.0,13.0,244.0,70.0,4.0,92.0,GB
+Sweater Weather,The Neighbourhood,modern alternative rock,2013.0,124.0,81.0,61.0,-3.0,10.0,40.0,240.0,5.0,3.0,91.0,US
+Do I Wanna Know?,Arctic Monkeys,garage rock,2013.0,85.0,53.0,55.0,-8.0,22.0,41.0,272.0,19.0,3.0,89.0,GB
+Why'd You Only Call Me When You're High?,Arctic Monkeys,garage rock,2013.0,92.0,63.0,69.0,-6.0,10.0,80.0,161.0,5.0,4.0,88.0,GB
+Wake Me Up,Avicii,edm,2013.0,124.0,78.0,53.0,-6.0,16.0,64.0,247.0,0.0,5.0,87.0,SE
+All of Me,John Legend,neo soul,2013.0,120.0,26.0,42.0,-7.0,13.0,33.0,270.0,92.0,3.0,86.0,US
+Counting Stars,OneRepublic,piano rock,2013.0,122.0,71.0,66.0,-5.0,12.0,48.0,257.0,7.0,4.0,86.0,US
+Safe And Sound,Capital Cities,metropopolis,2013.0,118.0,82.0,66.0,-5.0,10.0,77.0,193.0,0.0,3.0,84.0,US
+Story of My Life,One Direction,boy band,2013.0,121.0,66.0,60.0,-6.0,12.0,29.0,245.0,23.0,5.0,84.0,UNKNOWN
+Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers],Daft Punk,electro,2013.0,116.0,81.0,79.0,-9.0,10.0,86.0,248.0,4.0,4.0,83.0,FR
+All I Want,Kodaline,irish pop,2013.0,187.0,41.0,19.0,-10.0,8.0,16.0,306.0,17.0,5.0,82.0,IE
+Love Me,Lil Wayne,hip hop,2013.0,125.0,63.0,67.0,-6.0,9.0,50.0,255.0,1.0,3.0,82.0,US
+Stolen Dance,Milky Chance,german pop,2013.0,114.0,58.0,88.0,-9.0,8.0,73.0,314.0,43.0,4.0,82.0,DE
+Wrecking Ball,Miley Cyrus,pop,2013.0,120.0,42.0,53.0,-6.0,11.0,35.0,221.0,41.0,3.0,82.0,US
+Dark Horse,Katy Perry,pop,2013.0,132.0,59.0,65.0,-6.0,17.0,35.0,216.0,0.0,5.0,81.0,US
+Roar,Katy Perry,pop,2013.0,90.0,77.0,67.0,-5.0,35.0,44.0,224.0,0.0,3.0,81.0,US
+Royals,Lorde,art pop,2013.0,85.0,43.0,67.0,-10.0,13.0,34.0,190.0,12.0,12.0,81.0,NZ
+We Can't Stop,Miley Cyrus,pop,2013.0,80.0,62.0,61.0,-6.0,37.0,48.0,231.0,1.0,3.0,81.0,US
+Heart Attack,Demi Lovato,pop,2013.0,174.0,79.0,50.0,-5.0,24.0,50.0,211.0,7.0,10.0,80.0,US
+Hey Brother,Avicii,edm,2013.0,125.0,78.0,55.0,-5.0,8.0,46.0,255.0,3.0,4.0,80.0,SE
+Scream & Shout,will.i.am,dance pop,2013.0,130.0,69.0,77.0,-7.0,13.0,50.0,283.0,2.0,7.0,80.0,US
+Still into You,Paramore,candy pop,2013.0,136.0,92.0,60.0,-4.0,6.0,77.0,216.0,1.0,4.0,80.0,US
+The Monster,Eminem,detroit hip hop,2013.0,110.0,85.0,78.0,-4.0,12.0,62.0,250.0,5.0,7.0,80.0,US
+Best Song Ever,One Direction,boy band,2013.0,118.0,88.0,65.0,-3.0,8.0,49.0,200.0,2.0,5.0,79.0,UNKNOWN
+Mirrors,Justin Timberlake,dance pop,2013.0,77.0,51.0,57.0,-7.0,9.0,51.0,484.0,23.0,5.0,79.0,US
+Power Trip (feat. Miguel),J. Cole,conscious hip hop,2013.0,100.0,61.0,67.0,-7.0,43.0,48.0,241.0,32.0,22.0,79.0,US
+Team,Lorde,art pop,2013.0,100.0,58.0,69.0,-7.0,31.0,42.0,193.0,17.0,9.0,79.0,NZ
+Unconditionally,Katy Perry,pop,2013.0,129.0,73.0,43.0,-5.0,21.0,35.0,229.0,0.0,4.0,79.0,US
+Impossible,James Arthur,pop,2013.0,170.0,70.0,38.0,-5.0,11.0,30.0,209.0,14.0,9.0,78.0,GB
+Love Me Again,John Newman,dance pop,2013.0,126.0,89.0,50.0,-5.0,10.0,21.0,240.0,0.0,4.0,78.0,UNKNOWN
+Blurred Lines,Robin Thicke,dance pop,2013.0,120.0,60.0,85.0,-5.0,8.0,84.0,264.0,0.0,4.0,77.0,US
+F**kin' Problems (feat. Draken  2 Chainz & Kendrick Lamar),A$AP Rocky,east coast hip hop,2013.0,96.0,69.0,85.0,-7.0,11.0,66.0,234.0,2.0,28.0,77.0,"US,"""""
+Pompeii,Bastille,metropopolis,2013.0,127.0,72.0,68.0,-6.0,27.0,57.0,214.0,8.0,4.0,77.0,GB
+Latch,Disclosure,edm,2013.0,122.0,73.0,50.0,-5.0,9.0,52.0,256.0,2.0,17.0,76.0,GB
+Ain't It Fun,Paramore,candy pop,2013.0,104.0,89.0,61.0,-4.0,2.0,67.0,297.0,15.0,9.0,75.0,US
+Black Skinhead,Kanye West,chicago rap,2013.0,130.0,81.0,77.0,-6.0,17.0,33.0,188.0,0.0,28.0,75.0,US
+Cool Kids,Echosmith,electropop,2013.0,130.0,67.0,72.0,-6.0,12.0,79.0,238.0,4.0,3.0,75.0,UNKNOWN
+Papaoutai,Stromae,belgian pop,2013.0,116.0,81.0,73.0,-7.0,6.0,25.0,232.0,3.0,8.0,75.0,BE
+Summertime Sadness (Lana Del Rey Vs. Cedric Gervais) - Cedric Gervais Remix,Lana Del Rey,art pop,2013.0,126.0,81.0,57.0,-6.0,13.0,11.0,215.0,2.0,6.0,75.0,US
+Come & Get It,Selena Gomez,pop,2013.0,80.0,79.0,55.0,-4.0,8.0,57.0,232.0,1.0,5.0,74.0,US
+Roar,Katy Perry,pop,2013.0,180.0,77.0,55.0,-5.0,35.0,46.0,224.0,0.0,4.0,74.0,US
+Let Her Go,Passenger,folk-pop,2013.0,75.0,55.0,48.0,-7.0,10.0,24.0,253.0,37.0,7.0,72.0,GB
+Turn Down for What,DJ Snake,edm,2013.0,100.0,80.0,82.0,-4.0,6.0,8.0,214.0,0.0,16.0,72.0,FR
+We Own It (Fast & Furious),2 Chainz,atl hip hop,2013.0,172.0,90.0,56.0,-5.0,5.0,56.0,228.0,5.0,40.0,72.0,US
+I Love It (feat. Charli XCX),Icona Pop,candy pop,2013.0,126.0,91.0,71.0,-3.0,15.0,82.0,157.0,1.0,3.0,71.0,SE
+Lose Yourself to Dance (feat. Pharrell Williams),Daft Punk,electro,2013.0,100.0,66.0,83.0,-8.0,8.0,67.0,354.0,8.0,6.0,71.0,FR
+This Is What It Feels Like,Armin van Buuren,dutch trance,2013.0,130.0,83.0,55.0,-5.0,6.0,14.0,204.0,4.0,3.0,71.0,NL
+Work Bitch,Britney Spears,dance pop,2013.0,128.0,82.0,63.0,-7.0,7.0,85.0,248.0,16.0,16.0,71.0,US
+Chocolate,The 1975,modern alternative rock,2013.0,100.0,94.0,61.0,-4.0,37.0,61.0,225.0,0.0,6.0,70.0,GB
+High Hopes,Kodaline,irish pop,2013.0,77.0,49.0,49.0,-6.0,19.0,22.0,230.0,58.0,3.0,69.0,IE
+Night Changes,One Direction,boy band,2014.0,120.0,52.0,67.0,-8.0,12.0,37.0,227.0,86.0,4.0,89.0,UNKNOWN
+Blank Space,Taylor Swift,pop,2014.0,96.0,70.0,76.0,-5.0,9.0,57.0,232.0,10.0,5.0,88.0,US
+I Love You So,The Walters,chicago indie,2014.0,76.0,65.0,57.0,-5.0,12.0,47.0,160.0,58.0,4.0,88.0,US
+I'm Not The Only One,Sam Smith,pop,2014.0,82.0,49.0,68.0,-6.0,8.0,49.0,239.0,53.0,4.0,87.0,US
+Photograph,Ed Sheeran,pop,2014.0,108.0,38.0,61.0,-10.0,10.0,20.0,259.0,61.0,5.0,87.0,GB
+Style,Taylor Swift,pop,2014.0,95.0,79.0,59.0,-6.0,12.0,49.0,231.0,0.0,4.0,87.0,US
+The Nights,Avicii,edm,2014.0,126.0,84.0,53.0,-5.0,25.0,65.0,177.0,2.0,4.0,87.0,SE
+A Sky Full of Stars,Coldplay,permanent wave,2014.0,125.0,68.0,55.0,-6.0,21.0,16.0,268.0,1.0,3.0,86.0,GB
+Maps,Maroon 5,pop,2014.0,120.0,71.0,74.0,-6.0,6.0,88.0,190.0,2.0,3.0,85.0,US
+One Last Time,Ariana Grande,pop,2014.0,125.0,59.0,63.0,-5.0,10.0,10.0,197.0,9.0,3.0,85.0,US
+Only Love Can Hurt Like This,Paloma Faith,british soul,2014.0,91.0,89.0,57.0,-5.0,33.0,30.0,233.0,10.0,8.0,85.0,GB
+Riptide,Vance Joy,folk-pop,2014.0,102.0,73.0,48.0,-7.0,15.0,51.0,204.0,43.0,4.0,85.0,AU
+Shake It Off,Taylor Swift,pop,2014.0,160.0,80.0,65.0,-5.0,33.0,94.0,219.0,6.0,17.0,85.0,US
+Shut Up and Dance,WALK THE MOON,dance rock,2014.0,128.0,87.0,58.0,-4.0,26.0,62.0,199.0,1.0,6.0,85.0,US
+Stay With Me,Sam Smith,pop,2014.0,84.0,42.0,42.0,-6.0,11.0,18.0,173.0,59.0,4.0,85.0,US
+Take Me To Church,Hozier,irish singer-songwriter,2014.0,129.0,66.0,57.0,-5.0,12.0,44.0,242.0,63.0,5.0,85.0,IE
+Thinking out Loud,Ed Sheeran,pop,2014.0,79.0,45.0,78.0,-6.0,18.0,59.0,282.0,47.0,3.0,85.0,GB
+Summer,Calvin Harris,dance pop,2014.0,128.0,86.0,60.0,-4.0,14.0,74.0,223.0,2.0,3.0,84.0,UNKNOWN
+Sugar,Maroon 5,pop,2014.0,120.0,79.0,75.0,-7.0,9.0,88.0,235.0,6.0,3.0,83.0,US
+Animals,Maroon 5,pop,2014.0,190.0,74.0,28.0,-6.0,59.0,33.0,231.0,0.0,9.0,82.0,US
+"Happy - From ""Despicable Me 2""",Pharrell Williams,dance pop,2014.0,160.0,82.0,65.0,-5.0,9.0,96.0,233.0,22.0,18.0,82.0,US
+Outside (feat. Ellie Goulding),Calvin Harris,dance pop,2014.0,128.0,82.0,65.0,-4.0,32.0,42.0,227.0,21.0,4.0,82.0,UNKNOWN
+Rude,MAGIC!,pop,2014.0,144.0,76.0,77.0,-5.0,31.0,93.0,225.0,4.0,4.0,82.0,JP
+Time of Our Lives,Pitbull,dance pop,2014.0,124.0,80.0,72.0,-6.0,69.0,72.0,229.0,9.0,6.0,82.0,US
+Best Day Of My Life,American Authors,modern rock,2014.0,100.0,90.0,67.0,-2.0,6.0,54.0,194.0,6.0,3.0,81.0,US
+Budapest,George Ezra,folk-pop,2014.0,128.0,46.0,72.0,-8.0,11.0,39.0,201.0,8.0,3.0,81.0,GB
+Chandelier,Sia,australian dance,2014.0,117.0,79.0,40.0,-3.0,7.0,57.0,216.0,2.0,5.0,81.0,AU
+Love Me Harder,Ariana Grande,pop,2014.0,99.0,71.0,47.0,-4.0,8.0,24.0,236.0,1.0,3.0,81.0,US
+Steal My Girl,One Direction,boy band,2014.0,77.0,77.0,54.0,-6.0,11.0,55.0,228.0,0.0,3.0,81.0,UNKNOWN
+Wildest Dreams,Taylor Swift,pop,2014.0,140.0,66.0,55.0,-7.0,11.0,47.0,220.0,7.0,7.0,81.0,US
+Bang Bang,Jessie J,dance pop,2014.0,150.0,79.0,71.0,-3.0,38.0,75.0,199.0,26.0,9.0,80.0,GB
+Like I Can,Sam Smith,pop,2014.0,100.0,63.0,66.0,-7.0,12.0,48.0,167.0,34.0,4.0,80.0,US
+Am I Wrong,Nico & Vinz,pop,2014.0,120.0,68.0,73.0,-6.0,55.0,78.0,246.0,18.0,3.0,79.0,DE
+Bad Blood,Taylor Swift,pop,2014.0,170.0,80.0,65.0,-6.0,15.0,30.0,212.0,9.0,18.0,79.0,US
+Blame (feat. John Newman),Calvin Harris,dance pop,2014.0,128.0,86.0,41.0,-4.0,34.0,35.0,213.0,3.0,8.0,79.0,UNKNOWN
+Break Free,Ariana Grande,pop,2014.0,130.0,70.0,69.0,-5.0,20.0,28.0,215.0,1.0,5.0,79.0,US
+Me And My Broken Heart,Rixton,pop,2014.0,174.0,78.0,55.0,-4.0,13.0,55.0,194.0,0.0,3.0,79.0,UNKNOWN
+Shower,Becky G,latin pop,2014.0,120.0,53.0,70.0,-8.0,28.0,12.0,206.0,3.0,5.0,79.0,DE
+Waves - Robin Schulz Radio Edit,Mr. Probz,tropical house,2014.0,120.0,51.0,83.0,-9.0,8.0,45.0,208.0,1.0,4.0,79.0,NL
+Collard Greens,ScHoolboy Q,gangster rap,2014.0,154.0,57.0,83.0,-5.0,21.0,65.0,300.0,3.0,6.0,78.0,UNKNOWN
+Counting Stars,OneRepublic,piano rock,2014.0,122.0,71.0,66.0,-5.0,12.0,48.0,258.0,7.0,4.0,78.0,US
+"Earned It (Fifty Shades Of Grey) - From The ""Fifty Shades Of Grey"" Soundtrack",The Weeknd,canadian contemporary r&b,2014.0,120.0,38.0,66.0,-6.0,10.0,43.0,252.0,39.0,3.0,78.0,CA
+Elastic Heart,Sia,australian dance,2014.0,130.0,79.0,42.0,-5.0,15.0,50.0,257.0,1.0,5.0,78.0,AU
+Problem,Ariana Grande,pop,2014.0,103.0,81.0,66.0,-5.0,16.0,63.0,194.0,2.0,15.0,78.0,US
+Jealous,Labrinth,indie poptimism,2014.0,117.0,15.0,44.0,-9.0,11.0,10.0,288.0,87.0,5.0,77.0,GB
+Habits (Stay High),Tove Lo,metropopolis,2014.0,110.0,65.0,73.0,-4.0,8.0,35.0,209.0,7.0,3.0,76.0,SE
+Little Do You Know,Alex & Sierra,pop,2014.0,146.0,29.0,50.0,-9.0,19.0,37.0,185.0,75.0,3.0,76.0,US
+The Heart Wants What It Wants,Selena Gomez,pop,2014.0,83.0,79.0,62.0,-5.0,14.0,62.0,227.0,5.0,4.0,76.0,US
+Under Control (feat. Hurts),Calvin Harris,dance pop,2014.0,126.0,92.0,54.0,-3.0,12.0,51.0,184.0,13.0,8.0,76.0,UNKNOWN
+Loyal (feat. Lil Wayne & Tyga),Chris Brown,r&b,2014.0,99.0,52.0,84.0,-6.0,19.0,62.0,265.0,2.0,5.0,75.0,US
+The Hills,The Weeknd,canadian contemporary r&b,2015.0,113.0,56.0,59.0,-7.0,14.0,14.0,242.0,7.0,5.0,88.0,CA
+Stressed Out,Twenty One Pilots,modern rock,2015.0,170.0,64.0,73.0,-6.0,6.0,65.0,202.0,5.0,14.0,87.0,US
+Daddy Issues,The Neighbourhood,modern alternative rock,2015.0,85.0,52.0,59.0,-9.0,12.0,34.0,260.0,7.0,3.0,86.0,US
+The Less I Know The Better,Tame Impala,australian psych,2015.0,117.0,74.0,64.0,-4.0,17.0,79.0,216.0,1.0,3.0,86.0,AU
+Hymn for the Weekend,Coldplay,permanent wave,2015.0,90.0,69.0,49.0,-6.0,33.0,41.0,258.0,21.0,4.0,85.0,GB
+Love Yourself,Justin Bieber,canadian pop,2015.0,100.0,38.0,61.0,-10.0,28.0,52.0,234.0,84.0,44.0,85.0,CA
+Can't Feel My Face,The Weeknd,canadian contemporary r&b,2015.0,108.0,77.0,71.0,-6.0,11.0,58.0,214.0,11.0,4.0,84.0,CA
+Don't,Bryson Tiller,kentucky hip hop,2015.0,97.0,36.0,77.0,-6.0,10.0,19.0,198.0,22.0,20.0,84.0,US
+Ride,Twenty One Pilots,modern rock,2015.0,75.0,71.0,65.0,-5.0,11.0,57.0,215.0,1.0,4.0,84.0,US
+See You Again (feat. Charlie Puth),Wiz Khalifa,hip hop,2015.0,80.0,48.0,69.0,-8.0,6.0,28.0,230.0,37.0,8.0,84.0,US
+Uptown Funk (feat. Bruno Mars),Mark Ronson,pop soul,2015.0,115.0,61.0,86.0,-7.0,3.0,93.0,270.0,1.0,8.0,84.0,GB
+Waiting For Love,Avicii,edm,2015.0,128.0,74.0,58.0,-4.0,20.0,61.0,231.0,31.0,5.0,84.0,SE
+Sorry,Justin Bieber,canadian pop,2015.0,100.0,76.0,65.0,-4.0,30.0,41.0,201.0,8.0,5.0,83.0,CA
+Alright,Kendrick Lamar,conscious hip hop,2015.0,110.0,77.0,80.0,-6.0,8.0,56.0,219.0,7.0,24.0,82.0,US
+Bitch Better Have My Money,Rihanna,barbadian pop,2015.0,103.0,73.0,78.0,-5.0,26.0,40.0,219.0,5.0,6.0,82.0,US
+Electric Love,BØRNS,indie poptimism,2015.0,120.0,80.0,61.0,-8.0,26.0,52.0,218.0,1.0,5.0,82.0,US
+Stitches,Shawn Mendes,canadian pop,2015.0,150.0,75.0,75.0,-7.0,5.0,75.0,207.0,2.0,7.0,82.0,CA
+Wait a Minute!,WILLOW,afrofuturism,2015.0,101.0,71.0,76.0,-5.0,9.0,67.0,197.0,4.0,3.0,82.0,US
+Drag Me Down,One Direction,boy band,2015.0,138.0,70.0,73.0,-6.0,7.0,60.0,192.0,11.0,4.0,81.0,UNKNOWN
+Perfect,One Direction,boy band,2015.0,100.0,82.0,65.0,-5.0,12.0,40.0,230.0,6.0,8.0,81.0,UNKNOWN
+Adventure of a Lifetime,Coldplay,permanent wave,2015.0,112.0,92.0,64.0,-4.0,15.0,53.0,264.0,0.0,4.0,80.0,GB
+Cheerleader - Felix Jaehn Remix Radio Edit,OMI,edm,2015.0,118.0,69.0,78.0,-6.0,16.0,60.0,181.0,17.0,3.0,80.0,JM
+Cool for the Summer,Demi Lovato,pop,2015.0,114.0,61.0,58.0,-6.0,14.0,34.0,215.0,0.0,4.0,80.0,US
+Exchange,Bryson Tiller,kentucky hip hop,2015.0,160.0,43.0,53.0,-11.0,14.0,28.0,195.0,11.0,19.0,80.0,US
+FourFiveSeconds,Rihanna,barbadian pop,2015.0,206.0,27.0,58.0,-6.0,13.0,35.0,188.0,88.0,5.0,80.0,US
+Like I'm Gonna Lose You (feat. John Legend),Meghan Trainor,hip pop,2015.0,108.0,53.0,63.0,-7.0,18.0,42.0,225.0,40.0,4.0,80.0,US
+Locked Away (feat. Adam Levine),R. City,reggae fusion,2015.0,118.0,67.0,51.0,-6.0,5.0,55.0,227.0,30.0,7.0,80.0,XG
+"Love Me Like You Do - From ""Fifty Shades Of Grey""",Ellie Goulding,indietronica,2015.0,190.0,61.0,26.0,-7.0,13.0,28.0,253.0,25.0,5.0,80.0,GB
+Scars To Your Beautiful,Alessia Cara,canadian contemporary r&b,2015.0,97.0,74.0,57.0,-6.0,11.0,45.0,230.0,3.0,13.0,80.0,CA
+When We Were Young,Adele,british soul,2015.0,144.0,60.0,38.0,-6.0,10.0,27.0,291.0,30.0,5.0,80.0,GB
+How Deep Is Your Love,Calvin Harris,dance pop,2015.0,122.0,87.0,74.0,-4.0,39.0,34.0,213.0,4.0,7.0,79.0,UNKNOWN
+Sugar (feat. Francesco Yates),Robin Schulz,deep euro house,2015.0,123.0,82.0,64.0,-5.0,16.0,64.0,219.0,2.0,6.0,79.0,DE
+This Could Be Us,Rae Sremmurd,melodic rap,2015.0,143.0,69.0,73.0,-5.0,12.0,76.0,206.0,29.0,13.0,79.0,US
+What Do You Mean?,Justin Bieber,canadian pop,2015.0,125.0,57.0,85.0,-8.0,8.0,79.0,206.0,59.0,10.0,79.0,CA
+Lean On (feat. MØ & DJ Snake),Major Lazer,dance pop,2015.0,98.0,81.0,72.0,-3.0,56.0,27.0,177.0,0.0,6.0,78.0,JM
+My House,Flo Rida,dance pop,2015.0,94.0,70.0,69.0,-5.0,13.0,74.0,192.0,2.0,5.0,78.0,US
+Hello,Adele,british soul,2015.0,79.0,43.0,58.0,-6.0,9.0,29.0,296.0,33.0,3.0,77.0,GB
+In The Night,The Weeknd,canadian contemporary r&b,2015.0,168.0,68.0,51.0,-5.0,5.0,54.0,236.0,8.0,7.0,77.0,CA
+oui,Jeremih,chicago rap,2015.0,79.0,72.0,42.0,-4.0,11.0,60.0,238.0,21.0,10.0,77.0,US
+Renegades,X Ambassadors,modern alternative rock,2015.0,90.0,86.0,53.0,-6.0,23.0,53.0,195.0,1.0,9.0,77.0,US
+Runaway (U & I),Galantis,dance pop,2015.0,126.0,81.0,51.0,-4.0,9.0,38.0,227.0,1.0,5.0,77.0,SE
+679 (feat. Remy Boyz),Fetty Wap,new jersey rap,2015.0,190.0,72.0,62.0,-6.0,63.0,60.0,197.0,0.0,32.0,76.0,US
+History,One Direction,boy band,2015.0,87.0,70.0,66.0,-4.0,6.0,80.0,187.0,4.0,5.0,76.0,UNKNOWN
+I Don't Fuck With You,Big Sean,detroit hip hop,2015.0,98.0,73.0,82.0,-5.0,33.0,40.0,284.0,4.0,6.0,76.0,US
+King Kunta,Kendrick Lamar,conscious hip hop,2015.0,107.0,66.0,88.0,-5.0,15.0,49.0,235.0,1.0,10.0,76.0,US
+Roses,The Chainsmokers,electropop,2015.0,100.0,80.0,71.0,-7.0,31.0,34.0,227.0,4.0,6.0,76.0,US
+Trap Queen,Fetty Wap,new jersey rap,2015.0,148.0,87.0,75.0,-4.0,35.0,82.0,222.0,2.0,13.0,76.0,US
+Want to Want Me,Jason Derulo,dance pop,2015.0,114.0,68.0,78.0,-6.0,11.0,66.0,208.0,1.0,6.0,76.0,US
+Ayo,Chris Brown,r&b,2015.0,98.0,56.0,82.0,-5.0,9.0,68.0,225.0,4.0,4.0,75.0,US
+Don't Tell 'Em,Jeremih,chicago rap,2015.0,98.0,53.0,86.0,-5.0,11.0,39.0,267.0,39.0,10.0,75.0,US
+Starboy,The Weeknd,canadian contemporary r&b,2016.0,186.0,59.0,68.0,-7.0,14.0,49.0,230.0,14.0,28.0,93.0,CA
+One Dance,Drake,canadian hip hop,2016.0,104.0,63.0,79.0,-6.0,33.0,37.0,174.0,1.0,5.0,88.0,CA
+Pink + White,Frank Ocean,lgbtq+ hip hop,2016.0,160.0,55.0,55.0,-7.0,42.0,55.0,185.0,67.0,11.0,88.0,US
+Say You Won't Let Go,James Arthur,pop,2016.0,85.0,56.0,36.0,-7.0,9.0,49.0,211.0,70.0,6.0,87.0,GB
+Closer,The Chainsmokers,electropop,2016.0,95.0,52.0,75.0,-6.0,11.0,66.0,245.0,41.0,3.0,86.0,US
+goosebumps,Travis Scott,hip hop,2016.0,130.0,73.0,84.0,-3.0,15.0,43.0,244.0,8.0,5.0,86.0,US
+Love On The Brain,Rihanna,barbadian pop,2016.0,172.0,64.0,51.0,-5.0,8.0,38.0,224.0,7.0,5.0,86.0,US
+That's What I Like,Bruno Mars,dance pop,2016.0,134.0,56.0,85.0,-5.0,9.0,86.0,207.0,1.0,4.0,86.0,US
+Let Me Love You,DJ Snake,edm,2016.0,100.0,72.0,65.0,-5.0,14.0,16.0,206.0,9.0,3.0,85.0,FR
+Redbone,Childish Gambino,atl hip hop,2016.0,160.0,35.0,75.0,-11.0,12.0,60.0,327.0,17.0,10.0,85.0,US
+Needed Me,Rihanna,barbadian pop,2016.0,111.0,31.0,67.0,-8.0,8.0,30.0,192.0,11.0,24.0,84.0,US
+This Is What You Came For,Calvin Harris,dance pop,2016.0,124.0,93.0,63.0,-3.0,15.0,47.0,222.0,20.0,3.0,84.0,UNKNOWN
+We Don't Talk Anymore (feat. Selena Gomez),Charlie Puth,pop,2016.0,100.0,56.0,73.0,-8.0,18.0,35.0,218.0,62.0,13.0,84.0,US
+7 Years,Lukas Graham,danish pop,2016.0,120.0,47.0,77.0,-6.0,39.0,34.0,237.0,29.0,5.0,83.0,DK
+Cake By The Ocean,DNCE,dance pop,2016.0,119.0,75.0,77.0,-5.0,4.0,90.0,219.0,15.0,5.0,83.0,US
+Congratulations,Post Malone,dfw rap,2016.0,123.0,80.0,63.0,-4.0,25.0,49.0,220.0,22.0,4.0,83.0,US
+Don't Let Me Down,The Chainsmokers,electropop,2016.0,160.0,87.0,53.0,-5.0,14.0,42.0,208.0,16.0,17.0,82.0,US
+Heathens,Twenty One Pilots,modern rock,2016.0,90.0,40.0,73.0,-9.0,11.0,55.0,196.0,8.0,3.0,82.0,US
+I Fall Apart,Post Malone,dfw rap,2016.0,144.0,54.0,56.0,-5.0,20.0,29.0,223.0,7.0,4.0,82.0,US
+I Feel It Coming,The Weeknd,canadian contemporary r&b,2016.0,93.0,82.0,77.0,-6.0,7.0,59.0,269.0,43.0,12.0,82.0,CA
+In the Name of Love,Martin Garrix,dutch edm,2016.0,134.0,52.0,50.0,-6.0,45.0,17.0,196.0,11.0,4.0,82.0,NL
+Work,Rihanna,barbadian pop,2016.0,92.0,53.0,73.0,-6.0,9.0,56.0,219.0,8.0,9.0,81.0,US
+Can I Be Him,James Arthur,pop,2016.0,108.0,54.0,70.0,-6.0,9.0,48.0,247.0,31.0,5.0,80.0,GB
+"CAN'T STOP THE FEELING! (from DreamWorks Animation's ""TROLLS"")",Justin Timberlake,dance pop,2016.0,113.0,83.0,67.0,-6.0,19.0,70.0,236.0,1.0,8.0,80.0,US
+Cheap Thrills,Sia,australian dance,2016.0,90.0,70.0,63.0,-6.0,9.0,73.0,212.0,5.0,11.0,80.0,AU
+Go Flex,Post Malone,dfw rap,2016.0,82.0,50.0,67.0,-8.0,8.0,13.0,180.0,23.0,8.0,80.0,US
+I Took A Pill In Ibiza - Seeb Remix,Mike Posner,dance pop,2016.0,102.0,71.0,66.0,-7.0,8.0,71.0,198.0,4.0,11.0,80.0,US
+My Way,Calvin Harris,dance pop,2016.0,120.0,91.0,82.0,-3.0,16.0,54.0,219.0,9.0,4.0,80.0,UNKNOWN
+Ophelia,The Lumineers,folk-pop,2016.0,76.0,57.0,66.0,-7.0,9.0,57.0,160.0,61.0,3.0,80.0,US
+Hotline Bling,Drake,canadian hip hop,2016.0,135.0,63.0,89.0,-8.0,5.0,55.0,267.0,0.0,6.0,79.0,CA
+Into You,Ariana Grande,pop,2016.0,108.0,73.0,62.0,-6.0,14.0,37.0,244.0,2.0,11.0,79.0,US
+This Girl (Kungs Vs. Cookin' On 3 Burners),Kungs,edm,2016.0,122.0,72.0,79.0,-5.0,23.0,47.0,196.0,9.0,4.0,79.0,FR
+White Iverson,Post Malone,dfw rap,2016.0,130.0,56.0,68.0,-8.0,8.0,31.0,257.0,23.0,4.0,79.0,US
+Chill Bill (feat. J. Davi$ & Spooks),Rob $tone,san diego rap,2016.0,108.0,43.0,89.0,-10.0,9.0,23.0,177.0,3.0,14.0,78.0,GB
+Firestone,Kygo,edm,2016.0,114.0,63.0,70.0,-7.0,10.0,41.0,272.0,39.0,4.0,78.0,NO
+i hate u i love u (feat. olivia o'brien),gnash,alt z,2016.0,93.0,28.0,49.0,-13.0,10.0,18.0,251.0,69.0,30.0,78.0,US
+Side To Side,Ariana Grande,pop,2016.0,159.0,74.0,65.0,-6.0,24.0,61.0,226.0,5.0,23.0,78.0,US
+Work from Home (feat. Ty Dolla $ign),Fifth Harmony,girl group,2016.0,105.0,59.0,80.0,-6.0,6.0,59.0,214.0,10.0,4.0,78.0,US
+Are You With Me,Lost Frequencies,belgian edm,2016.0,121.0,61.0,76.0,-8.0,12.0,39.0,138.0,26.0,4.0,77.0,BE
+Hear Me Now,Alok,electro house,2016.0,122.0,46.0,78.0,-8.0,7.0,50.0,195.0,55.0,4.0,77.0,BR
+Low Life (feat. The Weeknd),Future,atl hip hop,2016.0,144.0,33.0,72.0,-8.0,15.0,10.0,314.0,34.0,7.0,77.0,US
+Middle,DJ Snake,edm,2016.0,105.0,70.0,58.0,-5.0,5.0,22.0,221.0,1.0,4.0,77.0,FR
+Say It,Tory Lanez,canadian hip hop,2016.0,107.0,53.0,55.0,-11.0,12.0,25.0,238.0,9.0,6.0,77.0,CA
+Stole the Show,Kygo,edm,2016.0,100.0,64.0,64.0,-8.0,32.0,48.0,223.0,27.0,23.0,77.0,NO
+Sucker for Pain (with Wiz Khalifa & Imagine Dragons & Logic & Ty Dolla $ign feat. X Ambassadors),Lil Wayne,hip hop,2016.0,169.0,79.0,50.0,-4.0,65.0,74.0,243.0,26.0,32.0,77.0,US
+Swang,Rae Sremmurd,melodic rap,2016.0,140.0,31.0,68.0,-9.0,10.0,17.0,208.0,20.0,6.0,77.0,US
+Black Beatles,Rae Sremmurd,melodic rap,2016.0,146.0,63.0,79.0,-6.0,13.0,36.0,292.0,14.0,6.0,76.0,US
+Dangerous Woman,Ariana Grande,pop,2016.0,134.0,60.0,66.0,-5.0,36.0,29.0,236.0,5.0,4.0,76.0,US
+One Call Away,Charlie Puth,pop,2016.0,91.0,61.0,67.0,-5.0,12.0,47.0,194.0,40.0,3.0,76.0,US
+Rockabye (feat. Sean Paul & Anne-Marie),Clean Bandit,pop,2016.0,102.0,76.0,72.0,-4.0,18.0,74.0,251.0,41.0,5.0,76.0,GB
+Dandelions,Ruth B.,alt z,2017.0,117.0,69.0,61.0,-3.0,9.0,45.0,234.0,2.0,3.0,90.0,US
+Perfect,Ed Sheeran,pop,2017.0,95.0,45.0,60.0,-6.0,11.0,17.0,263.0,16.0,2.0,90.0,GB
+Shape of You,Ed Sheeran,pop,2017.0,96.0,65.0,83.0,-3.0,9.0,93.0,234.0,58.0,8.0,88.0,GB
+Something Just Like This,The Chainsmokers,electropop,2017.0,103.0,64.0,62.0,-7.0,16.0,45.0,247.0,5.0,3.0,87.0,US
+Thunder,Imagine Dragons,modern rock,2017.0,168.0,82.0,61.0,-5.0,15.0,29.0,187.0,1.0,4.0,87.0,US
+Beggin',Måneskin,indie rock italiano,2017.0,134.0,80.0,71.0,-5.0,36.0,59.0,212.0,13.0,5.0,86.0,IT
+HUMBLE.,Kendrick Lamar,conscious hip hop,2017.0,150.0,62.0,91.0,-7.0,10.0,42.0,177.0,0.0,10.0,86.0,US
+Too Good At Goodbyes,Sam Smith,pop,2017.0,92.0,37.0,68.0,-8.0,17.0,48.0,201.0,64.0,4.0,86.0,US
+Treat You Better,Shawn Mendes,canadian pop,2017.0,83.0,82.0,44.0,-4.0,11.0,75.0,188.0,11.0,34.0,86.0,CA
+LOVE. FEAT. ZACARI.,Kendrick Lamar,conscious hip hop,2017.0,126.0,59.0,80.0,-7.0,15.0,78.0,213.0,26.0,9.0,85.0,US
+Passionfruit,Drake,canadian hip hop,2017.0,112.0,46.0,81.0,-11.0,11.0,36.0,299.0,26.0,4.0,85.0,CA
+Bored,Billie Eilish,art pop,2017.0,120.0,32.0,61.0,-13.0,8.0,11.0,181.0,90.0,5.0,84.0,US
+Delicate,Taylor Swift,pop,2017.0,95.0,40.0,75.0,-10.0,9.0,5.0,232.0,22.0,7.0,84.0,US
+Infinity,Jaymes Young,indie poptimism,2017.0,122.0,67.0,67.0,-7.0,30.0,49.0,238.0,15.0,4.0,84.0,CA
+Jocelyn Flores,XXXTENTACION,emo rap,2017.0,134.0,39.0,87.0,-9.0,30.0,44.0,119.0,47.0,24.0,84.0,US
+Ric Flair Drip (with Metro Boomin),Offset,atl hip hop,2017.0,100.0,43.0,88.0,-8.0,11.0,33.0,173.0,15.0,21.0,84.0,US
+Unforgettable,French Montana,hip hop,2017.0,98.0,77.0,73.0,-5.0,10.0,73.0,234.0,3.0,12.0,84.0,US
+Mask Off,Future,atl hip hop,2017.0,150.0,43.0,83.0,-9.0,17.0,28.0,205.0,1.0,43.0,83.0,US
+XO Tour Llif3,Lil Uzi Vert,melodic rap,2017.0,155.0,75.0,73.0,-6.0,11.0,40.0,183.0,0.0,23.0,83.0,US
+Let You Down,NF,hip hop,2017.0,148.0,71.0,66.0,-6.0,18.0,46.0,212.0,31.0,12.0,82.0,US
+Mercy,Shawn Mendes,canadian pop,2017.0,148.0,66.0,56.0,-5.0,11.0,36.0,209.0,13.0,8.0,82.0,CA
+New Rules,Dua Lipa,dance pop,2017.0,116.0,70.0,76.0,-6.0,15.0,61.0,209.0,0.0,7.0,82.0,GB
+Silence,Marshmello,brostep,2017.0,142.0,76.0,52.0,-3.0,17.0,29.0,181.0,26.0,9.0,82.0,US
+Young Dumb & Broke,Khalid,pop,2017.0,137.0,54.0,80.0,-6.0,17.0,39.0,203.0,20.0,4.0,82.0,US
+DNA.,Kendrick Lamar,conscious hip hop,2017.0,140.0,52.0,64.0,-7.0,8.0,42.0,186.0,0.0,36.0,81.0,US
+I Don’t Wanna Live Forever (Fifty Shades Darker),ZAYN,pop,2017.0,118.0,45.0,73.0,-8.0,14.0,11.0,247.0,6.0,5.0,81.0,UNKNOWN
+IDGAF,Dua Lipa,dance pop,2017.0,97.0,54.0,84.0,-6.0,8.0,51.0,218.0,4.0,9.0,81.0,GB
+Magnolia,Playboi Carti,atl hip hop,2017.0,163.0,58.0,79.0,-7.0,35.0,44.0,182.0,1.0,29.0,81.0,US
+More Than You Know,Axwell /\ Ingrosso,edm,2017.0,123.0,74.0,65.0,-5.0,31.0,57.0,203.0,3.0,3.0,81.0,SE
+NO,Meghan Trainor,hip pop,2017.0,92.0,80.0,56.0,-4.0,74.0,66.0,214.0,1.0,21.0,81.0,US
+Drowning (feat. Kodak Black),A Boogie Wit da Hoodie,melodic rap,2017.0,129.0,81.0,84.0,-5.0,12.0,81.0,209.0,50.0,6.0,80.0,US
+Lush Life,Zara Larsson,pop,2017.0,98.0,71.0,69.0,-4.0,21.0,80.0,201.0,13.0,5.0,80.0,SE
+Bank Account,21 Savage,atl hip hop,2017.0,75.0,35.0,88.0,-8.0,9.0,38.0,220.0,2.0,35.0,79.0,US
+Him & I (with Halsey),G-Eazy,indie pop rap,2017.0,88.0,73.0,59.0,-6.0,31.0,19.0,269.0,5.0,9.0,79.0,US
+It Ain't Me (with Selena Gomez),Kygo,edm,2017.0,100.0,53.0,64.0,-7.0,9.0,52.0,221.0,12.0,7.0,79.0,NO
+Location,Khalid,pop,2017.0,80.0,45.0,74.0,-11.0,9.0,33.0,219.0,33.0,43.0,79.0,US
+Love Galore (feat. Travis Scott),SZA,pop,2017.0,135.0,59.0,80.0,-6.0,16.0,41.0,275.0,11.0,7.0,79.0,US
+Save That Shit,Lil Peep,cloud rap,2017.0,106.0,58.0,53.0,-9.0,42.0,14.0,232.0,3.0,3.0,79.0,US
+Scared to Be Lonely,Martin Garrix,dutch edm,2017.0,138.0,54.0,58.0,-8.0,26.0,20.0,221.0,9.0,6.0,79.0,NL
+Glorious (feat. Skylar Grey),Macklemore,pop rap,2017.0,140.0,79.0,73.0,-5.0,11.0,36.0,220.0,3.0,5.0,78.0,US
+Malibu,Miley Cyrus,pop,2017.0,140.0,78.0,57.0,-6.0,8.0,34.0,232.0,8.0,6.0,78.0,US
+1-800-273-8255,Logic,conscious hip hop,2017.0,100.0,57.0,62.0,-8.0,19.0,36.0,250.0,57.0,5.0,77.0,US
+Body,Loud Luxury,edm,2017.0,122.0,76.0,75.0,-4.0,5.0,58.0,163.0,5.0,4.0,77.0,CA
+Losin Control,Russ,hawaiian hip hop,2017.0,97.0,25.0,76.0,-7.0,10.0,21.0,238.0,52.0,14.0,77.0,US
+Nevermind,Dennis Lloyd,israeli pop,2017.0,100.0,69.0,60.0,-8.0,41.0,8.0,157.0,16.0,20.0,77.0,GB
+Paris,The Chainsmokers,electropop,2017.0,100.0,66.0,65.0,-6.0,9.0,22.0,222.0,2.0,3.0,77.0,US
+Slow Hands,Niall Horan,pop,2017.0,86.0,43.0,74.0,-7.0,6.0,85.0,188.0,1.0,5.0,77.0,IE
+Swalla (feat. Nicki Minaj & Ty Dolla $ign),Jason Derulo,dance pop,2017.0,98.0,82.0,70.0,-4.0,19.0,78.0,216.0,8.0,11.0,77.0,US
+Wild Thoughts (feat. Rihanna & Bryson Tiller),DJ Khaled,hip hop,2017.0,98.0,67.0,67.0,-3.0,12.0,63.0,204.0,3.0,7.0,77.0,US
+Meant to Be (feat. Florida Georgia Line),Bebe Rexha,dance pop,2017.0,154.0,78.0,64.0,-6.0,8.0,58.0,164.0,5.0,9.0,76.0,US
+lovely (with Khalid),Billie Eilish,art pop,2018.0,115.0,30.0,35.0,-10.0,10.0,12.0,200.0,93.0,3.0,90.0,US
+Call Out My Name,The Weeknd,canadian contemporary r&b,2018.0,134.0,59.0,46.0,-5.0,31.0,18.0,228.0,17.0,4.0,89.0,CA
+One Kiss (with Dua Lipa),Calvin Harris,dance pop,2018.0,124.0,86.0,79.0,-3.0,8.0,59.0,215.0,4.0,11.0,88.0,UNKNOWN
+God's Plan,Drake,canadian hip hop,2018.0,77.0,45.0,75.0,-9.0,55.0,36.0,199.0,3.0,11.0,86.0,CA
+Let Me Down Slowly,Alec Benjamin,alt z,2018.0,150.0,56.0,65.0,-6.0,12.0,48.0,169.0,74.0,3.0,86.0,GB
+rockstar (feat. 21 Savage),Post Malone,dfw rap,2018.0,160.0,52.0,59.0,-6.0,13.0,13.0,218.0,12.0,7.0,86.0,US
+Shallow,Lady Gaga,art pop,2018.0,96.0,39.0,57.0,-6.0,23.0,32.0,216.0,37.0,3.0,86.0,US
+All The Stars (with SZA),Kendrick Lamar,conscious hip hop,2018.0,97.0,63.0,70.0,-5.0,9.0,55.0,232.0,6.0,6.0,85.0,US
+Lucid Dreams,Juice WRLD,chicago rap,2018.0,84.0,57.0,51.0,-7.0,34.0,22.0,240.0,35.0,20.0,85.0,US
+SICKO MODE,Travis Scott,hip hop,2018.0,155.0,73.0,83.0,-4.0,12.0,45.0,313.0,1.0,22.0,85.0,US
+Happier,Marshmello,brostep,2018.0,100.0,79.0,69.0,-3.0,17.0,67.0,214.0,19.0,5.0,84.0,US
+Moonlight,XXXTENTACION,emo rap,2018.0,128.0,54.0,92.0,-6.0,10.0,71.0,135.0,56.0,8.0,84.0,US
+we fell in love in october,girl in red,alt z,2018.0,130.0,37.0,57.0,-13.0,16.0,24.0,184.0,11.0,3.0,84.0,UNKNOWN
+a lot,21 Savage,atl hip hop,2018.0,146.0,64.0,84.0,-8.0,34.0,27.0,289.0,4.0,9.0,83.0,US
+Better Now,Post Malone,dfw rap,2018.0,145.0,58.0,68.0,-6.0,14.0,34.0,231.0,33.0,4.0,83.0,US
+I Like Me Better,Lauv,pop,2018.0,92.0,51.0,75.0,-8.0,10.0,42.0,197.0,53.0,26.0,83.0,US
+No Lie,Sean Paul,dance pop,2018.0,102.0,88.0,74.0,-3.0,21.0,46.0,221.0,5.0,12.0,83.0,JM
+SAD!,XXXTENTACION,emo rap,2018.0,75.0,61.0,74.0,-5.0,12.0,47.0,167.0,26.0,14.0,83.0,US
+Yes Indeed,Lil Baby,atl hip hop,2018.0,120.0,35.0,96.0,-9.0,11.0,56.0,142.0,4.0,53.0,83.0,US
+Dancing On My Own,Calum Scott,pop,2018.0,113.0,17.0,68.0,-9.0,10.0,23.0,260.0,84.0,3.0,82.0,GB
+Going Bad (feat. Drake),Meek Mill,hip hop,2018.0,86.0,50.0,89.0,-6.0,25.0,54.0,181.0,26.0,9.0,82.0,US
+Little Dark Age,MGMT,alternative rock,2018.0,98.0,71.0,71.0,-6.0,10.0,62.0,300.0,1.0,4.0,82.0,US
+2002,Anne-Marie,hel,2018.0,96.0,68.0,70.0,-3.0,14.0,60.0,187.0,4.0,12.0,82.0,GB
+Faded,Alan Walker,electro house,2018.0,180.0,63.0,47.0,-5.0,11.0,16.0,212.0,3.0,5.0,81.0,NO
+Havana (feat. Young Thug),Camila Cabello,dance pop,2018.0,105.0,52.0,77.0,-4.0,13.0,39.0,217.0,18.0,3.0,81.0,US
+Mo Bamba,Sheck Wes,pop rap,2018.0,146.0,63.0,73.0,-5.0,25.0,26.0,184.0,19.0,3.0,81.0,US
+The Middle,Zedd,complextro,2018.0,107.0,66.0,75.0,-3.0,11.0,44.0,185.0,17.0,4.0,81.0,DE
+Be Alright,Dean Lewis,australian pop,2018.0,127.0,59.0,55.0,-6.0,8.0,44.0,196.0,70.0,4.0,80.0,US
+I Like It,Cardi B,pop,2018.0,136.0,73.0,82.0,-4.0,37.0,65.0,253.0,10.0,13.0,80.0,US
+In My Mind,Dynoro,edm,2018.0,126.0,77.0,69.0,-5.0,12.0,16.0,185.0,18.0,15.0,80.0,LT
+MIA,Bad Bunny,reggaeton,2018.0,97.0,54.0,82.0,-6.0,10.0,16.0,210.0,1.0,6.0,80.0,PR
+Nice For What,Drake,canadian hip hop,2018.0,93.0,91.0,59.0,-6.0,12.0,76.0,211.0,9.0,7.0,80.0,CA
+Nonstop,Drake,canadian hip hop,2018.0,155.0,41.0,91.0,-8.0,10.0,42.0,239.0,2.0,12.0,80.0,CA
+changes,XXXTENTACION,emo rap,2018.0,65.0,31.0,67.0,-10.0,10.0,52.0,122.0,88.0,3.0,79.0,US
+Déjala Que Vuelva (feat. Manuel Turizo),Piso 21,colombian pop,2018.0,170.0,79.0,68.0,-4.0,8.0,84.0,220.0,5.0,8.0,79.0,CO
+FRIENDS,Marshmello,brostep,2018.0,95.0,88.0,63.0,-2.0,13.0,53.0,203.0,21.0,5.0,79.0,US
+God is a woman,Ariana Grande,pop,2018.0,145.0,66.0,60.0,-6.0,24.0,27.0,198.0,2.0,6.0,79.0,US
+Look Back at It,A Boogie Wit da Hoodie,melodic rap,2018.0,96.0,59.0,79.0,-5.0,15.0,54.0,179.0,41.0,4.0,79.0,US
+no tears left to cry,Ariana Grande,pop,2018.0,122.0,71.0,70.0,-6.0,29.0,35.0,206.0,4.0,6.0,79.0,US
+Nothing Breaks Like a Heart (feat. Miley Cyrus),Mark Ronson,pop soul,2018.0,114.0,79.0,60.0,-6.0,39.0,24.0,217.0,1.0,7.0,79.0,GB
+Psycho (feat. Ty Dolla $ign),Post Malone,dfw rap,2018.0,140.0,56.0,75.0,-8.0,11.0,46.0,221.0,55.0,11.0,79.0,US
+Shotgun,George Ezra,folk-pop,2018.0,116.0,74.0,67.0,-5.0,24.0,75.0,201.0,29.0,5.0,79.0,GB
+It's Not Living (If It's Not With You),The 1975,modern alternative rock,2018.0,121.0,84.0,62.0,-5.0,6.0,53.0,248.0,0.0,3.0,78.0,GB
+Taki Taki (with Selena Gomez & Ozuna & Cardi B),DJ Snake,edm,2018.0,96.0,80.0,84.0,-4.0,6.0,62.0,213.0,16.0,23.0,78.0,FR
+Te Boté - Remix,Nio Garcia,reggaeton,2018.0,97.0,68.0,90.0,-3.0,6.0,44.0,418.0,54.0,21.0,78.0,US
+3 Nights,Dominic Fike,alternative pop rock,2018.0,152.0,52.0,82.0,-7.0,10.0,88.0,178.0,22.0,9.0,77.0,UNKNOWN
+Eastside (with Halsey & Khalid),benny blanco,pop,2018.0,89.0,68.0,56.0,-8.0,12.0,32.0,174.0,56.0,32.0,77.0,US
+In My Feelings,Drake,canadian hip hop,2018.0,91.0,63.0,84.0,-6.0,40.0,35.0,218.0,6.0,13.0,77.0,CA
+Perfect Strangers,Jonas Blue,pop,2018.0,118.0,86.0,73.0,-4.0,21.0,70.0,197.0,39.0,5.0,77.0,GB
+Snowman,Sia,australian dance,2018.0,105.0,51.0,72.0,-6.0,9.0,33.0,166.0,48.0,3.0,77.0,AU
+Cruel Summer,Taylor Swift,pop,2019.0,170.0,70.0,55.0,-6.0,11.0,56.0,178.0,12.0,16.0,91.0,US
+All Of The Girls You Loved Before,Taylor Swift,pop,2019.0,96.0,47.0,72.0,-10.0,13.0,40.0,221.0,71.0,4.0,90.0,US
+Watermelon Sugar,Harry Styles,pop,2019.0,95.0,82.0,55.0,-4.0,34.0,56.0,174.0,12.0,5.0,90.0,UNKNOWN
+Someone You Loved,Lewis Capaldi,pop,2019.0,110.0,41.0,50.0,-6.0,11.0,45.0,182.0,75.0,3.0,89.0,GB
+Circles,Post Malone,dfw rap,2019.0,120.0,76.0,70.0,-3.0,9.0,55.0,215.0,19.0,4.0,88.0,US
+Lover,Taylor Swift,pop,2019.0,69.0,54.0,36.0,-8.0,12.0,45.0,221.0,49.0,9.0,88.0,US
+7 rings,Ariana Grande,pop,2019.0,140.0,32.0,78.0,-11.0,9.0,33.0,179.0,59.0,33.0,86.0,US
+Adore You,Harry Styles,pop,2019.0,99.0,77.0,68.0,-4.0,10.0,57.0,207.0,2.0,5.0,86.0,UNKNOWN
+Before You Go,Lewis Capaldi,pop,2019.0,112.0,57.0,46.0,-5.0,9.0,18.0,215.0,60.0,6.0,86.0,GB
+everything i wanted,Billie Eilish,art pop,2019.0,120.0,23.0,70.0,-14.0,11.0,24.0,245.0,90.0,10.0,86.0,US
+Lost in the Fire (feat. The Weeknd),Gesaffelstein,dark clubbing,2019.0,101.0,67.0,66.0,-12.0,12.0,17.0,202.0,9.0,4.0,85.0,FR
+when the party's over,Billie Eilish,art pop,2019.0,83.0,11.0,37.0,-14.0,9.0,20.0,196.0,98.0,10.0,85.0,US
+bad guy,Billie Eilish,art pop,2019.0,135.0,43.0,70.0,-11.0,10.0,56.0,194.0,33.0,38.0,84.0,US
+Doin' Time,Lana Del Rey,art pop,2019.0,145.0,56.0,64.0,-11.0,9.0,52.0,202.0,40.0,4.0,84.0,US
+EARFQUAKE,Tyler The Creator,hip hop,2019.0,80.0,50.0,55.0,-9.0,80.0,41.0,190.0,23.0,7.0,84.0,"US,"""""
+HIGHEST IN THE ROOM,Travis Scott,hip hop,2019.0,76.0,43.0,60.0,-9.0,21.0,6.0,176.0,5.0,3.0,84.0,US
+Sunflower - Spider-Man: Into the Spider-Verse,Post Malone,dfw rap,2019.0,90.0,52.0,76.0,-4.0,7.0,93.0,158.0,53.0,6.0,84.0,US
+Bruises,Lewis Capaldi,pop,2019.0,111.0,31.0,74.0,-8.0,19.0,36.0,220.0,95.0,7.0,83.0,GB
+MIDDLE CHILD,J. Cole,conscious hip hop,2019.0,124.0,36.0,84.0,-12.0,27.0,46.0,214.0,15.0,28.0,83.0,US
+Streets,Doja Cat,dance pop,2019.0,90.0,46.0,75.0,-8.0,34.0,19.0,227.0,21.0,8.0,83.0,US
+The Box,Roddy Ricch,melodic rap,2019.0,117.0,59.0,90.0,-7.0,79.0,64.0,197.0,10.0,6.0,83.0,US
+Wow.,Post Malone,dfw rap,2019.0,100.0,54.0,83.0,-7.0,10.0,39.0,150.0,14.0,21.0,83.0,US
+Despacito,Luis Fonsi,latin pop,2019.0,178.0,80.0,66.0,-5.0,7.0,84.0,229.0,20.0,15.0,82.0,PR
+love nwantiti (ah ah ah),CKay,afro r&b,2019.0,93.0,74.0,73.0,-4.0,16.0,53.0,146.0,37.0,4.0,82.0,NG
+Ransom,Lil Tecca,melodic rap,2019.0,180.0,64.0,75.0,-6.0,7.0,23.0,131.0,2.0,29.0,82.0,US
+Robbery,Juice WRLD,chicago rap,2019.0,80.0,69.0,62.0,-5.0,15.0,57.0,240.0,33.0,5.0,82.0,US
+Señorita,Shawn Mendes,canadian pop,2019.0,117.0,55.0,76.0,-6.0,8.0,75.0,191.0,4.0,3.0,82.0,CA
+Goodbyes (feat. Young Thug),Post Malone,dfw rap,2019.0,150.0,65.0,55.0,-4.0,10.0,16.0,175.0,46.0,8.0,81.0,US
+Ride It,Regard,pop dance,2019.0,118.0,75.0,88.0,-4.0,11.0,88.0,158.0,18.0,9.0,81.0,UNKNOWN
+boyfriend (with Social House),Ariana Grande,pop,2019.0,190.0,80.0,40.0,-4.0,16.0,70.0,186.0,12.0,46.0,80.0,US
+Con Calma,Daddy Yankee,latin hip hop,2019.0,94.0,86.0,74.0,-3.0,6.0,66.0,193.0,11.0,6.0,80.0,PR
+Hold Me While You Wait,Lewis Capaldi,pop,2019.0,107.0,53.0,69.0,-6.0,10.0,16.0,206.0,44.0,3.0,80.0,GB
+Roses - Imanbek Remix,SAINt JHN,melodic rap,2019.0,122.0,72.0,77.0,-5.0,35.0,90.0,177.0,2.0,5.0,80.0,GY
+If the World Was Ending (feat. Julia Michaels),JP Saxe,alt z,2019.0,76.0,47.0,46.0,-10.0,11.0,60.0,209.0,87.0,13.0,79.0,CA
+Location (feat. Burna Boy),Dave,uk hip hop,2019.0,110.0,50.0,81.0,-6.0,10.0,55.0,241.0,27.0,30.0,79.0,US
+Money In The Grave (Drake ft. Rick Ross),Drake,canadian hip hop,2019.0,101.0,50.0,83.0,-4.0,12.0,10.0,205.0,10.0,5.0,79.0,CA
+Old Town Road - Remix,Lil Nas X,lgbtq+ hip hop,2019.0,136.0,62.0,88.0,-6.0,11.0,64.0,157.0,5.0,10.0,79.0,US
+Pop Out (feat. Lil Tjay),Polo G,chicago rap,2019.0,168.0,64.0,77.0,-7.0,7.0,26.0,167.0,15.0,47.0,79.0,DE
+Say So,Doja Cat,dance pop,2019.0,111.0,67.0,79.0,-5.0,9.0,78.0,238.0,26.0,16.0,79.0,US
+To the Bone,Pamungkas,indonesian pop,2019.0,140.0,73.0,67.0,-7.0,10.0,94.0,345.0,51.0,3.0,79.0,ID
+break up with your girlfriend i'm bored,Ariana Grande,pop,2019.0,170.0,55.0,73.0,-5.0,11.0,34.0,190.0,4.0,9.0,78.0,US
+Breaking Me,Topic,german dance,2019.0,122.0,72.0,79.0,-6.0,13.0,66.0,167.0,22.0,22.0,78.0,DE
+Callaita,Bad Bunny,reggaeton,2019.0,176.0,62.0,61.0,-5.0,24.0,24.0,251.0,60.0,31.0,78.0,PR
+Cheating on You,Charlie Puth,pop,2019.0,123.0,54.0,75.0,-7.0,10.0,60.0,197.0,1.0,3.0,78.0,US
+I Don't Care (with Justin Bieber),Ed Sheeran,pop,2019.0,102.0,68.0,80.0,-5.0,9.0,84.0,220.0,9.0,4.0,78.0,GB
+Piece Of Your Heart,MEDUZA,pop dance,2019.0,124.0,74.0,68.0,-7.0,7.0,63.0,153.0,4.0,3.0,78.0,SE
+ROXANNE,Arizona Zervas,pop rap,2019.0,117.0,60.0,62.0,-6.0,46.0,46.0,164.0,5.0,15.0,78.0,US
+Tusa,KAROL G,reggaeton,2019.0,101.0,72.0,80.0,-3.0,6.0,57.0,201.0,30.0,30.0,78.0,DE
+Don't Call Me Up,Mabel,pop,2019.0,99.0,88.0,67.0,-3.0,8.0,23.0,178.0,30.0,15.0,77.0,UNKNOWN
+Higher Love,Kygo,edm,2019.0,104.0,68.0,69.0,-7.0,10.0,40.0,228.0,2.0,3.0,77.0,NO
+Blinding Lights,The Weeknd,canadian contemporary r&b,2020.0,171.0,73.0,51.0,-6.0,9.0,33.0,200.0,0.0,6.0,92.0,CA
+Heat Waves,Glass Animals,gauze pop,2020.0,81.0,53.0,76.0,-7.0,9.0,53.0,239.0,44.0,9.0,90.0,GB
+Save Your Tears,The Weeknd,canadian contemporary r&b,2020.0,118.0,83.0,68.0,-5.0,54.0,64.0,216.0,2.0,3.0,89.0,CA
+Heather,Conan Gray,bedroom pop,2020.0,102.0,43.0,36.0,-7.0,32.0,27.0,198.0,58.0,3.0,88.0,US
+MIDDLE OF THE NIGHT,Elley Duhé,alt z,2020.0,186.0,61.0,41.0,-8.0,12.0,9.0,184.0,2.0,5.0,87.0,US
+telepatía,Kali Uchis,colombian pop,2020.0,84.0,52.0,65.0,-9.0,20.0,55.0,160.0,11.0,5.0,86.0,US
+Levitating (feat. DaBaby),Dua Lipa,dance pop,2020.0,103.0,83.0,70.0,-4.0,7.0,92.0,203.0,1.0,6.0,85.0,GB
+Godzilla (feat. Juice WRLD),Eminem,detroit hip hop,2020.0,166.0,75.0,81.0,-5.0,29.0,83.0,211.0,14.0,34.0,84.0,US
+Levitating,Dua Lipa,dance pop,2020.0,103.0,88.0,70.0,-2.0,21.0,91.0,204.0,6.0,8.0,84.0,GB
+positions,Ariana Grande,pop,2020.0,144.0,80.0,74.0,-5.0,9.0,68.0,172.0,47.0,9.0,84.0,US
+death bed (coffee for your head),Powfu,sad lo-fi,2020.0,144.0,43.0,73.0,-9.0,70.0,35.0,173.0,73.0,14.0,83.0,CA
+Don't Start Now,Dua Lipa,dance pop,2020.0,124.0,79.0,79.0,-5.0,10.0,68.0,183.0,1.0,8.0,83.0,GB
+Dynamite,BTS,k-pop,2020.0,114.0,77.0,75.0,-4.0,9.0,74.0,199.0,1.0,10.0,83.0,KR
+Heartbreak Anniversary,Giveon,r&b,2020.0,89.0,47.0,45.0,-9.0,30.0,54.0,198.0,52.0,8.0,83.0,US
+Lose You To Love Me,Selena Gomez,pop,2020.0,103.0,34.0,49.0,-9.0,21.0,10.0,206.0,56.0,4.0,83.0,US
+Kings & Queens,Ava Max,pop,2020.0,130.0,69.0,64.0,-4.0,12.0,46.0,162.0,1.0,4.0,82.0,US
+LA NOCHE DE ANOCHE,Bad Bunny,reggaeton,2020.0,82.0,62.0,86.0,-5.0,9.0,39.0,203.0,3.0,29.0,82.0,PR
+Stuck with U (with Justin Bieber),Ariana Grande,pop,2020.0,179.0,45.0,60.0,-7.0,38.0,54.0,228.0,22.0,4.0,82.0,US
+Good Days,SZA,pop,2020.0,121.0,66.0,44.0,-8.0,69.0,41.0,279.0,50.0,6.0,81.0,US
+Prisoner (feat. Dua Lipa),Miley Cyrus,pop,2020.0,128.0,67.0,78.0,-4.0,8.0,60.0,169.0,1.0,5.0,81.0,US
+The Business,Tiësto,big room,2020.0,120.0,62.0,80.0,-7.0,11.0,24.0,164.0,41.0,23.0,81.0,NL
+WAP (feat. Megan Thee Stallion),Cardi B,pop,2020.0,133.0,45.0,94.0,-8.0,8.0,36.0,188.0,2.0,38.0,81.0,US
+willow,Taylor Swift,pop,2020.0,81.0,57.0,39.0,-9.0,14.0,53.0,215.0,83.0,17.0,81.0,US
+34+35,Ariana Grande,pop,2020.0,110.0,59.0,83.0,-6.0,25.0,49.0,174.0,24.0,9.0,80.0,US
+DÁKITI,Bad Bunny,reggaeton,2020.0,110.0,57.0,73.0,-10.0,11.0,14.0,205.0,40.0,5.0,80.0,PR
+Head & Heart (feat. MNEK),Joel Corry,dance pop,2020.0,123.0,87.0,73.0,-3.0,5.0,91.0,166.0,17.0,7.0,80.0,UNKNOWN
+Bertaut,Nadin Amizah,indonesian pop,2020.0,119.0,13.0,47.0,-13.0,11.0,12.0,316.0,93.0,4.0,79.0,ID
+Break My Heart,Dua Lipa,dance pop,2020.0,113.0,73.0,73.0,-3.0,35.0,47.0,222.0,17.0,9.0,79.0,GB
+Falling,Trevor Daniel,melodic rap,2020.0,127.0,43.0,79.0,-9.0,9.0,24.0,159.0,12.0,4.0,79.0,AR
+Hawái,Maluma,latin pop,2020.0,180.0,73.0,78.0,-3.0,6.0,56.0,199.0,19.0,39.0,79.0,CO
+Meet Me At Our Spot,THE ANXIETY,modern alternative pop,2020.0,95.0,47.0,77.0,-8.0,9.0,40.0,163.0,2.0,3.0,79.0,UNKNOWN
+Midnight Sky,Miley Cyrus,pop,2020.0,110.0,81.0,70.0,-6.0,25.0,23.0,223.0,0.0,3.0,79.0,US
+ROCKSTAR (feat. Roddy Ricch),DaBaby,hip hop,2020.0,90.0,69.0,75.0,-8.0,10.0,50.0,182.0,25.0,16.0,79.0,US
+Safaera,Bad Bunny,reggaeton,2020.0,96.0,83.0,61.0,-4.0,11.0,69.0,295.0,1.0,38.0,79.0,PR
+Lantas,Juicy Luicy,indonesian pop,2020.0,86.0,31.0,59.0,-8.0,35.0,55.0,234.0,79.0,3.0,78.0,ID
+Life Goes On,BTS,k-pop,2020.0,81.0,72.0,57.0,-6.0,37.0,45.0,207.0,1.0,4.0,78.0,KR
+Physical,Dua Lipa,dance pop,2020.0,147.0,84.0,65.0,-4.0,10.0,75.0,194.0,1.0,5.0,78.0,GB
+Intentions (feat. Quavo),Justin Bieber,canadian pop,2020.0,148.0,55.0,81.0,-7.0,10.0,87.0,213.0,30.0,6.0,77.0,CA
+Savage Love (Laxed - Siren Beat),Jawsh 685,nz pop,2020.0,150.0,48.0,77.0,-9.0,27.0,76.0,171.0,23.0,8.0,77.0,NZ
+Take You Dancing,Jason Derulo,dance pop,2020.0,113.0,71.0,79.0,-4.0,9.0,75.0,190.0,3.0,4.0,77.0,US
+THE SCOTTS,THE SCOTTS,viral rap,2020.0,130.0,54.0,72.0,-8.0,16.0,28.0,166.0,23.0,5.0,77.0,SE
+Blueberry Faygo,Lil Mosey,melodic rap,2020.0,99.0,55.0,77.0,-8.0,13.0,35.0,163.0,21.0,4.0,76.0,US
+i'm so tired...,Lauv,pop,2020.0,101.0,74.0,55.0,-8.0,20.0,50.0,163.0,17.0,24.0,76.0,US
+Levitating (feat. DaBaby),Dua Lipa,dance pop,2020.0,103.0,83.0,70.0,-4.0,7.0,92.0,203.0,1.0,6.0,76.0,GB
+pov,Ariana Grande,pop,2020.0,132.0,53.0,49.0,-6.0,10.0,17.0,202.0,36.0,6.0,76.0,US
+Rain On Me (with Ariana Grande),Lady Gaga,art pop,2020.0,123.0,86.0,67.0,-4.0,32.0,65.0,182.0,2.0,4.0,76.0,US
+Bandido,Myke Towers,reggaeton,2020.0,168.0,62.0,71.0,-5.0,10.0,68.0,233.0,12.0,9.0,75.0,PR
+BICHOTA,KAROL G,reggaeton,2020.0,164.0,67.0,86.0,-4.0,10.0,84.0,179.0,21.0,15.0,75.0,DE
+Blue Jeans,GANGGA,indonesian lo-fi pop,2020.0,114.0,30.0,64.0,-11.0,18.0,29.0,211.0,94.0,3.0,75.0,ID
+GIRL LIKE ME,Black Eyed Peas,dance pop,2020.0,124.0,49.0,97.0,-9.0,7.0,31.0,223.0,2.0,19.0,75.0,US
+Ghost,Justin Bieber,canadian pop,2021.0,154.0,74.0,60.0,-6.0,42.0,44.0,153.0,19.0,5.0,88.0,CA
+Shivers,Ed Sheeran,pop,2021.0,141.0,86.0,79.0,-3.0,4.0,82.0,208.0,28.0,9.0,88.0,GB
+Bad Habits,Ed Sheeran,pop,2021.0,126.0,89.0,81.0,-4.0,37.0,54.0,231.0,5.0,3.0,87.0,GB
+Happier Than Ever,Billie Eilish,art pop,2021.0,81.0,23.0,33.0,-9.0,13.0,30.0,299.0,77.0,3.0,87.0,US
+STAY (with Justin Bieber),The Kid LAROI,australian hip hop,2021.0,170.0,76.0,59.0,-5.0,10.0,48.0,142.0,4.0,5.0,87.0,AU
+traitor,Olivia Rodrigo,pop,2021.0,101.0,34.0,38.0,-8.0,12.0,8.0,229.0,69.0,3.0,87.0,US
+Where Are You Now,Lost Frequencies,belgian edm,2021.0,121.0,64.0,67.0,-8.0,17.0,26.0,148.0,52.0,10.0,87.0,BE
+Woman,Doja Cat,dance pop,2021.0,108.0,76.0,82.0,-4.0,12.0,88.0,173.0,9.0,9.0,87.0,US
+Cold Heart - PNAU Remix,Elton John,glam rock,2021.0,116.0,80.0,80.0,-6.0,10.0,94.0,203.0,3.0,3.0,86.0,GB
+deja vu,Olivia Rodrigo,pop,2021.0,181.0,61.0,44.0,-7.0,37.0,18.0,216.0,58.0,11.0,86.0,US
+drivers license,Olivia Rodrigo,pop,2021.0,144.0,43.0,56.0,-9.0,11.0,14.0,242.0,77.0,6.0,86.0,US
+Fair Trade (with Travis Scott),Drake,canadian hip hop,2021.0,168.0,47.0,67.0,-9.0,22.0,29.0,291.0,5.0,26.0,86.0,CA
+good 4 u,Olivia Rodrigo,pop,2021.0,167.0,66.0,56.0,-5.0,8.0,69.0,178.0,34.0,15.0,86.0,US
+STAY (with Justin Bieber),The Kid LAROI,australian hip hop,2021.0,170.0,76.0,59.0,-5.0,10.0,48.0,142.0,4.0,5.0,86.0,AU
+Until I Found You,Stephen Sanchez,gen z singer-songwriter,2021.0,101.0,51.0,54.0,-6.0,17.0,23.0,178.0,73.0,3.0,86.0,JM
+All Too Well (10 Minute Version) (Taylor's Version) (From The Vault),Taylor Swift,pop,2021.0,93.0,52.0,63.0,-9.0,9.0,21.0,613.0,27.0,3.0,85.0,US
+happier,Olivia Rodrigo,pop,2021.0,169.0,44.0,40.0,-10.0,8.0,34.0,176.0,77.0,13.0,85.0,US
+Yonaguni,Bad Bunny,reggaeton,2021.0,180.0,65.0,64.0,-5.0,14.0,44.0,207.0,28.0,12.0,85.0,PR
+abcdefu,GAYLE,modern alternative pop,2021.0,122.0,54.0,70.0,-6.0,37.0,42.0,169.0,30.0,5.0,84.0,US
+Easy On Me,Adele,british soul,2021.0,142.0,37.0,60.0,-8.0,13.0,13.0,225.0,58.0,3.0,84.0,GB
+I WANNA BE YOUR SLAVE,Måneskin,indie rock italiano,2021.0,133.0,61.0,75.0,-4.0,18.0,96.0,173.0,0.0,4.0,84.0,IT
+Leave Before You Love Me (with Jonas Brothers),Marshmello,brostep,2021.0,120.0,74.0,72.0,-5.0,12.0,64.0,155.0,0.0,4.0,84.0,US
+Peaches (feat. Daniel Caesar & Giveon),Justin Bieber,canadian pop,2021.0,90.0,70.0,68.0,-6.0,42.0,46.0,198.0,32.0,12.0,84.0,CA
+Pepas,Farruko,reggaeton,2021.0,130.0,77.0,76.0,-4.0,13.0,44.0,287.0,1.0,3.0,84.0,PR
+THATS WHAT I WANT,Lil Nas X,lgbtq+ hip hop,2021.0,88.0,85.0,74.0,-5.0,5.0,55.0,144.0,1.0,22.0,84.0,US
+The Motto,Tiësto,big room,2021.0,118.0,76.0,75.0,-5.0,9.0,46.0,165.0,3.0,4.0,84.0,NL
+Desesperados,Rauw Alejandro,puerto rican pop,2021.0,90.0,69.0,87.0,-3.0,9.0,51.0,225.0,36.0,8.0,83.0,PR
+Enemy (with JID) - from the series Arcane League of Legends,Imagine Dragons,modern rock,2021.0,77.0,78.0,73.0,-4.0,43.0,56.0,173.0,24.0,27.0,83.0,US
+INDUSTRY BABY (feat. Jack Harlow),Lil Nas X,lgbtq+ hip hop,2021.0,150.0,70.0,74.0,-7.0,5.0,89.0,212.0,2.0,6.0,83.0,US
+Leave The Door Open,Bruno Mars,dance pop,2021.0,148.0,62.0,59.0,-8.0,9.0,72.0,242.0,18.0,3.0,83.0,US
+Lo Siento BB:/ (with Bad Bunny & Julieta Venegas),Tainy,pop reggaeton,2021.0,170.0,70.0,64.0,-6.0,9.0,14.0,207.0,9.0,8.0,83.0,PR
+Mood (feat. iann dior),24kGoldn,cali rap,2021.0,91.0,72.0,70.0,-4.0,32.0,73.0,141.0,17.0,4.0,83.0,US
+Moth To A Flame (with The Weeknd),Swedish House Mafia,edm,2021.0,120.0,66.0,55.0,-7.0,11.0,11.0,234.0,0.0,4.0,83.0,SE
+My Universe,Coldplay,permanent wave,2021.0,105.0,70.0,59.0,-6.0,20.0,44.0,228.0,1.0,4.0,83.0,GB
+My Universe,Coldplay,permanent wave,2021.0,105.0,71.0,57.0,-6.0,33.0,47.0,226.0,1.0,4.0,83.0,UNKNOWN
+Save Your Tears (with Ariana Grande) (Remix),The Weeknd,canadian contemporary r&b,2021.0,118.0,83.0,65.0,-5.0,9.0,59.0,191.0,2.0,3.0,83.0,CA
+You Right,Doja Cat,dance pop,2021.0,129.0,62.0,83.0,-6.0,8.0,44.0,186.0,2.0,6.0,83.0,US
+Kiss Me More (feat. SZA),Doja Cat,dance pop,2021.0,111.0,71.0,76.0,-3.0,12.0,78.0,209.0,26.0,3.0,82.0,US
+Love Story (Taylor’s Version),Taylor Swift,pop,2021.0,119.0,79.0,63.0,-4.0,10.0,42.0,236.0,14.0,3.0,82.0,US
+RAPSTAR,Polo G,chicago rap,2021.0,81.0,54.0,79.0,-7.0,13.0,44.0,166.0,41.0,24.0,82.0,DE
+Reckless,Madison Beer,pop,2021.0,180.0,43.0,39.0,-7.0,14.0,26.0,203.0,81.0,4.0,82.0,US
+Sunshine,OneRepublic,piano rock,2021.0,140.0,88.0,70.0,-5.0,28.0,77.0,164.0,14.0,3.0,82.0,US
+What You Know Bout Love,Pop Smoke,brooklyn drill,2021.0,84.0,55.0,71.0,-8.0,13.0,54.0,160.0,65.0,35.0,82.0,US
+Beautiful Mistakes (feat. Megan Thee Stallion),Maroon 5,pop,2021.0,99.0,68.0,71.0,-5.0,15.0,72.0,227.0,4.0,3.0,81.0,US
+Calling My Phone,Lil Tjay,brooklyn drill,2021.0,105.0,39.0,91.0,-8.0,14.0,20.0,205.0,45.0,5.0,81.0,US
+MONEY,LISA,k-pop,2021.0,140.0,55.0,83.0,-10.0,15.0,40.0,168.0,16.0,22.0,81.0,JP
+Todo De Ti,Rauw Alejandro,puerto rican pop,2021.0,128.0,72.0,78.0,-4.0,9.0,34.0,200.0,31.0,5.0,81.0,PR
+INDUSTRY BABY (feat. Jack Harlow),Lil Nas X,lgbtq+ hip hop,2021.0,150.0,69.0,74.0,-7.0,5.0,89.0,212.0,2.0,7.0,80.0,US
+Kiss Me More (feat. SZA),Doja Cat,dance pop,2021.0,111.0,70.0,76.0,-4.0,12.0,74.0,209.0,24.0,3.0,80.0,US
+Love Story (Taylor’s Version),Taylor Swift,pop,2021.0,119.0,79.0,63.0,-4.0,8.0,42.0,236.0,13.0,3.0,80.0,US
+Creepin' (with The Weeknd & 21 Savage),Metro Boomin,rap,2022.0,98.0,62.0,72.0,-6.0,8.0,17.0,222.0,42.0,5.0,96.0,US
+Calm Down (with Selena Gomez),Rema,afrobeats,2022.0,107.0,81.0,80.0,-5.0,11.0,80.0,239.0,38.0,4.0,95.0,NG
+Anti-Hero,Taylor Swift,pop,2022.0,97.0,64.0,64.0,-7.0,14.0,53.0,201.0,13.0,5.0,94.0,US
+Here With Me,d4vd,bedroom pop,2022.0,132.0,47.0,57.0,-8.0,13.0,29.0,242.0,53.0,3.0,94.0,US
+I'm Good (Blue),David Guetta,big room,2022.0,128.0,97.0,56.0,-4.0,37.0,30.0,175.0,0.0,3.0,94.0,FR
+Kill Bill,SZA,pop,2022.0,89.0,74.0,64.0,-6.0,16.0,42.0,154.0,5.0,4.0,94.0,US
+I Ain't Worried,OneRepublic,piano rock,2022.0,140.0,80.0,70.0,-6.0,5.0,83.0,148.0,8.0,5.0,93.0,US
+Quevedo: Bzrp Music Sessions Vol. 52,Bizarrap,argentine hip hop,2022.0,128.0,78.0,62.0,-6.0,23.0,55.0,199.0,1.0,4.0,93.0,AR
+Until I Found You (with Em Beihold) - Em Beihold Version,Stephen Sanchez,gen z singer-songwriter,2022.0,101.0,55.0,55.0,-5.0,20.0,34.0,176.0,78.0,3.0,93.0,JM
+As It Was,Harry Styles,pop,2022.0,174.0,73.0,52.0,-5.0,31.0,66.0,167.0,34.0,6.0,92.0,UNKNOWN
+Me Porto Bonito,Bad Bunny,reggaeton,2022.0,92.0,71.0,91.0,-5.0,9.0,43.0,179.0,9.0,8.0,92.0,PR
+Players,Coi Leray,new jersey underground rap,2022.0,105.0,52.0,95.0,-6.0,5.0,62.0,140.0,3.0,16.0,92.0,US
+Escapism.,RAYE,uk contemporary r&b,2022.0,96.0,74.0,54.0,-5.0,9.0,25.0,272.0,14.0,11.0,91.0,GB
+Ojitos Lindos,Bad Bunny,reggaeton,2022.0,80.0,69.0,65.0,-6.0,53.0,27.0,258.0,8.0,4.0,91.0,PR
+Unholy (feat. Kim Petras),Sam Smith,pop,2022.0,131.0,47.0,71.0,-7.0,27.0,24.0,157.0,1.0,9.0,91.0,US
+Ditto,NewJeans,k-pop,2022.0,134.0,64.0,81.0,-6.0,10.0,18.0,186.0,3.0,11.0,90.0,KR
+Efecto,Bad Bunny,reggaeton,2022.0,98.0,48.0,80.0,-9.0,6.0,23.0,213.0,14.0,5.0,90.0,PR
+golden hour,JVKE,modern indie pop,2022.0,94.0,59.0,52.0,-5.0,25.0,15.0,209.0,65.0,3.0,90.0,US
+La Bachata,Manuel Turizo,colombian pop,2022.0,125.0,68.0,84.0,-5.0,22.0,85.0,163.0,58.0,4.0,90.0,CO
+Made You Look,Meghan Trainor,hip pop,2022.0,145.0,53.0,84.0,-4.0,8.0,88.0,134.0,35.0,7.0,90.0,US
+Nonsense,Sabrina Carpenter,pop,2022.0,139.0,70.0,74.0,-5.0,22.0,73.0,164.0,3.0,3.0,90.0,US
+Rich Flex,Drake,canadian hip hop,2022.0,153.0,52.0,56.0,-9.0,36.0,42.0,239.0,5.0,24.0,90.0,CA
+Tití Me Preguntó,Bad Bunny,reggaeton,2022.0,107.0,72.0,65.0,-5.0,13.0,19.0,244.0,10.0,25.0,90.0,PR
+Late Night Talking,Harry Styles,pop,2022.0,115.0,73.0,71.0,-5.0,11.0,90.0,178.0,30.0,5.0,89.0,UNKNOWN
+Lavender Haze,Taylor Swift,pop,2022.0,97.0,44.0,73.0,-10.0,16.0,10.0,202.0,26.0,8.0,89.0,US
+Moscow Mule,Bad Bunny,reggaeton,2022.0,100.0,67.0,80.0,-5.0,12.0,29.0,246.0,29.0,3.0,88.0,PR
+La Jumpa,Arcángel,latin hip hop,2022.0,140.0,23.0,89.0,-15.0,13.0,20.0,197.0,11.0,18.0,87.0,PR
+LET GO,Central Cee,melodic drill,2022.0,146.0,45.0,74.0,-10.0,21.0,51.0,176.0,86.0,38.0,87.0,UNKNOWN
+Glimpse of Us,Joji,viral pop,2022.0,170.0,32.0,44.0,-9.0,14.0,27.0,233.0,89.0,5.0,86.0,US
+Nobody Gets Me,SZA,pop,2022.0,100.0,28.0,36.0,-8.0,18.0,28.0,181.0,81.0,3.0,86.0,US
+Una Noche en Medellín,Cris Mj,mambo chileno,2022.0,96.0,55.0,87.0,-5.0,5.0,83.0,154.0,9.0,8.0,86.0,CL
+Belly Dancer,Imanbek,electro house,2022.0,122.0,80.0,85.0,-5.0,17.0,42.0,151.0,6.0,14.0,85.0,UNKNOWN
+Party,Bad Bunny,reggaeton,2022.0,97.0,80.0,83.0,-5.0,24.0,47.0,228.0,2.0,9.0,84.0,PR
+PROVENZA,KAROL G,reggaeton,2022.0,111.0,52.0,87.0,-8.0,11.0,53.0,210.0,66.0,5.0,84.0,DE
+Tarot,Bad Bunny,reggaeton,2022.0,114.0,68.0,80.0,-4.0,66.0,42.0,238.0,2.0,4.0,84.0,PR
+First Class,Jack Harlow,deep underground hip hop,2022.0,107.0,58.0,90.0,-6.0,11.0,33.0,174.0,11.0,11.0,83.0,US
+About Damn Time,Lizzo,escape room,2022.0,109.0,74.0,84.0,-6.0,34.0,72.0,192.0,10.0,7.0,82.0,US
+Bam Bam (feat. Ed Sheeran),Camila Cabello,dance pop,2022.0,95.0,70.0,76.0,-6.0,33.0,96.0,206.0,18.0,4.0,82.0,US
+MAMIII,Becky G,latin pop,2022.0,94.0,70.0,84.0,-4.0,14.0,90.0,226.0,9.0,8.0,81.0,DE
+Butter,BTS,k-pop,2022.0,110.0,46.0,76.0,-5.0,8.0,70.0,165.0,0.0,9.0,79.0,KR
+Get Busy,Sean Paul,dance pop,2022.0,100.0,82.0,74.0,-4.0,16.0,73.0,212.0,61.0,4.0,78.0,JM
+Moth To A Flame (with The Weeknd),Swedish House Mafia,edm,2022.0,120.0,66.0,54.0,-7.0,11.0,11.0,234.0,0.0,4.0,75.0,SE
+I'm Still in Love with You (feat. Sasha),Sean Paul,dance pop,2022.0,87.0,67.0,77.0,-5.0,12.0,76.0,273.0,10.0,17.0,73.0,JM
+Never Let You Go,Shouse,aussietronica,2022.0,127.0,83.0,61.0,-4.0,8.0,47.0,179.0,5.0,4.0,67.0,UNKNOWN
+Like Glue,Sean Paul,dance pop,2022.0,98.0,78.0,76.0,-5.0,11.0,59.0,233.0,8.0,32.0,66.0,JM
+Beg for You (feat. Rina Sawayama),Charli XCX,art pop,2022.0,128.0,95.0,79.0,-5.0,12.0,47.0,168.0,22.0,6.0,65.0,UNKNOWN
+No Diggity,HÄWK,house,2022.0,125.0,78.0,81.0,-9.0,7.0,44.0,219.0,2.0,5.0,64.0,CA
+Gimme the Light,Sean Paul,dance pop,2022.0,107.0,76.0,78.0,-6.0,4.0,92.0,228.0,14.0,5.0,63.0,JM
+Cape Cabo,Player1,pop,2022.0,180.0,73.0,72.0,-3.0,6.0,83.0,174.0,34.0,28.0,41.0,UNKNOWN
+Parent Trap (feat. Justin Timberlake),Jack Harlow,deep underground hip hop,2022.0,92.0,52.0,88.0,-8.0,12.0,42.0,190.0,28.0,12.0,41.0,US
