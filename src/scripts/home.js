@@ -37,7 +37,9 @@ const test = d3.select("#map")
 const svg = d3.select("#map")
     .append("svg")
     .attr("width", width)
-    .attr("height", height);
+    .attr("height", height)
+    .style("display", "block")
+    .style("margin", "0 auto");
 
 const projection = d3.geoNaturalEarth1()
     .center([10, 50])
@@ -60,7 +62,7 @@ function loadDataset(datasetKey) {
     d3.csv(config.file)
         .then(data => {
             console.log(`✅ ${data.length} lignes chargées`);
-            
+
             // Organiser les données selon le type de dataset
             if (config.type === "byCountry") {
                 spotifyData = organizeDataByCountryAndYear(data);
@@ -173,7 +175,7 @@ function getSongCountForCountry(year, country) {
 
 function getColorByIntensity(songCount) {
     const config = DATASETS[currentDataset];
-    
+
     if (config.type === "byCountry") {
         // Dataset par pays : tous ont ~50 chansons, couleur uniforme
         return songCount > 0 ? "#e3c6ff" : "#ffffff";
@@ -210,7 +212,7 @@ function loadMap() {
                 .enter()
                 .append("path")
                 .attr("d", path)
-                .attr("fill", function(d) {
+                .attr("fill", function (d) {
                     const alpha2 = getCountryAlpha2ById(d.id);
                     const songCount = getSongCountForCountry(selectedYear, alpha2);
                     return getColorByIntensity(songCount);
@@ -222,14 +224,14 @@ function loadMap() {
                 .on("mouseover", function (event, d) {
                     const alpha2 = getCountryAlpha2ById(d.id);
                     const songCount = getSongCountForCountry(selectedYear, alpha2);
-                    
+
                     d3.select(this).attr("fill", "#A238FF");
 
                     const countryName = getCountryNameById(d.id);
-                    
+
                     const config = DATASETS[currentDataset];
                     let tooltipText = `<strong>${countryName}</strong><br>Année: ${selectedYear}<br>`;
-                    
+
                     if (songCount > 0) {
                         if (config.type === "byCountry") {
                             tooltipText += `✅ Top 50 disponible (${songCount} chansons)`;
@@ -247,7 +249,7 @@ function loadMap() {
                         .style("top", (event.pageY - 20) + "px");
                 })
                 // Événement quand on quitte
-                .on("mouseout", function(event, d) {
+                .on("mouseout", function (event, d) {
                     const alpha2 = getCountryAlpha2ById(d.id);
                     const songCount = getSongCountForCountry(selectedYear, alpha2);
 
@@ -255,7 +257,7 @@ function loadMap() {
                     tooltip.style("opacity", 0);
                 })
                 // Événement au clic
-                .on("click", function(event, d) {
+                .on("click", function (event, d) {
                     const alpha2 = getCountryAlpha2ById(d.id);
                     const countryName = getCountryNameById(d.id);
                     const songCount = getSongCountForCountry(selectedYear, alpha2);
@@ -266,7 +268,7 @@ function loadMap() {
                         console.log(`❌ Pas de données pour ${countryName} en ${selectedYear}`);
                     }
                 });
-            
+
             console.log(`✅ Carte chargée pour ${selectedYear}`);
         })
         .catch(error => {
@@ -287,12 +289,12 @@ function updateMap(year) {
 
     // Mettre à jour les couleurs des pays
     svg.selectAll("path")
-        .attr("fill", function(d) {
+        .attr("fill", function (d) {
             const alpha2 = getCountryAlpha2ById(d.id);
             const songCount = getSongCountForCountry(year, alpha2);
             return getColorByIntensity(songCount);
         });
-    
+
     const countriesWithData = getCountriesForYear(year);
     console.log(`✅ ${countriesWithData.size} pays avec données pour ${year}`);
 }
@@ -301,7 +303,7 @@ function updateMap(year) {
 
 function showCountrySongs(alpha2, countryName, year) {
     console.log(`🎵 Affichage pour ${countryName} - ${year}`);
-    
+
     // Récupérer les données du pays pour l'année
     if (!spotifyData[year] || !spotifyData[year][alpha2]) {
         console.error(`Pas de données pour ${alpha2} en ${year}`);
@@ -351,7 +353,7 @@ function showCountrySongs(alpha2, countryName, year) {
     // Ajouter les lignes
     sortedSongs.forEach((song, index) => {
         const bgColor = index % 2 === 0 ? '#f7f4ff' : '#ffffff';
-        
+
         if (config.type === "byCountry") {
             // Tableau pour dataset par pays (avec lecteur Spotify)
             tableHTML += `
@@ -379,7 +381,7 @@ function showCountrySongs(alpha2, countryName, year) {
             const artist = song.artist || song.artists || '';
             const searchQuery = encodeURIComponent(`${artist} ${title}`);
             const spotifySearchUrl = `https://open.spotify.com/search/${searchQuery}`;
-            
+
             tableHTML += `
                 <tr style="background: ${bgColor};">
                     <td style="padding: 10px; color: #2d3748; font-weight: 500;">${title || 'N/A'}</td>
@@ -420,7 +422,7 @@ function attachPlayButtonEvents() {
     const playButtons = document.querySelectorAll('.play-button');
 
     playButtons.forEach(button => {
-        button.addEventListener('click', function() {
+        button.addEventListener('click', function () {
             const spotifyId = this.getAttribute('data-spotify-id');
             const songName = this.getAttribute('data-song-name');
             const artist = this.getAttribute('data-artist');
@@ -463,7 +465,7 @@ function closeTop50() {
 
 // ==================== Initialisation ====================//
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     console.log("🚀 Initialisation de l'application");
 
     // Attacher l'événement au bouton fermer
@@ -476,7 +478,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Écouter les changements de dataset
     const radioButtons = document.querySelectorAll('input[name="dataset"]');
     radioButtons.forEach(radio => {
-        radio.addEventListener('change', function() {
+        radio.addEventListener('change', function () {
             if (this.checked) {
                 console.log(`📂 Changement de dataset: ${this.value}`);
                 loadDataset(this.value);
@@ -489,7 +491,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const yearDisplay = document.getElementById('yearDisplay');
 
     if (yearSlider && yearDisplay) {
-        yearSlider.addEventListener('input', function() {
+        yearSlider.addEventListener('input', function () {
             const year = parseInt(this.value);
             yearDisplay.textContent = year;
 
