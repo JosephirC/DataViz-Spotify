@@ -140,13 +140,13 @@ label{
 }
 
 .chart-container {
-    flex: 0 0 65%;
+    flex: 0 0 70%;
 }
 
 #controls {
-    flex: 0 0 30%;
+    flex: 0 0 20%;
     border-left: 1px solid #ccc;
-    padding-left: 15px;
+    padding-left: 50px;
 }
 
 .line {

@@ -74,8 +74,11 @@ const tooltip = d3.select("body")
   .style("pointer-events", "none")
   .style("opacity", 0);
 
-d3.csv("../data/spotify_2025_06_11.csv", d => {
+d3.csv("../data/top_50_from_2023_to_2025.csv", d => {
   const date = new Date(d.album_release_date);
+
+  if (isNaN(date))return null;
+
   return {
     spotify_id: d.spotify_id,
     date: d3.timeYear.floor(date),
@@ -218,7 +221,6 @@ function updateChart() {
       .attr("cy", d => yScale(d[variable]));
   });
 }
-
 
   updateChart();
 });
