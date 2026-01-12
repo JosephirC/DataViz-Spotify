@@ -37,27 +37,40 @@
     </section>
     <section>
 
-      <!-- le data set est pas bon donc on oublie le curseur pour l'instant
+      <div id="dataset-selector" style="text-align: center; margin: 20px 0; padding: 20px;">
+        <h3 style="margin: 0 0 15px 0;">Sélectionnez le dataset</h3>
+        <div style="display: flex; justify-content: center; gap: 20px;">
+          <label style="cursor: pointer; padding: 30px 50px;">
+            <input type="radio" name="dataset" value="top50" checked>
+            Top 50 des musiques dans 71 pays </br> (2023-2025)
+          </label>
+          <label style="cursor: pointer; padding: 30px 50px;">
+            <input type="radio" name="dataset" value="bestsongs">
+            Top 50 song in the world per year </br> (2000-2023)
+          </label>
+        </div>
+      </div>
+
+      <!-- ✅ CURSEUR D'ANNÉE (DYNAMIQUE) -->
       <div id="year-selector" style="text-align: center; margin: 20px 0;">
-        <h3>Sélectionnez l'année</h3>
+        <h3 style="margin: 0 0 15px 0;">Sélectionnez l'année</h3>
         <div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
-          <label for="yearSlider">Année :</label>
+          <span id="yearMin" style="font-size: 16px; color: #666;">2023</span>
           <input
                   type="range"
                   id="yearSlider"
-                  min="2015"
+                  min="2023"
                   max="2025"
-                  value="2023"
+                  value="2025"
                   step="1"
                   style="width: 400px;"
           >
-          <span id="yearDisplay" style="font-size: 24px; font-weight: bold; color: #A238FF;">2023</span>
+          <span id="yearMax" style="font-size: 16px; color: #666;">2025</span>
+          <span id="yearDisplay" style="font-size: 24px; font-weight: bold; color: #A238FF; min-width: 80px; text-align: center;">2025</span>
         </div>
       </div>
-       -->
 
-      <div id="map">
-      </div>
+      <div id="map"></div>
 
       <div id="top50-container" style="display: none; margin-top: 30px; background: white; padding: 30px; border-radius: 12px;">
         <h2 id="top50-title" style="margin: 0; color: #A238FF;">
