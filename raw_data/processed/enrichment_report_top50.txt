@@ -1,0 +1,48 @@
+
+================================================================================
+📊 RAPPORT D'ENRICHISSEMENT SPOTIFY CSV
+================================================================================
+
+⏰ TEMPS
+  Début:    2026-01-12 15:51:52
+  Fin:      2026-01-12 15:55:39
+  Durée:    0:03:47.380174
+
+📈 STATISTIQUES
+  Total d'artistes:        10950
+  ✅ Pays trouvés:         136 (1.2%)
+  ❌ Pays non trouvés:     14 (98.8%)
+  ⚠️  Erreurs:              4
+
+📁 FICHIERS
+  Entrée:   raw_data/processed/top_50_from_2023_to_2025.csv
+  Sortie:   raw_data/processed/spotify_enriched_with_countries.csv
+  Rapport:  raw_data/processed/enrichment_report_top50.txt
+
+================================================================================
+
+❌ ARTISTES SANS PAYS (14):
+--------------------------------------------------------------------------------
+  - Gigi Perez
+  - Alleh, Yorghaki
+  - The Neighbourhood
+  - Neton Vega
+  - Lil Tecca
+  - ROSÉ, Bruno Mars
+  - Brenda Lee
+  - Gigi Perez
+  - Tito Double P
+  - The Neighbourhood
+  - Xavi
+  - Xavi
+  - Harry Styles
+  - Quevedo
+
+⚠️  ARTISTES AVEC ERREURS (4):
+--------------------------------------------------------------------------------
+  - The Neighbourhood
+  - Lil Tecca
+  - ROSÉ, Bruno Mars
+  - The Neighbourhood
+
+================================================================================
