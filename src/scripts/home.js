@@ -4,7 +4,7 @@ console.log("Home chargé");
 //==================== chargement des données spotify ====================//
 let spotifyData = null;
 
-d3.csv("../../data/spotify_2025_06_11.csv")
+d3.csv("../data/spotify_2025_06_11.csv")
     .then(data => {
 
         // Organiser les données par pays (code Alpha-2)
