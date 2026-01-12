@@ -10,3 +10,4 @@ __pycache__/
 venv/
 raw_data/universal_top_spotify_songs.csv
 raw_data/top_50_in_73_countries_2023_2025.csv
+local/
