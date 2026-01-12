@@ -450,8 +450,6 @@ function closeTop50() {
 
 // ==================== Initialisation ====================//
 
-document.addEventListener('DOMContentLoaded', function() {
-
 document.addEventListener('DOMContentLoaded', function () {
     // Attacher l'événement au bouton fermer
     const closeButton = document.getElementById('close-top50');
