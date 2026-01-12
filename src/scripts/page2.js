@@ -3,39 +3,48 @@ console.log("Page 2 - D3 chargé");
 const variables = [
   "danceability",
   "energy",
-  "key",
   "loudness",
-  "mode",
   "speechiness",
   "acousticness",
-  "instrumentalness",
   "liveness",
   "valence",
   "tempo"
 ];
 
 const variableTexts = {
-  danceability: "danceability",
-  energy: "energy",
-  key: "key",
-  loudness: "loudness",
-  mode: "Mode majeur ou mineur",
-  speechiness: "Présence de paroles",
-  acousticness: "Acoustique ou électronique",
-  instrumentalness: "instrumentalness",
-  liveness: "Présence du public",
-  valence: "valence",
-  tempo: "BPM / tempo"
+  danceability: "A measure of how suitable the song is for dancing based on various musical elements. (type: float)",
+  energy: "A measure of the intensity and activity level of the song. (type: float)",
+  loudness: "The overall loudness of the song in decibels. (type: float)",
+  speechiness: "A measure of the presence of spoken words in the song. (type: float)",
+  acousticness: "A measure of the acoustic quality of the song. (type: float) 0.0 → très électronique/1.0 → très acoustique",
+  liveness: "A measure of the presence of a live audience in the recording. (type: float)",
+  valence: "A measure of the musical positiveness conveyed by the song. (type: float)",
+  tempo: "The tempo of the song in beats per minute. (type: float)"
 };
 
 const margin = { top: 40, right: 20, bottom: 50, left: 60 };
-const width = 1500 - margin.left - margin.right;
-const height = 600 - margin.top - margin.bottom;
+
+function getDimensions() {
+  const container = document.getElementById("chart");
+  const rect = container.getBoundingClientRect();
+
+  return {
+    width: rect.width - margin.left - margin.right,
+    height: rect.height - margin.top - margin.bottom
+  };
+}
+
+const { width, height } = getDimensions();
 
 const svg = d3.select("#chart")
   .append("svg")
-  .attr("width", width + margin.left + margin.right)
-  .attr("height", height + margin.top + margin.bottom)
+  .attr(
+    "viewBox",
+    `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`
+  )
+  .attr("preserveAspectRatio", "xMidYMid meet")
+  .style("width", "100%")
+  .style("height", "100%")
   .append("g")
   .attr("transform", `translate(${margin.left},${margin.top})`);
 
@@ -212,4 +221,9 @@ function updateChart() {
 
 
   updateChart();
+});
+
+window.addEventListener("resize", () => {
+  d3.select("#chart svg").remove();
+  location.reload();
 });
