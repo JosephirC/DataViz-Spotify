@@ -4,7 +4,7 @@ console.log("Home chargé");
 //==================== chargement des données spotify ====================//
 let spotifyData = null;
 
-d3.csv("../../data/spotify_2025_06_11.csv")
+d3.csv("../data/spotify_2025_06_11.csv")
     .then(data => {
 
         // Organiser les données par pays (code Alpha-2)
@@ -194,7 +194,7 @@ function showTop50(alpha2, countryName) {
     sortedSongs.forEach((song, index) => {
         const bgColor = index % 2 === 0 ? '#f9f9f9' : '#ffffff';
         tableHTML += `
-        <tr style="background: ${bgColor};">
+        <tr style="background: ${bgColor} ; color:  #A238FF;">
             <td style="padding: 10px; font-weight: bold; color: #A238FF;">#${song.daily_rank}</td>
             <td style="padding: 10px;">${song.name}</td>
             <td style="padding: 10px;">${song.artists}</td>
@@ -204,7 +204,7 @@ function showTop50(alpha2, countryName) {
                     data-spotify-id="${song.spotify_id}"
                     data-song-name="${song.name}"
                     data-artist="${song.artists}"
-                    style="background: #1DB954; color: white; border: none; padding: 8px 16px; border-radius: 20px; cursor: pointer; font-size: 14px;"
+                    style="background: #a238ff; color: white; border: none; padding: 8px 16px; border-radius: 20px; cursor: pointer; font-size: 14px;"
                 >
                     ▶️ Play
                 </button>
@@ -279,7 +279,6 @@ function loadSpotifyPlayer(spotifyId, songName, artist) {
 
 function closeTop50() {
     document.getElementById('top50-container').style.display = 'none';
-    console.log("❌ Tableau fermé");
 }
 
 
@@ -287,6 +286,5 @@ document.addEventListener('DOMContentLoaded', function() {
     const closeButton = document.getElementById('close-top50');
     if (closeButton) {
         closeButton.addEventListener('click', closeTop50);
-        console.log("✅ Bouton fermer attaché");
     }
 });
