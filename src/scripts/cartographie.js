@@ -4,7 +4,7 @@ console.log("Home chargé");
 
 const DATASETS = {
     top50: {
-        file: "data/top_50_71Countries_from_2023_to_2025.csv",
+        file: "../data/top_50_71Countries_from_2023_to_2025.csv",
         yearMin: 2023,
         yearMax: 2025,
         defaultYear: 2025,
@@ -12,7 +12,7 @@ const DATASETS = {
         type: "byCountry"  // Structure avec snapshot_date
     },
     bestsongs: {
-        file: "data/top_50mondialSongPerYear_from_2000_to_2023.csv",
+        file: "../data/top_50mondialSongPerYear_from_2000_to_2023.csv",
         yearMin: 2000,
         yearMax: 2022,
         defaultYear: 2022,
@@ -32,7 +32,7 @@ const height = 1200;
 
 const test = d3.select("#map")
     .append("h2")
-    .text("Carte SVG avec D3.js");
+    .text("Carte Planisphère D3.js");
 
 const svg = d3.select("#map")
     .append("svg")
@@ -51,7 +51,6 @@ const path = d3.geoPath().projection(projection);
 function loadDataset(datasetKey) {
     currentDataset = datasetKey;
     const config = DATASETS[datasetKey];
-    console.log(`📂 Chargement du dataset: ${config.name}`);
 
     // Mettre à jour le curseur
     updateYearSlider(config.yearMin, config.yearMax, config.defaultYear);
@@ -59,7 +58,6 @@ function loadDataset(datasetKey) {
     // Charger les données
     d3.csv(config.file)
         .then(data => {
-            console.log(`✅ ${data.length} lignes chargées`);
             
             // Organiser les données selon le type de dataset
             if (config.type === "byCountry") {
@@ -67,8 +65,6 @@ function loadDataset(datasetKey) {
             } else if (config.type === "worldwide") {
                 spotifyData = organizeWorldwideData(data);
             }
-
-            console.log("📊 Données organisées:", spotifyData);
 
             // Charger/Mettre à jour la carte
             loadMap();
@@ -147,8 +143,6 @@ function updateYearSlider(min, max, defaultValue) {
     // Mettre à jour le remplissage violet
     const percent = ((defaultValue - min) / (max - min)) * 100;
     slider.style.background = `linear-gradient(to right, #A238FF ${percent}%, #e0e0e0 ${percent}%)`;
-
-    console.log(`🎚️ Curseur: ${min}-${max}, année: ${defaultValue}`);
 }
 
 // ==================== Fonction pour obtenir les pays avec données pour une année ====================//
@@ -196,7 +190,6 @@ function getColorByIntensity(songCount) {
 function loadMap() {
     d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json")
         .then(data => {
-            console.log("🗺️ TopoJSON chargé");
 
             const countries = topojson.feature(data, data.objects.countries);
             const tooltip = d3.select("#tooltip");
@@ -262,12 +255,8 @@ function loadMap() {
 
                     if (songCount > 0) {
                         showCountrySongs(alpha2, countryName, selectedYear);
-                    } else {
-                        console.log(`❌ Pas de données pour ${countryName} en ${selectedYear}`);
                     }
                 });
-            
-            console.log(`✅ Carte chargée pour ${selectedYear}`);
         })
         .catch(error => {
             console.error("❌ Erreur chargement TopoJSON:", error);
@@ -277,11 +266,9 @@ function loadMap() {
 // ==================== Fonction pour mettre à jour la carte ====================//
 
 function updateMap(year) {
-    console.log(`🔄 Mise à jour de la carte pour ${year}`);
     selectedYear = year;
 
     if (!spotifyData) {
-        console.log("⚠️ Données pas encore chargées");
         return;
     }
 
@@ -294,13 +281,11 @@ function updateMap(year) {
         });
     
     const countriesWithData = getCountriesForYear(year);
-    console.log(`✅ ${countriesWithData.size} pays avec données pour ${year}`);
 }
 
 // ==================== Affichage des chansons d'un pays ====================//
 
 function showCountrySongs(alpha2, countryName, year) {
-    console.log(`🎵 Affichage pour ${countryName} - ${year}`);
     
     // Récupérer les données du pays pour l'année
     if (!spotifyData[year] || !spotifyData[year][alpha2]) {
@@ -464,13 +449,11 @@ function closeTop50() {
 // ==================== Initialisation ====================//
 
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("🚀 Initialisation de l'application");
 
     // Attacher l'événement au bouton fermer
     const closeButton = document.getElementById('close-top50');
     if (closeButton) {
         closeButton.addEventListener('click', closeTop50);
-        console.log("✅ Bouton fermer attaché");
     }
 
     // Écouter les changements de dataset
@@ -478,7 +461,6 @@ document.addEventListener('DOMContentLoaded', function() {
     radioButtons.forEach(radio => {
         radio.addEventListener('change', function() {
             if (this.checked) {
-                console.log(`📂 Changement de dataset: ${this.value}`);
                 loadDataset(this.value);
             }
         });
@@ -500,8 +482,6 @@ document.addEventListener('DOMContentLoaded', function() {
             // Mettre à jour la carte
             updateMap(year);
         });
-
-        console.log("✅ Curseur d'année attaché");
     }
 
     // Charger le dataset par défaut
