@@ -264,7 +264,10 @@ label{
     margin-top: 0;
 }
 
-input[type="range"] {
-    width: 150px;
-    margin-top: 10px;
+.yearValue {
+    font-size: 28px;
+}
+
+.yearValueSlider {
+    padding-bottom: 50px;
 }
