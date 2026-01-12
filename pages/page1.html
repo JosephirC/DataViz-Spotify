@@ -2,13 +2,19 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <title>Page 1</title>
-
+  <title>Comparaison Pie charts genres</title>
   <link rel="stylesheet" href="../css/style.css" />
   <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body { font-family: sans-serif; }
+    main { display: flex; flex-direction: column; align-items: center; gap: 40px; }
+    .charts-container { display: flex; justify-content: center; gap: 80px; }
+    .chart-box { display: flex; flex-direction: column; align-items: center; }
+    input[type=range] { width: 200px; margin-top: 10px; }
+  </style>
 </head>
-<body>
 
+<body>
 <nav>
   <a href="../index.html">Home</a>
   <a href="page1.html" class="active">Pie charts</a>
@@ -16,11 +22,24 @@
   <a href="page3.html">Clustering</a>
 </nav>
 
-  <main>
-    <h1>Page 1</h1>
-    <div id="chart"></div>
-  </main>
-  
-  <script src="../src/scripts/page1.js"></script>
+<main>
+  <h1>Comparaison des genres par année</h1>
+  <div class="charts-container">
+    <div class="chart-box">
+      <p>Pie Chart 1</p>
+      <span>Année : <span id="yearValue1"></span></span>
+      <input type="range" id="yearSlider1" />
+      <div id="chart1"></div>
+    </div>
+    <div class="chart-box">
+      <p>Pie Chart 2</p>
+      <span>Année : <span id="yearValue2"></span></span>
+      <input type="range" id="yearSlider2" />
+      <div id="chart2"></div>
+    </div>
+  </div>
+</main>
+
+<script src="../src/scripts/page1.js"></script>
 </body>
 </html>
