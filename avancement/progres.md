@@ -56,3 +56,27 @@ Visualisation pie chart Comparaison des genres par année
 - Légende commune
   - légende partagée pour tous les graphiques, évitant les répétitions inutiles
 - Les graphiques intègrent des tooltips qui affichent les informations précises (genre, proportion)
+
+# Nathan :
+
+10 janvier 2025
+
+- ✅ réflexion sur le sens et début du développement des cartes interactives
+- ✅ Création d'une interface de visualisation avec planisphère interactif
+- ✅ Implémentation et analyse des deux datasets utilisés pour les deux cartes :
+
+  - Top 50 de 71 pays (2023-2025)
+  - Top 50 mondial par année (2000-2023)
+
+
+12 janvier 2025
+- ✅ dev d'un mapping entre les pays et leurs codes ISO pour l'affichage sur la carte
+- ✅ Ajout de tooltips interactifs sur les cartes pour voir les pays
+- ✅ Ajout d'un tableau pour recap les top50 par pâys ou top 50 mondial quand on clique sur un pays
+- ✅ Ajout d'un slider de taille dynamique qui s'adapte au dataset utilisé pour choisir l'année sur la carte
+- ✅ Dev grace a une IA LLM d'un enrichisseur de dataset afin d'obtenir les pays d'origine de certains morceaux non présent dans le dataset de base
+
+13 janvier 2025 (aujourd'hui)
+-  restructuration du code et des dossiers pour une meilleure organisation et clareté
+-  Résolution de problèmes de déploiement GitHub
+-  Debug de l'erreur de syntaxe JavaScript
