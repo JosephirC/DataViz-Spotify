@@ -1,48 +1,103 @@
-console.log("Page 1 - D3 chargé");
-
-const data = [
-  { label: "A", value: 30 },
-  { label: "B", value: 50 },
-  { label: "C", value: 20 }
-];
-
 const width = 300;
 const height = 300;
 const radius = Math.min(width, height) / 2;
 
-const color = d3.scaleOrdinal()
-  .domain(data.map(d => d.label))
-  .range(["#4CAF50", "#2196F3", "#FFC107"]);
+const charts = [
+  { svgId: "#chart1", sliderId: "#yearSlider1", yearId: "#yearValue1" },
+  { svgId: "#chart2", sliderId: "#yearSlider2", yearId: "#yearValue2" }
+];
 
-const svg = d3.select("#chart")
-  .append("svg")
-  .attr("width", width)
-  .attr("height", height)
-  .append("g")
-  .attr("transform", `translate(${width / 2}, ${height / 2})`);
+const color = d3.scaleOrdinal(d3.schemeSet2);
 
-const pie = d3.pie()
-  .value(d => d.value);
+const arc = d3.arc().innerRadius(0).outerRadius(radius);
+const pie = d3.pie().value(d => d.value);
 
-const arc = d3.arc()
-  .innerRadius(0)
-  .outerRadius(radius);
+const tooltip = d3.select("body")
+  .append("div")
+  .style("position","absolute")
+  .style("background","#fff")
+  .style("padding","6px 10px")
+  .style("border","1px solid #ccc")
+  .style("border-radius","4px")
+  .style("pointer-events","none")
+  .style("opacity",0)
+  .style("font-size","12px");
 
-svg.selectAll("path")
-  .data(pie(data))
-  .enter()
-  .append("path")
-  .attr("d", arc)
-  .attr("fill", d => color(d.data.label))
-  .attr("stroke", "#fff")
-  .style("stroke-width", "2px");
+d3.csv("../data/songs_normalize.csv").then(data => {
+  let filteredData = data
+    .filter(d => d.genre !== "set()")
+    .map(d => {
+      d.year = +d.year;
+      d.genre = d.genre.split(",").map(g => g.trim());
+      return d;
+    })
+    .filter(d => d.year >= 1999 && d.year <= 2019);
 
-svg.selectAll("text")
-  .data(pie(data))
-  .enter()
-  .append("text")
-  .text(d => d.data.label)
-  .attr("transform", d => `translate(${arc.centroid(d)})`)
-  .style("text-anchor", "middle")
-  .style("font-size", "14px")
-  .style("fill", "#000");
+  charts.forEach(chart => {
+    chart.svg = d3.select(chart.svgId)
+      .append("svg")
+      .attr("width", width)
+      .attr("height", height)
+      .append("g")
+      .attr("transform", `translate(${width/2},${height/2})`);
+
+    chart.slider = d3.select(chart.sliderId)
+      .attr("min", 1999)
+      .attr("max", 2019)
+      .attr("value", 2019)
+      .on("input", function(){ updateChart(chart, +this.value); });
+
+    d3.select(chart.yearId).text(2019);
+    updateChart(chart, 2019);
+  });
+
+  function updateChart(chart, selectedYear) {
+    d3.select(chart.yearId).text(selectedYear);
+
+    const filtered = filteredData.filter(d => d.year === selectedYear);
+
+    const genreCount = new Map();
+    filtered.forEach(d => {
+      d.genre.forEach(g => {
+        genreCount.set(g, (genreCount.get(g)||0)+1);
+      });
+    });
+
+    const total = Array.from(genreCount.values()).reduce((a,b)=>a+b,0);
+    if(total === 0) {
+      chart.svg.selectAll("path").remove();
+      return;
+    }
+
+    const pieData = Array.from(genreCount, ([key,value]) => ({key,value}));
+
+    const arcs = chart.svg.selectAll("path")
+      .data(pie(pieData), d => d.data.key);
+
+    arcs.enter()
+      .append("path")
+      .merge(arcs)
+      .attr("d", arc)
+      .attr("fill", d => color(d.data.key))
+      .on("mouseover", function(event,d){
+        tooltip.transition().duration(100).style("opacity",0.9);
+        tooltip.html(
+          `Genre: <strong>${d.data.key}</strong><br>` +
+          `Pourcentage: <strong>${((d.data.value/total)*100).toFixed(1)}%</strong>`
+        );
+      })
+      .on("mousemove", function(event){
+        tooltip.style("left", (event.pageX+10)+"px")
+               .style("top", (event.pageY+10)+"px");
+      })
+      .on("mouseout", function(){
+        tooltip.transition().duration(200).style("opacity",0);
+      })
+      .transition()
+      .duration(500)
+      .attr("d", arc)
+      .attr("fill", d => color(d.data.key));
+
+    arcs.exit().remove();
+  }
+});
