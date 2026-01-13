@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Cartographie</title>
+    <title>Carte</title>
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="icon" href="../../assets/img/favicon.ico" type="image/x-icon">
     <!-- ✅ Scripts D3.js et TopoJSON -->
@@ -11,15 +11,15 @@
     <script src="https://d3js.org/topojson.v3.min.js"></script>
 </head>
 
-<body>
+<body class="map-page">
 
     <nav>
-        <a href="../../index.html">Home</a>
-        <a href="map.html" class="active">Cartographie</a>
-        <a href="pie-charts.html">Pie charts</a>
-        <a href="time-series.html">Metrics</a>
+        <a href="../../index.html">Accueil</a>
+        <a href="map.html" class="active">Carte</a>
+        <a href="pie-charts.html">Diagrammes circulaires</a>
+        <a href="time-series.html">Évolution des métriques</a>
         <a href="clustering.html">Clustering</a>
-        <a href="data-sources.html">About data</a>
+        <a href="data-sources.html">Sources des données</a>
     </nav>
 
     <main>
@@ -27,7 +27,7 @@
 
             <!-- Sélecteur de dataset -->
             <div id="dataset-selector" style="text-align: center; margin: 20px 0; padding: 20px;">
-                <h3 style="margin: 0 0 15px 0;">Sélectionnez le dataset</h3>
+                <h3 style="margin: 0 0 15px 0;">Sélectionnez le jeu de données</h3>
                 <div style="display: flex; justify-content: center; gap: 20px;">
                     <label style="cursor: pointer; padding: 30px 50px;">
                         <input type="radio" name="dataset" value="top50" checked>
@@ -35,7 +35,7 @@
                     </label>
                     <label style="cursor: pointer; padding: 30px 50px;">
                         <input type="radio" name="dataset" value="bestsongs">
-                        Top 50 song in the world per year </br> (2000-2023)
+                        Top 50 mondial par année </br> (2000-2023)
                     </label>
                 </div>
             </div>

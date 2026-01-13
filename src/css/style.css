@@ -54,6 +54,7 @@ body {
 nav,
 nav a,
 h1,
+h2,
 h3 {
     font-family: 'Deezer Product';
 }
@@ -61,7 +62,8 @@ h3 {
 /* Le reste (div, spans, etc.) reste en sans-serif par héritage du body */
 
 p {
-    font-size: 28px;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 h3 {
@@ -118,7 +120,6 @@ nav a.active {
 
 main {
     padding: 40px;
-    font-size: 28px;
 }
 
 /* ============================= */
@@ -279,6 +280,10 @@ main {
     align-items: flex-start;
 }
 
+.pie-charts-page .title-p1 {
+    padding: 20px;
+}
+
 .pie-charts-page .column {
     justify-content: flex-start;
     overflow-y: auto;
@@ -308,4 +313,130 @@ main {
 
 .pie-charts-page .legend {
     align-items: flex-start;
+}
+
+/* ============================= */
+/* HOME: layout */
+/* ============================= */
+
+#home-presentation {
+    width: 90%;
+    max-width: clamp(900px, 80vw, 1600px);
+    margin: 0 auto;
+    font-size: 28px;
+}
+
+#home-presentation p,
+#home-presentation div {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#home-presentation div+br+div {
+    margin-top: 12px;
+}
+
+/* ============================= */
+/* MAP PAGE - layout & typography */
+/* ============================= */
+
+.map-page main {
+    width: 92%;
+    max-width: clamp(1000px, 88vw, 1900px);
+    margin: 0 auto;
+}
+
+.map-page #dataset-selector,
+.map-page #year-selector {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.map-page #dataset-selector h3,
+.map-page #year-selector h3 {
+    font-size: 26px;
+}
+
+.map-page #map {
+    width: 100%;
+    min-height: 520px;
+}
+
+/* ============================= */
+/* TIME SERIES PAGE - layout     */
+/* ============================= */
+
+.time-series-page main {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.time-series-page #controls {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+/* ============================= */
+/* CLUSTERING PAGE - layout      */
+/* ============================= */
+
+.clustering-page main {
+    margin: 0 auto;
+}
+
+.clustering-page h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.clustering-page .clustering-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+    align-items: stretch;
+}
+
+.clustering-page .card-viz {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.clustering-page .card-viz h3 {
+    margin-top: 0;
+    font-size: 28px;
+}
+
+.clustering-page #scatter-container {
+    width: 100%;
+    height: 500px;
+}
+
+.clustering-page #radar-legend {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.clustering-page #radar-container {
+    display: center;
+    justify-content: center;
+}
+
+/* ============================= */
+/* TEXT CONTENT (lists)          */
+/* ============================= */
+
+main ul {
+    margin: 16px 0 16px 24px;
+    padding: 0;
+}
+
+main li {
+    margin-bottom: 8px;
+    font-size: 16px;
 }

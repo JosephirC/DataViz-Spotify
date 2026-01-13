@@ -6,19 +6,19 @@ const heightScatter = 500 - margin.top - margin.bottom;
 
 // Palette de couleurs
 const colorPalette = {
-    "Mellow & Acoustic": "#a56de2",    // Violet
-    "Happy Pop / Dance": "#1DB954",    // Vert Spotify
-    "Hip-Hop / Urban": "#00d2d3",      // Cyan
-    "Instrumental / Atmos": "#5f27cd", // Indigo
-    "High Energy / Fast": "#ff9f43"    // Orange
+    "Mellow & Acoustic": "#a56de2",
+    "Happy Pop / Dance": "#1DB954",
+    "Hip-Hop / Urban": "#00d2d3",
+    "Instrumental / Atmos": "#5f27cd",
+    "High Energy / Fast": "#ff9f43"
 };
 
-// --- NOUVEAU : Descriptions pour les tooltips de la légende ---
+// Descriptions pour les tooltips de la légende
 const clusterDescriptions = {
-    "Mellow & Acoustic": "Faible Energy, Forte Acousticness (Musique calme)",
-    "Happy Pop / Dance": "Forte Danceability, Forte Valence (Musique joyeuse)",
-    "Hip-Hop / Urban": "Speechiness très élevée (Beaucoup de paroles)",
-    "Instrumental / Atmos": "Instrumentalness élevée (Peu ou pas de voix)",
+    "Mellow & Acoustic": "Faible Energy, Forte Acousticness",
+    "Happy Pop / Dance": "Forte Danceability, Forte Valence",
+    "Hip-Hop / Urban": "Speechiness très élevée",
+    "Instrumental / Atmos": "Instrumentalness élevée",
     "High Energy / Fast": "Tempo rapide (>140 BPM) et Energy élevée"
 };
 
@@ -35,10 +35,10 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
         audioFeatures.forEach(f => d[f] = +d[f]);
     });
 
-    // Création du Tooltip (Unique pour Scatter et Légende)
+    // Création du Tooltip
     const tooltip = d3.select("body").append("div")
         .style("position", "absolute")
-        .style("background", "rgba(0,0,0,0.9)") // Un peu plus sombre pour la lisibilité
+        .style("background", "rgba(0,0,0,0.9)")
         .style("color", "#fff")
         .style("padding", "8px 12px")
         .style("border-radius", "6px")
@@ -48,7 +48,7 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
         .style("z-index", 1000)
         .style("box-shadow", "0 2px 10px rgba(0,0,0,0.5)");
 
-    // Calcul des moyennes par cluster pour le Radar
+    // Calcul des moyennes par cluster
     const clusterAverages = {};
     const clusters = [...new Set(data.map(d => d.cluster_name))];
 
@@ -84,7 +84,6 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
         .on("mouseover", function (event, d) {
             d3.select(this).transition().duration(100).attr("r", 8).style("opacity", 1).style("stroke", "#fff");
 
-            // Tooltip Scatter
             tooltip.transition().duration(200).style("opacity", 0.9);
             tooltip.html(`<strong>${d.name}</strong><br>${d.artists}<br><small style="color:${colorPalette[d.cluster_name]}">${d.cluster_name}</small>`)
                 .style("left", (event.pageX + 10) + "px")
@@ -105,7 +104,9 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
 
     // --- 2. RADAR CHART ---
     const widthRadar = 300, heightRadar = 300;
-    const radius = Math.min(widthRadar, heightRadar) / 2 - 20;
+
+    // CORRECTION 1 : Augmentation de la marge (60px au lieu de 20px) pour éviter que les textes soient coupés
+    const radius = Math.min(widthRadar, heightRadar) / 2 - 60;
 
     const svgRadar = d3.select("#radar-container")
         .append("svg")
@@ -131,9 +132,12 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
         .style("stroke", "#666");
 
     axes.append("text")
-        .attr("x", (d, i) => rScale(1.25) * Math.cos(angleSlice * i - Math.PI / 2))
-        .attr("y", (d, i) => rScale(1.25) * Math.sin(angleSlice * i - Math.PI / 2))
-        .text(d => d).style("fill", "#ccc").style("font-size", "10px").attr("text-anchor", "middle");
+        .attr("x", (d, i) => rScale(1.35) * Math.cos(angleSlice * i - Math.PI / 2)) // 1.35 pour écarter un peu plus le texte
+        .attr("y", (d, i) => rScale(1.35) * Math.sin(angleSlice * i - Math.PI / 2))
+        .text(d => d)
+        .style("fill", "#ccc")
+        .style("font-size", "11px") // Un poil plus grand pour la lisibilité
+        .attr("text-anchor", "middle");
 
     // Forme Radar
     const radarLine = d3.lineRadial().curve(d3.curveLinearClosed)
@@ -152,28 +156,24 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
             .style("stroke", colorPalette[clusterName]);
     }
 
-    // --- 3. LEGENDE AVEC TOOLTIP ---
+    // --- 3. LEGENDE ---
     const legend = d3.select("#legend-container");
 
     Object.keys(colorPalette).forEach(key => {
         const item = legend.append("div")
             .style("display", "flex")
             .style("align-items", "center")
-            .style("cursor", "pointer")
+            // CORRECTION 2 : Changement du curseur en "default" (pas de main cliquable)
+            .style("cursor", "default")
             .style("margin-bottom", "8px")
             .style("padding", "4px")
             .style("border-radius", "4px")
             .style("transition", "background 0.2s")
 
-            // Interaction : Hover sur la légende
+            // Interaction
             .on("mouseover", function (event) {
-                // 1. Mise à jour du style de l'item légende
                 d3.select(this).style("background", "rgba(255,255,255,0.1)");
-
-                // 2. Mise à jour du graphique Radar
                 updateRadarChart(key);
-
-                // 3. Affichage du Tooltip avec la description
                 tooltip.transition().duration(200).style("opacity", 0.9);
                 tooltip.html(`
                     <strong style="color:${colorPalette[key]}">${key}</strong><br>
@@ -187,15 +187,13 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
                 tooltip.transition().duration(500).style("opacity", 0);
             });
 
-        // Carré de couleur
         item.append("div")
             .style("width", "12px")
             .style("height", "12px")
             .style("background", colorPalette[key])
             .style("margin-right", "8px")
-            .style("border-radius", "2px"); // Légèrement carré pour différencier des points scatter
+            .style("border-radius", "2px");
 
-        // Texte
         item.append("span")
             .text(key)
             .style("color", "#fff")

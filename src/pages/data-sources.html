@@ -12,20 +12,92 @@
 <body>
 
     <nav>
-        <a href="../../index.html">Home</a>
-        <a href="map.html">Cartographie</a>
-        <a href="pie-charts.html">Pie charts</a>
-        <a href="time-series.html">Metrics</a>
+        <a href="../../index.html">Accueil</a>
+        <a href="map.html">Carte</a>
+        <a href="pie-charts.html">Diagrammes circulaires</a>
+        <a href="time-series.html">Évolution des métriques</a>
         <a href="clustering.html">Clustering</a>
-        <a href="data-sources.html" class="active">About data</a>
+        <a href="data-sources.html" class="active">Sources des données</a>
     </nav>
 
     <main>
-        <h1>About data</h1>
+        <h1>Sources des données</h1>
+
         <p>
-            Cette page décrit les jeux de données utilisés, leurs sources,
-            ainsi que les étapes de nettoyage, d'enrichissement et de clustering.
+            Ce projet repose sur plusieurs jeux de données issus de la plateforme Kaggle, ainsi que sur un
+            enrichissement
+            réalisé à l’aide de l’API MusicBrainz. Ces données permettent d’analyser la popularité des titres Spotify
+            à différentes échelles spatiales et temporelles.
         </p>
+
+        <h2>Données Spotify par pays (2023–2025)</h2>
+
+        <p>
+            Le jeu de données
+            <a href="https://www.kaggle.com/datasets/asaniczka/top-spotify-songs-in-73-countries-daily-updated"
+                target="_blank">
+                Top Spotify Songs in 73 Countries
+            </a>
+            contient les classements quotidiens des 50 titres les plus populaires dans 73 pays.
+        </p>
+
+        <p>
+            Ces données sont utilisées pour :
+        </p>
+
+        <ul>
+            <li>la première carte interactive (répartition géographique des titres par pays),</li>
+            <li>l’analyse de l’évolution des métriques audio (danceability, energy, tempo, etc.),</li>
+            <li>le clustering des chansons selon leurs caractéristiques musicales.</li>
+        </ul>
+
+        <h2>Données mondiales par année (2000–2023)</h2>
+
+        <p>
+            Le jeu de données
+            <a href="https://www.kaggle.com/datasets/paradisejoy/top-hits-spotify-from-20002019" target="_blank">
+                Top Hits Spotify (2000–2019)
+            </a>
+            ainsi que
+            <a href="https://www.kaggle.com/datasets/conorvaneden/best-songs-on-spotify-for-every-year-2000-2023"
+                target="_blank">
+                Best Songs on Spotify for Every Year (2000–2023)
+            </a>
+            regroupent les titres les plus populaires à l’échelle mondiale pour chaque année.
+        </p>
+
+        <p>
+            Ces données sont utilisées pour :
+        </p>
+
+        <ul>
+            <li>la seconde carte interactive, qui met en évidence la diffusion mondiale des chansons,</li>
+            <li>les diagrammes circulaires permettant d’analyser la répartition des genres musicaux dans le temps.</li>
+        </ul>
+
+        <h2>Enrichissement des données</h2>
+
+        <p>
+            Le document de cadrage prévoyait initialement l’utilisation de l’API Spotify afin de compléter les jeux de
+            données.
+            Cependant, l’API Spotify ne fournit pas d’information fiable sur le pays d’origine des titres.
+        </p>
+
+        <p>
+            Pour pallier cette limitation, l’API
+            <a href="https://musicbrainz.org/doc/MusicBrainz_API" target="_blank">
+                MusicBrainz
+            </a>
+            a été utilisée afin d’enrichir le jeu de données
+            <em>Best Songs on Spotify for Every Year (2000–2023)</em>
+            en ajoutant une information de pays associée aux artistes ou aux enregistrements.
+        </p>
+
+        <p>
+            Cet enrichissement permet de comparer la popularité mondiale des titres avec leur ancrage géographique
+            et d’alimenter les visualisations cartographiques du projet.
+        </p>
+
     </main>
 
 </body>
