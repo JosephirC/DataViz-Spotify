@@ -9,7 +9,7 @@ const colorPalette = {
     "Mellow & Acoustic": "#a56de2",
     "Happy Pop / Dance": "#1DB954",
     "Hip-Hop / Urban": "#00d2d3",
-    "Instrumental / Atmos": "#5f27cd",
+    "Instrumental / Atmos": "#ff0f0f",
     "High Energy / Fast": "#ff9f43"
 };
 
