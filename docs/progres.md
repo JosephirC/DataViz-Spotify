@@ -1,82 +1,103 @@
-# Document d'avancement du projet
+# Document d’avancement du projet
 
-Document visant à suivre l'avancement du projet de visualisation de données sur les classements des top 50 chansons de Spotify.
+Ce document retrace l’évolution du projet de visualisation de données portant sur les classements *Top 50 Spotify*, depuis la phase d’exploration jusqu’au développement des visualisations interactives finales.
 
-## 29/11/2025 
+---
 
-- Point consacré à l'exploration des jeux de données disponibles pour notre projet.
+## 29/11/2025 — Exploration initiale
 
-## 7/12/2025
+- Exploration des jeux de données disponibles autour des classements Spotify.
+- Identification de plusieurs sources pertinentes sur Kaggle, couvrant :
+  - les classements par pays récents,
+  - les classements mondiaux par année,
+  - les genres musicaux et caractéristiques audio.
+- Premières réflexions sur la faisabilité des visualisations à différentes échelles (temporelle et géographique).
 
-- Revue des esquisses initiales et discussion sur les choix de visualisations.
+---
 
-## 12/12/2025
+## 07/12/2025 — Choix de conception
 
-- Point pour discuter le pré-traitement des données et la fusion des différentes sources pour créer notre dataset final. 
+- Revue des premières esquisses de visualisations.
+- Discussion autour des choix graphiques (cartes, graphiques temporels, diagrammes circulaires).
+- Définition des grandes fonctionnalités attendues pour le site final.
 
-## 16/12/2025
+---
 
-- Début du pré-traitement des données et la fusion des différentes sources pour créer notre dataset final.
-- Mise en place d'un jalon pour le 23/01/2026 qui a pour objectif de réaliser : 
-  - Collection de donnees complete
-  - Debut de clustering des genres des donnees
-  - Mise en place de la carte (au moins 1 visualisation)
-  - Maquette du site
+## 12/12/2025 — Pré-traitement des données
 
-# Arthur :
+- Discussion sur les étapes de nettoyage et de fusion des différentes sources de données.
+- Réflexion sur la création de jeux de données intermédiaires adaptés aux visualisations prévues.
 
-## 16/12/2025
+---
 
-V1 de la visualisation de la carte
-carte videe sans avec une maquette de l'idee generale :
+## 16/12/2025 — Lancement du développement
 
-ajout screenshot ?
+- Début effectif du pré-traitement des données et de la fusion des sources.
+- Mise en place d’un jalon pour le rendu intermédiaire avec les objectifs suivants :
+  - constitution d’une collection de données complète,
+  - début du clustering des musiques,
+  - mise en place d’au moins une visualisation cartographique,
+  - réalisation d’une première maquette du site.
 
-## 10/01/2025
+---
 
-Developpent d'une interface de visualisation interactive permettant d’analyser l’évolution de différentes métriques audio Spotify au fil du temps.
+## 29/12/2025 — Tentative d’enrichissement via l’API Spotify
 
-- Visualisation des métriques
-  - mise en place un graphique temporel qui montre l’évolution annuelle de plusieurs métriques musicales (danceability, energy, loudness, tempo, valence, etc.).
-  - Toutes les métriques peuvent être affichées simultanément sur un même graphique, ce qui permet de comparer leurs tendances dans le temps.
-- Sélection dynamique des variables
-  - L’utilisateur peut choisir quelles métriques afficher via une liste de variables à cocher.
-  - Le contenu du graphique s’adapte dynamiquement à la sélection : seules les métriques choisies sont tracées.
-- Adaptation automatique de l’axe
-  - Comme les métriques n’ont pas le même ordre de grandeur (par exemple loudness vs danceability), j'ai fait en sorte que l’axe des ordonnées s’adapte automatiquement en fonction des variables sélectionnées.
-- Ajout des tooltips qui affichent les valeurs exactes lorsqu’on survole un point du graphique.
-- Identification des metriques pertinentes.
+- Tentative d’utilisation de l’API Spotify pour récupérer les pays d’origine des chansons manquantes.
+- Constat d’une limitation de l’API : absence d’information fiable sur le pays d’origine des titres.
 
-## 12/01/2025
+---
 
-Visualisation pie chart Comparaison des genres par année
+## 10/01/2025 — Développement des visualisations principales
 
-- Comparaison des genres par année avec slider pour la date
-  - deux pie chart pour voir deux annes differentes
-- Légende commune
-  - légende partagée pour tous les graphiques, évitant les répétitions inutiles
-- Les graphiques intègrent des tooltips qui affichent les informations précises (genre, proportion)
+- Développement d’une interface de visualisation temporelle permettant d’analyser l’évolution de plusieurs métriques audio Spotify (danceability, energy, loudness, tempo, valence, etc.).
+- Mise en place d’un graphique temporel multi-variables :
+  - affichage simultané de plusieurs métriques,
+  - sélection dynamique des variables via des cases à cocher,
+  - adaptation automatique de l’axe des ordonnées selon les métriques sélectionnées.
+- Ajout de tooltips interactifs pour afficher les valeurs précises au survol.
+- Développement d’une première version de la carte interactive basée sur un planisphère mondial.
+- Intégration et analyse de deux jeux de données distincts :
+  - Top 50 de 71 pays (2023–2025),
+  - Top 50 mondial par année (2000–2023).
+- Recherche d'exemples de clustering de données audio pour guider le développement puisqu'un clustering par genre n'était pas si pertinent.
 
-# Nathan :
+---
 
-10 janvier 2025
+## 12/01/2025 — Enrichissement et nouvelles visualisations
 
-- ✅ réflexion sur le sens et début du développement des cartes interactives
-- ✅ Création d'une interface de visualisation avec planisphère interactif
-- ✅ Implémentation et analyse des deux datasets utilisés pour les deux cartes :
+- Mise en place d’un mapping entre les pays et leurs codes ISO pour l’affichage cartographique.
+- Ajout de tooltips interactifs sur la carte pour afficher les informations par pays.
+- Ajout d’un tableau récapitulatif affichant le Top 50 par pays ou le Top 50 mondial lors de la sélection d’un pays.
+- Implémentation d’un slider temporel dynamique s’adaptant au jeu de données sélectionné.
+- Développement d’un outil d’enrichissement du dataset à l’aide de l’API MusicBrainz grace a un LLM afin d’ajouter les pays d’origine des chansons lorsque l’information était absente.
+- Développement d’une visualisation par diagrammes circulaires permettant de comparer la répartition des genres musicaux entre différentes années :
+  - comparaison de deux années via des sliders,
+  - légende commune partagée entre les graphiques,
+  - tooltips affichant les proportions par genre.
+- Finalisation du clustering des musiques à partir de leurs caractéristiques audio.
+- Début du développement de la visualisation des clusters à l’aide :
+  - d’un scatter plot interactif,
+  - d’un radar chart associé pour représenter les profils audio moyens.
 
-  - Top 50 de 71 pays (2023-2025)
-  - Top 50 mondial par année (2000-2023)
+---
 
+## 13/01/2025 — Finalisation et structuration du projet
 
-12 janvier 2025
-- ✅ dev d'un mapping entre les pays et leurs codes ISO pour l'affichage sur la carte
-- ✅ Ajout de tooltips interactifs sur les cartes pour voir les pays
-- ✅ Ajout d'un tableau pour recap les top50 par pâys ou top 50 mondial quand on clique sur un pays
-- ✅ Ajout d'un slider de taille dynamique qui s'adapte au dataset utilisé pour choisir l'année sur la carte
-- ✅ Dev grace a une IA LLM d'un enrichisseur de dataset afin d'obtenir les pays d'origine de certains morceaux non présent dans le dataset de base
+- Amélioration de l’interactivité entre le scatter plot et le radar chart.
+- Ajout de tooltips détaillés et d’une légende pour faciliter la compréhension des clusters.
+- Restructuration complète du dépôt :
+  - clarification de l’arborescence des fichiers,
+  - séparation claire entre pages, scripts, styles, données et ressources.
+- Harmonisation du site (navigation, styles, typographie).
+- Résolution de problèmes liés au déploiement sur GitHub Pages.
+- Correction de bugs JavaScript et amélioration de la robustesse du code.
 
-13 janvier 2025 (aujourd'hui)
--  restructuration du code et des dossiers pour une meilleure organisation et clareté
--  Résolution de problèmes de déploiement GitHub
--  Debug de l'erreur de syntaxe JavaScript
+---
+
+## État actuel du projet
+
+À ce stade, le projet dispose :
+- de plusieurs visualisations interactives fonctionnelles (cartes, graphiques, diagrammes circulaires, etc.),
+- d’un site structuré et cohérent,
+- de jeux de données nettoyés, enrichis et adaptés aux besoins des visualisations,
