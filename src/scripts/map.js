@@ -4,7 +4,7 @@ console.log("Home chargé");
 
 const DATASETS = {
     top50: {
-        file: "../data/top_50_71Countries_from_2023_to_2025.csv",
+        file: "../../data/top_50_71Countries_from_2023_to_2025.csv",
         yearMin: 2023,
         yearMax: 2025,
         defaultYear: 2025,
@@ -12,7 +12,7 @@ const DATASETS = {
         type: "byCountry"  // Structure avec snapshot_date
     },
     bestsongs: {
-        file: "../data/top_50mondialSongPerYear_from_2000_to_2023.csv",
+        file: "../../data/top_50mondialSongPerYear_from_2000_to_2023.csv",
         yearMin: 2000,
         yearMax: 2022,
         defaultYear: 2022,
@@ -60,7 +60,7 @@ function loadDataset(datasetKey) {
     // Charger les données
     d3.csv(config.file)
         .then(data => {
-            
+
             // Organiser les données selon le type de dataset
             if (config.type === "byCountry") {
                 spotifyData = organizeDataByCountryAndYear(data);
@@ -288,7 +288,7 @@ function updateMap(year) {
 // ==================== Affichage des chansons d'un pays ====================//
 
 function showCountrySongs(alpha2, countryName, year) {
-    
+
     // Récupérer les données du pays pour l'année
     if (!spotifyData[year] || !spotifyData[year][alpha2]) {
         console.error(`Pas de données pour ${alpha2} en ${year}`);

@@ -74,10 +74,10 @@ const tooltip = d3.select("body")
   .style("pointer-events", "none")
   .style("opacity", 0);
 
-d3.csv("../data/top_50_71Countries_from_2023_to_2025.csv", d => {
+d3.csv("../../data/top_50_71Countries_from_2023_to_2025.csv", d => {
   const date = new Date(d.album_release_date);
 
-  if (isNaN(date))return null;
+  if (isNaN(date)) return null;
 
   return {
     spotify_id: d.spotify_id,
@@ -142,85 +142,85 @@ d3.csv("../data/top_50_71Countries_from_2023_to_2025.csv", d => {
   });
 
   const selectAllCheckbox = d3.select("#selectAllCheckbox");
-    selectAllCheckbox.on("change", (event) => {
-        const checked = event.target.checked;
-        d3.selectAll("#checkboxes input").property("checked", checked);
-        updateChart();
+  selectAllCheckbox.on("change", (event) => {
+    const checked = event.target.checked;
+    d3.selectAll("#checkboxes input").property("checked", checked);
+    updateChart();
   });
 
-function updateChart() {
-  const activeVars = checkboxContainer.selectAll("input")
-    .nodes()
-    .filter(n => n.checked)
-    .map(n => n.value);
+  function updateChart() {
+    const activeVars = checkboxContainer.selectAll("input")
+      .nodes()
+      .filter(n => n.checked)
+      .map(n => n.value);
 
-  if (activeVars.length === 0) {
-    linesGroup.selectAll(".line").remove();
-    circlesGroup.selectAll("circle").remove();
-    yAxis.transition().duration(500).call(d3.axisLeft(yScale).tickValues([]));
-    return;
-  }
+    if (activeVars.length === 0) {
+      linesGroup.selectAll(".line").remove();
+      circlesGroup.selectAll("circle").remove();
+      yAxis.transition().duration(500).call(d3.axisLeft(yScale).tickValues([]));
+      return;
+    }
 
-  yScale.domain([
-    d3.min(dataset, d => d3.min(activeVars, v => d[v])),
-    d3.max(dataset, d => d3.max(activeVars, v => d[v]))
-  ]).nice();
+    yScale.domain([
+      d3.min(dataset, d => d3.min(activeVars, v => d[v])),
+      d3.max(dataset, d => d3.max(activeVars, v => d[v]))
+    ]).nice();
 
-  yAxis.transition().duration(500).call(d3.axisLeft(yScale));
+    yAxis.transition().duration(500).call(d3.axisLeft(yScale));
 
-  const lines = linesGroup.selectAll(".line")
-    .data(activeVars, d => d);
+    const lines = linesGroup.selectAll(".line")
+      .data(activeVars, d => d);
 
-  lines.exit().remove();
+    lines.exit().remove();
 
-  lines.enter()
-    .append("path")
-    .attr("class", "line")
-    .merge(lines)
-    .transition()
-    .duration(500)
-    .attr("stroke", d => color(d))
-    .attr("fill", "none")
-    .attr("stroke-width", 2)
-    .attr("d", variable =>
-      d3.line()
-        .x(d => xScale(d.date))
-        .y(d => yScale(d[variable]))(dataset)
-    );
-
-  circlesGroup.selectAll("circle").remove();
-
-  activeVars.forEach(variable => {
-    const circles = circlesGroup.selectAll(".circle-" + variable)
-      .data(dataset);
-
-    circles.enter()
-      .append("circle")
-      .attr("class", "circle-" + variable)
-      .attr("r", 4)
-      .attr("fill", color(variable))
-      .on("mouseover", (event, d) => {
-        tooltip
-          .style("opacity", 1)
-          .html(`<strong>${variable}</strong><br>${d3.timeFormat("%Y")(d.date)}: ${d[variable].toFixed(2)}`)
-          .style("left", (event.pageX + 10) + "px")
-          .style("top", (event.pageY - 25) + "px");
-      })
-      .on("mousemove", (event) => {
-        tooltip
-          .style("left", (event.pageX + 10) + "px")
-          .style("top", (event.pageY - 25) + "px");
-      })
-      .on("mouseout", () => {
-        tooltip.style("opacity", 0);
-      })
-      .merge(circles)
+    lines.enter()
+      .append("path")
+      .attr("class", "line")
+      .merge(lines)
       .transition()
       .duration(500)
-      .attr("cx", d => xScale(d.date))
-      .attr("cy", d => yScale(d[variable]));
-  });
-}
+      .attr("stroke", d => color(d))
+      .attr("fill", "none")
+      .attr("stroke-width", 2)
+      .attr("d", variable =>
+        d3.line()
+          .x(d => xScale(d.date))
+          .y(d => yScale(d[variable]))(dataset)
+      );
+
+    circlesGroup.selectAll("circle").remove();
+
+    activeVars.forEach(variable => {
+      const circles = circlesGroup.selectAll(".circle-" + variable)
+        .data(dataset);
+
+      circles.enter()
+        .append("circle")
+        .attr("class", "circle-" + variable)
+        .attr("r", 4)
+        .attr("fill", color(variable))
+        .on("mouseover", (event, d) => {
+          tooltip
+            .style("opacity", 1)
+            .html(`<strong>${variable}</strong><br>${d3.timeFormat("%Y")(d.date)}: ${d[variable].toFixed(2)}`)
+            .style("left", (event.pageX + 10) + "px")
+            .style("top", (event.pageY - 25) + "px");
+        })
+        .on("mousemove", (event) => {
+          tooltip
+            .style("left", (event.pageX + 10) + "px")
+            .style("top", (event.pageY - 25) + "px");
+        })
+        .on("mouseout", () => {
+          tooltip.style("opacity", 0);
+        })
+        .merge(circles)
+        .transition()
+        .duration(500)
+        .attr("cx", d => xScale(d.date))
+        .attr("cy", d => yScale(d[variable]));
+    });
+  }
 
   updateChart();
 });

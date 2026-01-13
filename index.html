@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8" />
   <title>Home</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="src/css/style.css" />
+  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script src="https://d3js.org/topojson.v3.min.js"></script>
 
 </head>
+
 <body>
 
   <nav>
     <a href="index.html" class="active">Home</a>
-    <a href="pages/cartographie.html">Cartographie</a>
-    <a href="pages/page1.html">Pie charts</a>
-    <a href="pages/page2.html">Metrics</a>
-    <a href="pages/page3.html">Clustering</a>
-    <a href="pages/about.html">About data</a>
+    <a href="src/pages/map.html">Cartographie</a>
+    <a href="src/pages/pie-charts.html">Pie charts</a>
+    <a href="src/pages/time-series.html">Metrics</a>
+    <a href="src/pages/clustering.html">Clustering</a>
+    <a href="src/pages/data-sources.html">About data</a>
   </nav>
 
   <main>
@@ -26,18 +28,24 @@
       <p>Contexte du projet</p>
       <div>
         Les plateformes de streaming comme Spotify publient des classements de type « Top 50 » par pays,
-        mais ces listes sont difficiles à comparer entre elles et ne permettent pas de comprendre facilement les grandes tendances musicales mondiales.
-        Un utilisateur curieux ne voit qu’un classement local, sans savoir comment se situent les autres pays,
+        mais ces listes sont difficiles à comparer entre elles et ne permettent pas de comprendre facilement les grandes
+        tendances musicales mondiales.
+        Un utilisateur curieux ne voit qu'un classement local, sans savoir comment se situent les autres pays,
         ni comment les caractéristiques musicales des hits évoluent dans le temps.
       </div><br>
       <div>
-        Notre projet vise à répondre à ce besoin en proposant une visualisation interactive des titres du Top 50 Spotify par pays,
-        continents et grandes régions du monde. Nous nous concentrons sur quelques indicateurs musicaux clés BPM (tempo),
-        danceability et volume d’écoutes afin de mettre en évidence des tendances culturelles, géographiques et temporelles.
-        L’objectif est d’offrir un outil simple à manipuler qui permette de passer d’une vue d’ensemble mondiale à des analyses plus fines par pays ou période.
+        Notre projet vise à répondre à ce besoin en proposant une visualisation interactive des titres du Top 50 Spotify
+        par pays,
+        continents et grandes régions du monde. Nous nous concentrons sur quelques indicateurs musicaux clés BPM
+        (tempo),
+        danceability et volume d'écoutes afin de mettre en évidence des tendances culturelles, géographiques et
+        temporelles.
+        L'objectif est d'offrir un outil simple à manipuler qui permette de passer d'une vue d'ensemble mondiale à des
+        analyses plus fines par pays ou période.
       </div>
     </section>
-
+  </main>
 
 </body>
+
 </html>

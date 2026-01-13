@@ -35,7 +35,7 @@ const tooltip = d3.select("body")
   .style("pointer-events", "none")
   .style("opacity", 0);
 
-d3.csv("../data/songs_normalize.csv").then(data => {
+d3.csv("../../data/songs_normalize.csv").then(data => {
 
   const filteredData = data
     .filter(d => d.genre !== "set()")

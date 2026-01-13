@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 Script pour enrichir le CSV Spotify avec les pays des artistes
 Utilise l'API MusicBrainz pour récupérer le pays d'origine de chaque artiste
