@@ -72,7 +72,9 @@ const tooltip = d3.select("body")
   .style("border", "1px solid #ccc")
   .style("border-radius", "4px")
   .style("pointer-events", "none")
-  .style("opacity", 0);
+  .style("opacity", 0)
+  .style("color", "black");
+;
 
 d3.csv("../../data/top_50_71Countries_from_2023_to_2025.csv", d => {
   const date = new Date(d.album_release_date);

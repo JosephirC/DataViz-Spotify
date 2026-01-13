@@ -33,7 +33,8 @@ const tooltip = d3.select("body")
   .style("border", "1px solid #ccc")
   .style("border-radius", "4px")
   .style("pointer-events", "none")
-  .style("opacity", 0);
+  .style("opacity", 0)
+  .style("color", "black");
 
 d3.csv("../../data/songs_normalize.csv").then(data => {
 

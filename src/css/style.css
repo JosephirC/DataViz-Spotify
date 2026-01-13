@@ -59,8 +59,6 @@ h3 {
     font-family: 'Deezer Product';
 }
 
-/* Le reste (div, spans, etc.) reste en sans-serif par héritage du body */
-
 p {
     font-size: 16px;
     line-height: 1.5;
@@ -256,7 +254,6 @@ main {
     color: #2d3748;
 }
 
-/* Table et cellules */
 #top50-container table {
     font-size: 20px;
 }
