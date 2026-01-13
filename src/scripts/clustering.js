@@ -238,4 +238,128 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
 
     // Initialisation du Radar Chart avec le premier cluster
     updateRadarChart(clusters[0]);
+
+    // =========================================================
+    // PARTIE 4 : STREAMGRAPH (ÉVOLUTION TEMPORELLE)
+    // =========================================================
+
+    const containerStream = document.getElementById('stream-container');
+    const widthStream = containerStream.clientWidth - margin.left - margin.right;
+    const heightStream = 400 - margin.top - margin.bottom;
+
+    const svgStream = d3.select("#stream-container")
+        .append("svg")
+        .attr("width", widthStream + margin.left + margin.right)
+        .attr("height", heightStream + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", `translate(${margin.left},${margin.top})`);
+
+    // Préparation des données : grouper par année et par cluster
+    const yearsMap = new Map();
+
+    data.forEach(d => {
+        const year = d.album_release_date ? parseInt(d.album_release_date.toString().split('-')[0]) : null;
+
+        // On filtre pour se concentrer sur les données récentes (2020-2025)
+        if (year && year >= 2020 && year <= 2025) {
+            if (!yearsMap.has(year)) {
+                yearsMap.set(year, { year: year });
+                // Initier tous les clusters à 0 pour cette année
+                Object.keys(colorPalette).forEach(c => yearsMap.get(year)[c] = 0);
+            }
+            yearsMap.get(year)[d.cluster_name]++;
+        }
+    });
+
+    // Conversion en tableau trié
+    const formattedData = Array.from(yearsMap.values()).sort((a, b) => a.year - b.year);
+    const keys = Object.keys(colorPalette);
+
+    // 2. Stack les données
+    const stack = d3.stack()
+        .offset(d3.stackOffsetSilhouette)
+        .keys(keys);
+
+    const stackedData = stack(formattedData);
+
+    // 3. Échelles
+    const xStream = d3.scaleLinear()
+        .domain(d3.extent(formattedData, d => d.year))
+        .range([0, widthStream]);
+
+    const yStream = d3.scaleLinear()
+        .domain([
+            d3.min(stackedData, layer => d3.min(layer, d => d[0])),
+            d3.max(stackedData, layer => d3.max(layer, d => d[1]))
+        ])
+        .range([heightStream, 0]);
+
+    // 4. Création des aires
+    const area = d3.area()
+        .curve(d3.curveBasis) // Courbe fluide
+        .x(d => xStream(d.data.year))
+        .y0(d => yStream(d[0]))
+        .y1(d => yStream(d[1]));
+
+    // 5. Ajout d'un tooltip spécifique pour le streamgraph
+    const tooltipStream = d3.select("body").append("div")
+        .style("position", "absolute")
+        .style("background", "rgba(0,0,0,0.85)")
+        .style("color", "#fff")
+        .style("padding", "5px 10px")
+        .style("border-radius", "4px")
+        .style("font-size", "12px")
+        .style("pointer-events", "none")
+        .style("opacity", 0);
+
+    svgStream.selectAll("mylayers")
+        .data(stackedData)
+        .enter()
+        .append("path")
+        .attr("class", "myArea")
+        .style("fill", d => colorPalette[d.key])
+        .style("opacity", 0.8)
+        .attr("d", area)
+        .style("cursor", "pointer")
+
+        // INTERACTION
+        .on("mouseover", function (event, d) {
+            svgStream.selectAll(".myArea").style("opacity", 0.2);
+            d3.select(this)
+                .style("opacity", 1)
+                .style("stroke", "#fff")
+                .style("stroke-width", 1);
+
+            updateRadarChart(d.key);
+
+            // Tooltip
+            const grpName = d.key;
+            tooltipStream.style("opacity", 1);
+            tooltipStream.html(`Cluster : <strong>${grpName}</strong>`)
+                .style("left", (event.pageX + 10) + "px")
+                .style("top", (event.pageY) + "px");
+        })
+        .on("mousemove", function (event, d) {
+            tooltipStream
+                .style("left", (event.pageX + 10) + "px")
+                .style("top", (event.pageY) + "px");
+        })
+        .on("mouseleave", function () {
+            svgStream.selectAll(".myArea")
+                .style("opacity", 0.8)
+                .style("stroke", "none");
+            tooltipStream.style("opacity", 0);
+        });
+
+    // Axe X (Années)
+    svgStream.append("g")
+        .attr("transform", `translate(0,${heightStream})`)
+        .call(d3.axisBottom(xStream).tickFormat(d3.format("d")).ticks(5))
+        .select(".domain").remove();
+
+    svgStream.selectAll(".tick text")
+        .attr("font-size", "14px")
+        .attr("fill", "#ccc")
+        .attr("dy", "20px");
+
 });
