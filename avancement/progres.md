@@ -51,7 +51,7 @@ Developpent d'une interface de visualisation interactive permettant d’analyser
 
 Visualisation pie chart Comparaison des genres par année
 
-- Comparaison des genres par année avec slider pour la datee
+- Comparaison des genres par année avec slider pour la date
   - deux pie chart pour voir deux annes differentes
 - Légende commune
   - légende partagée pour tous les graphiques, évitant les répétitions inutiles
