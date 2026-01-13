@@ -2,31 +2,48 @@
 <html lang="fr">
 
 <head>
-  <meta charset="UTF-8" />
-  <title>Page 3</title>
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-  <link rel="stylesheet" href="../css/style.css" />
-  <link rel="icon" href="../../assets/img/favicon.ico" type="image/x-icon">
-
+    <meta charset="UTF-8" />
+    <title>Page 3</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" href="../../assets/img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
 
-  <nav>
-    <a href="../../index.html">Home</a>
-    <a href="map.html">Cartographie</a>
-    <a href="pie-charts.html">Pie charts</a>
-    <a href="time-series.html">Metrics</a>
-    <a href="clustering.html" class="active">Clustering</a>
-    <a href="data-sources.html">About data</a>
-  </nav>
+    <nav>
+        <a href="../../index.html">Home</a>
+        <a href="map.html">Cartographie</a>
+        <a href="pie-charts.html">Pie charts</a>
+        <a href="time-series.html">Metrics</a>
+        <a href="clustering.html" class="active">Clustering</a>
+        <a href="data-sources.html">About data</a>
+    </nav>
 
-  <main>
-    <h1>Clustering</h1>
-    <p>Contenu de la page 3</p>
-  </main>
+    <main>
+        <h1>Clustering des Genres</h1>
+        <p>Survolez les points pour analyser le profil audio des différentes familles musicales.</p>
 
-  <script src="../scripts/clustering.js"></script>
+        <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px; margin-top: 20px;">
+
+            <div class="card-viz" style="background: rgba(255, 255, 255, 0.05); padding: 20px; border-radius: 10px;">
+                <h3 style="margin-top: 0;">Carte PCA</h3>
+                <div id="scatter-container" style="width: 100%; height: 500px;"></div>
+            </div>
+
+            <div class="card-viz" style="background: rgba(255, 255, 255, 0.05); padding: 20px; border-radius: 10px;">
+                <h3 style="margin-top: 0;">Profil Audio</h3>
+                <p id="radar-legend" style="font-size: 0.9em; color: #ccc;">Survolez un cluster...</p>
+
+                <div id="radar-container" style="display: flex; justify-content: center;"></div>
+
+                <div id="legend-container" style="margin-top: 20px;"></div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="../scripts/clustering.js"></script>
 </body>
 
 </html>
