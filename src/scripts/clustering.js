@@ -36,7 +36,9 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
     });
 
     // Création du Tooltip
-    const tooltip = d3.select("body").append("div")
+    const tooltip = d3
+        .select("body")
+        .append("div")
         .style("position", "absolute")
         .style("background", "rgba(0,0,0,0.9)")
         .style("color", "#fff")
@@ -60,7 +62,8 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
     });
 
     // --- 1. SCATTER PLOT ---
-    const svgScatter = d3.select("#scatter-container")
+    const svgScatter = d3
+        .select("#scatter-container")
         .append("svg")
         .attr("width", widthScatter + margin.left + margin.right)
         .attr("height", heightScatter + margin.top + margin.bottom)
@@ -68,8 +71,15 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
         .attr("transform", `translate(${margin.left},${margin.top})`);
 
     // Scales
-    const x = d3.scaleLinear().domain(d3.extent(data, d => d.pca_x)).range([0, widthScatter]);
-    const y = d3.scaleLinear().domain(d3.extent(data, d => d.pca_y)).range([heightScatter, 0]);
+    const x = d3
+        .scaleLinear()
+        .domain(d3.extent(data, d => d.pca_x))
+        .range([0, widthScatter]);
+
+    const y = d3
+        .scaleLinear()
+        .domain(d3.extent(data, d => d.pca_y))
+        .range([heightScatter, 0]);
 
     // Points
     svgScatter.selectAll("circle")
@@ -82,7 +92,12 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
         .style("fill", d => colorPalette[d.cluster_name] || "#ccc")
         .style("opacity", 0.6)
         .on("mouseover", function (event, d) {
-            d3.select(this).transition().duration(100).attr("r", 8).style("opacity", 1).style("stroke", "#fff");
+            d3.select(this)
+                .transition()
+                .duration(100)
+                .attr("r", 8)
+                .style("opacity", 1)
+                .style("stroke", "#fff");
 
             tooltip.transition().duration(200).style("opacity", 0.9);
             tooltip.html(`<strong>${d.name}</strong><br>${d.artists}<br><small style="color:${colorPalette[d.cluster_name]}">${d.cluster_name}</small>`)
@@ -92,20 +107,27 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
             updateRadarChart(d.cluster_name);
         })
         .on("mouseout", function () {
-            d3.select(this).transition().duration(200).attr("r", 3).style("opacity", 0.6).style("stroke", "none");
+            d3.select(this)
+                .transition()
+                .duration(200)
+                .attr("r", 3)
+                .style("opacity", 0.6)
+                .style("stroke", "none");
+
             tooltip.transition().duration(500).style("opacity", 0);
         });
 
     // Zoom
-    const zoom = d3.zoom().scaleExtent([0.5, 5])
+    const zoom = d3
+        .zoom()
+        .scaleExtent([0.5, 5])
         .on("zoom", (event) => svgScatter.selectAll("circle").attr("transform", event.transform));
-    d3.select("#scatter-container svg").call(zoom);
 
+    d3.select("#scatter-container svg").call(zoom);
 
     // --- 2. RADAR CHART ---
     const widthRadar = 300, heightRadar = 300;
 
-    // CORRECTION 1 : Augmentation de la marge (60px au lieu de 20px) pour éviter que les textes soient coupés
     const radius = Math.min(widthRadar, heightRadar) / 2 - 60;
 
     const svgRadar = d3.select("#radar-container")
@@ -119,8 +141,11 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
 
     // Grille Radar
     [0.2, 0.4, 0.6, 0.8, 1].forEach(level => {
-        svgRadar.append("circle").attr("r", rScale(level))
-            .style("fill", "none").style("stroke", "#444").style("stroke-dasharray", "3,3");
+        svgRadar.append("circle")
+            .attr("r", rScale(level))
+            .style("fill", "none")
+            .style("stroke", "#444")
+            .style("stroke-dasharray", "3,3");
     });
 
     // Axes Radar
@@ -132,25 +157,37 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
         .style("stroke", "#666");
 
     axes.append("text")
-        .attr("x", (d, i) => rScale(1.35) * Math.cos(angleSlice * i - Math.PI / 2)) // 1.35 pour écarter un peu plus le texte
+        .attr("x", (d, i) => rScale(1.35) * Math.cos(angleSlice * i - Math.PI / 2))
         .attr("y", (d, i) => rScale(1.35) * Math.sin(angleSlice * i - Math.PI / 2))
         .text(d => d)
         .style("fill", "#ccc")
-        .style("font-size", "11px") // Un poil plus grand pour la lisibilité
+        .style("font-size", "11px")
         .attr("text-anchor", "middle");
 
     // Forme Radar
-    const radarLine = d3.lineRadial().curve(d3.curveLinearClosed)
-        .radius(d => rScale(d.value)).angle((d, i) => i * angleSlice);
+    const radarLine = d3
+        .lineRadial()
+        .curve(d3.curveLinearClosed)
+        .radius(d => rScale(d.value))
+        .angle((d, i) => i * angleSlice);
 
     const path = svgRadar.append("path")
-        .style("fill-opacity", 0.5).style("stroke-width", 2);
+        .style("fill-opacity", 0.5)
+        .style("stroke-width", 2);
 
     function updateRadarChart(clusterName) {
-        const dataValues = audioFeatures.map(f => ({ axis: f, value: clusterAverages[clusterName][f] }));
-        d3.select("#radar-legend").html(`Cluster : <strong style="color:${colorPalette[clusterName]}">${clusterName}</strong>`);
+        const dataValues = audioFeatures.map(f =>
+        ({
+            axis: f, value: clusterAverages[clusterName][f]
+        }));
 
-        path.datum(dataValues).transition().duration(300)
+        d3
+            .select("#radar-legend")
+            .html(`Cluster : <strong style="color:${colorPalette[clusterName]}">${clusterName}</strong>`);
+
+        path.datum(dataValues)
+            .transition()
+            .duration(300)
             .attr("d", radarLine)
             .style("fill", colorPalette[clusterName])
             .style("stroke", colorPalette[clusterName]);
@@ -163,7 +200,6 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
         const item = legend.append("div")
             .style("display", "flex")
             .style("align-items", "center")
-            // CORRECTION 2 : Changement du curseur en "default" (pas de main cliquable)
             .style("cursor", "default")
             .style("margin-bottom", "8px")
             .style("padding", "4px")
@@ -200,6 +236,6 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
             .style("font-size", "0.9em");
     });
 
-    // Init
+    // Initialisation du Radar Chart avec le premier cluster
     updateRadarChart(clusters[0]);
 });
