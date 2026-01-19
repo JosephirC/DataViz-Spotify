@@ -1,0 +1,16 @@
+#home-presentation {
+    width: 90%;
+    max-width: clamp(900px, 80vw, 1600px);
+    margin: 0 auto;
+    font-size: 28px;
+}
+
+#home-presentation p,
+#home-presentation div {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#home-presentation div+br+div {
+    margin-top: 12px;
+}

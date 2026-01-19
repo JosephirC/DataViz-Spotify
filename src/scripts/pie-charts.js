@@ -7,11 +7,13 @@ const charts = [
     svgId: "#chart1",
     sliderId: "#yearSlider1",
     yearId: "#yearValue1",
+    startYear: 1999
   },
   {
     svgId: "#chart2",
     sliderId: "#yearSlider2",
     yearId: "#yearValue2",
+    startYear: 2019
   }
 ];
 
@@ -58,13 +60,13 @@ d3.csv("../../data/songs_normalize.csv").then(data => {
     chart.slider = d3.select(chart.sliderId)
       .attr("min", 1999)
       .attr("max", 2019)
-      .attr("value", 2019)
+      .attr("value", chart.startYear)      
       .on("input", function () {
         updateChart(chart, +this.value);
       });
 
-    d3.select(chart.yearId).text(2019);
-    updateChart(chart, 2019);
+    d3.select(chart.yearId).text(chart.startYear);
+    updateChart(chart, chart.startYear);
   });
 
   function updateChart(chart, selectedYear) {

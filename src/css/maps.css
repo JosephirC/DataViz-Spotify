@@ -1,0 +1,84 @@
+#tooltip {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    pointer-events: none;
+    opacity: 0;
+    font-size: 14px;
+    z-index: 1000;
+}
+
+#yearSlider {
+    cursor: pointer;
+    height: 6px;
+    border-radius: 3px;
+    outline: none;
+    -webkit-appearance: none;
+    background: linear-gradient(to right,
+            #A238FF 0%,
+            #A238FF var(--value),
+            #e0e0e0 var(--value),
+            #e0e0e0 100%);
+}
+
+#yearSlider::-webkit-slider-thumb,
+#yearSlider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+    border: none;
+}
+
+#player iframe,
+#spotify-player iframe {
+    width: 100%;
+    max-width: 900px;
+    height: 380px;
+    margin: 0 auto;
+    display: block;
+}
+
+#top50-container {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #2d3748;
+}
+
+#top50-container table {
+    font-size: 20px;
+}
+
+#top50-container th,
+#top50-container td {
+    font-size: 20px;
+}
+
+#top50-title {
+    font-size: 30px;
+}
+
+.map-page main {
+    width: 92%;
+    max-width: clamp(1000px, 88vw, 1900px);
+    margin: 0 auto;
+}
+
+.map-page #dataset-selector,
+.map-page #year-selector {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.map-page #dataset-selector h3,
+.map-page #year-selector h3 {
+    font-size: 26px;
+}
+
+.map-page #map {
+    width: 100%;
+    min-height: 520px;
+}

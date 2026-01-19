@@ -1,0 +1,80 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid #333;
+    padding: 80px;
+}
+
+.column:last-child {
+    border-right: none;
+}
+
+.chart-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.legend {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.legend-color {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+}
+
+.yearValue {
+    font-size: 28px;
+}
+
+.pie-charts-page main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.pie-charts-page .title-p1 {
+    padding: 20px;
+}
+
+.pie-charts-page .column {
+    justify-content: flex-start;
+    overflow-y: auto;
+    min-width: 320px;
+}
+
+.pie-charts-page .chart-box {
+    width: 100%;
+}
+
+.pie-charts-page .yearValue {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.pie-charts-page .yearValueSlider {
+    width: 260px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+.pie-charts-page .legend-title {
+    margin-top: 0;
+    margin-bottom: 38px;
+}
+
+.pie-charts-page .legend {
+    align-items: flex-start;
+}
