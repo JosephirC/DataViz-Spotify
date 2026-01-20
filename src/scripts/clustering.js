@@ -1,7 +1,7 @@
 // Dimensions et Marges
 const margin = { top: 20, right: 20, bottom: 40, left: 40 };
 const container = document.getElementById('scatter-container');
-const widthScatter = container.clientWidth - margin.left - margin.right;
+const widthScatter = container ? container.clientWidth - margin.left - margin.right : 600;
 const heightScatter = 500 - margin.top - margin.bottom;
 
 // Palette de couleurs
@@ -24,6 +24,8 @@ const clusterDescriptions = {
 
 // Les axes du radar
 const audioFeatures = ["danceability", "energy", "valence", "acousticness", "speechiness"];
+// Features pour la Heatmap
+const heatmapFeatures = ["danceability", "energy", "valence", "acousticness", "speechiness", "instrumentalness", "liveness", "loudness", "tempo"];
 
 // Chargement des données
 d3.csv("../../data/top_50_clustered.csv").then(data => {
@@ -33,9 +35,27 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
         d.pca_x = +d.pca_x;
         d.pca_y = +d.pca_y;
         audioFeatures.forEach(f => d[f] = +d[f]);
+        // Conversion de toutes les features pour la heatmap (y compris loudness et tempo)
+        heatmapFeatures.forEach(f => d[f] = +d[f]);
     });
 
-    // Création du Tooltip
+    const clusters = [...new Set(data.map(d => d.cluster_name))].sort();
+
+    // Calcul des moyennes par cluster
+    const clusterAverages = {};
+    // Pour calculer le Min/Max global de toutes les cellules
+    let allValues = [];
+
+    clusters.forEach(cluster => {
+        clusterAverages[cluster] = {};
+        heatmapFeatures.forEach(feature => {
+            const meanVal = d3.mean(data.filter(d => d.cluster_name === cluster), d => d[feature]);
+            clusterAverages[cluster][feature] = meanVal;
+            allValues.push(meanVal);
+        });
+    });
+
+    // Création du Tooltip Global
     const tooltip = d3.select("body").append("div")
         .style("position", "absolute")
         .style("background", "rgba(0,0,0,0.9)")
@@ -48,18 +68,130 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
         .style("z-index", 1000)
         .style("box-shadow", "0 2px 10px rgba(0,0,0,0.5)");
 
-    // Calcul des moyennes par cluster
-    const clusterAverages = {};
-    const clusters = [...new Set(data.map(d => d.cluster_name))];
 
-    clusters.forEach(cluster => {
-        clusterAverages[cluster] = {};
-        audioFeatures.forEach(feature => {
-            clusterAverages[cluster][feature] = d3.mean(data.filter(d => d.cluster_name === cluster), d => d[feature]);
+    // =========================================================
+    // PARTIE 0 : HEATMAP (Version Statique Globale)
+    // =========================================================
+
+    d3.select("#heatmap-container").html("");
+
+    // Dimensions Heatmap
+    const marginHeat = { top: 120, right: 30, bottom: 130, left: 160 };
+    const heightHeatTotal = 550;
+
+    const widthHeat = document.getElementById('heatmap-container').clientWidth - marginHeat.left - marginHeat.right;
+    const heightHeat = heightHeatTotal - marginHeat.top - marginHeat.bottom;
+
+    const svgHeat = d3.select("#heatmap-container")
+        .append("svg")
+        .attr("width", widthHeat + marginHeat.left + marginHeat.right)
+        .attr("height", heightHeatTotal)
+        .append("g")
+        .attr("transform", `translate(${marginHeat.left},${marginHeat.top})`);
+
+    const xHeat = d3.scaleBand().range([0, widthHeat]).domain(heatmapFeatures).padding(0.05);
+    const yHeat = d3.scaleBand().range([0, heightHeat]).domain(clusters).padding(0.05);
+
+    // Axe X
+    svgHeat.append("g")
+        .call(d3.axisTop(xHeat).tickSize(0))
+        .select(".domain").remove();
+
+    svgHeat.selectAll(".tick text")
+        .attr("transform", "translate(0,-10) rotate(-30)")
+        .style("text-anchor", "start")
+        .style("font-size", "13px")
+        .style("fill", "#ccc");
+
+    // Axe Y
+    svgHeat.append("g")
+        .call(d3.axisLeft(yHeat).tickSize(0))
+        .select(".domain").remove();
+
+    svgHeat.selectAll(".tick text")
+        .style("font-size", "13px")
+        .style("fill", "#ccc");
+
+    // Échelle de Couleur
+    const maxVal = d3.max(allValues);
+    const minVal = d3.min(allValues);
+
+    const colorScale = d3.scaleDiverging(d3.interpolateRdBu)
+        .domain([maxVal, 0, minVal]);
+
+    // Cellules
+    heatmapFeatures.forEach(feature => {
+        clusters.forEach(cluster => {
+            const val = clusterAverages[cluster][feature];
+
+            svgHeat.append("rect")
+                .attr("x", xHeat(feature))
+                .attr("y", yHeat(cluster))
+                .attr("width", xHeat.bandwidth())
+                .attr("height", yHeat.bandwidth())
+                .style("fill", colorScale(val))
+                .style("rx", 4)
+                .style("ry", 4);
+
+            svgHeat.append("text")
+                .attr("x", xHeat(feature) + xHeat.bandwidth() / 2)
+                .attr("y", yHeat(cluster) + yHeat.bandwidth() / 2)
+                .attr("dy", ".35em")
+                .attr("text-anchor", "middle")
+                .style("font-size", "12px")
+                // Contraste : Si c'est proche de 0 (blanc), texte noir, sinon blanc
+                .style("fill", Math.abs(val) < (maxVal / 4) ? "#000" : "#fff")
+                .text(val.toFixed(2));
         });
     });
 
-    // --- 1. SCATTER PLOT ---
+    // Légende Gradient
+    const defs = svgHeat.append("defs");
+    const linearGradient = defs.append("linearGradient").attr("id", "linear-gradient");
+
+    // Définition des couleurs de la légende
+    linearGradient.append("stop").attr("offset", "0%").attr("stop-color", "#b2182b");   // Rouge (Max)
+    linearGradient.append("stop").attr("offset", "50%").attr("stop-color", "#f7f7f7");  // Blanc (0)
+    linearGradient.append("stop").attr("offset", "100%").attr("stop-color", "#2166ac"); // Bleu (Min)
+
+    const legendWidth = 300;
+    const legendGroup = svgHeat.append("g")
+        .attr("transform", `translate(${(widthHeat - legendWidth) / 2}, ${heightHeat + 60})`);
+
+    legendGroup.append("rect")
+        .attr("width", legendWidth).attr("height", 12)
+        .style("fill", "url(#linear-gradient)")
+        .style("border-radius", "6px");
+
+    // Textes Légende (Valeurs réelles)
+    legendGroup.append("text")
+        .attr("x", 0)
+        .attr("y", 28)
+        .text(maxVal.toFixed(1)) // Max (Rouge) à gauche
+        .style("fill", "#ccc")
+        .style("font-size", "12px");
+
+    legendGroup.append("text")
+        .attr("x", legendWidth / 2)
+        .attr("y", 28)
+        .text("0")
+        .style("fill", "#ccc")
+        .style("font-size", "12px")
+        .style("text-anchor", "middle");
+
+    legendGroup.append("text")
+        .attr("x", legendWidth)
+        .attr("y", 28)
+        .text(minVal.toFixed(1)) // Min (Bleu) à droite
+        .style("fill", "#ccc")
+        .style("font-size", "12px")
+        .style("text-anchor", "end");
+
+
+    // =========================================================
+    // PARTIE 1 : SCATTER PLOT
+    // =========================================================
+
     const svgScatter = d3.select("#scatter-container")
         .append("svg")
         .attr("width", widthScatter + margin.left + margin.right)
@@ -102,7 +234,10 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
     d3.select("#scatter-container svg").call(zoom);
 
 
-    // --- 2. RADAR CHART ---
+    // =========================================================
+    // PARTIE 2 : RADAR CHART
+    // =========================================================
+
     const widthRadar = 300, heightRadar = 300;
     const radius = Math.min(widthRadar, heightRadar) / 2 - 60;
 
@@ -132,10 +267,7 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
     axes.append("text")
         .attr("x", (d, i) => rScale(1.35) * Math.cos(angleSlice * i - Math.PI / 2))
         .attr("y", (d, i) => rScale(1.35) * Math.sin(angleSlice * i - Math.PI / 2))
-        .text(d => d)
-        .style("fill", "#ccc")
-        .style("font-size", "11px")
-        .attr("text-anchor", "middle");
+        .text(d => d).style("fill", "#ccc").style("font-size", "11px").attr("text-anchor", "middle");
 
     // Forme Radar
     const radarLine = d3.lineRadial().curve(d3.curveLinearClosed)
@@ -154,19 +286,20 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
             .style("stroke", colorPalette[clusterName]);
     }
 
-    // --- 3. LEGENDE ---
+    // =========================================================
+    // PARTIE 3 : LEGENDE
+    // =========================================================
+
     const legend = d3.select("#legend-container");
 
     Object.keys(colorPalette).forEach(key => {
         const item = legend.append("div")
-            .attr("class", "legend-item") // Utilise la classe CSS définie
+            .attr("class", "legend-item")
             .style("cursor", "default")
 
             // Interaction
             .on("mouseover", function (event) {
-                // Background géré par le CSS :hover
                 updateRadarChart(key);
-
                 tooltip.transition().duration(200).style("opacity", 0.9);
                 tooltip.html(`
                     <strong style="color:${colorPalette[key]}">${key}</strong><br>

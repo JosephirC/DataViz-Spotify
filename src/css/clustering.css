@@ -1,21 +1,19 @@
 .clustering-page main {
     margin: 0 auto;
     max-width: 1600px;
-    width: 95%;
+    width: 100%;
     padding-bottom: 50px;
 }
 
 .clustering-page h1 {
     font-size: 48px;
     margin-bottom: 10px;
-    text-align: center;
 }
 
 .clustering-page p {
     font-size: 18px;
     color: #ccc;
     margin-bottom: 30px;
-    text-align: center;
 }
 
 .dashboard-container {
@@ -42,7 +40,10 @@
 .radar-wrapper {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     height: 100%;
+    padding-top: 10px;
 }
 
 .radar-wrapper h3 {
@@ -74,6 +75,7 @@
 .clustering-page #radar-container {
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .legend-bar {
@@ -112,4 +114,13 @@
 .card-viz h3 {
     margin-top: 0;
     font-size: 28px;
+}
+
+#heatmap-container {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
 }

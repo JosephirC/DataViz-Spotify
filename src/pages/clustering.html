@@ -23,28 +23,31 @@
 
     <main>
         <h1>Clustering des genres</h1>
-        <p>Survolez les points pour analyser le profil audio des différentes familles musicales.</p>
+
+        <div class="card-viz" style="margin-bottom: 30px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                <h3 style="margin: 0;">Moyennes des caractéristiques par Cluster</h3>
+            </div>
+
+            <div id="heatmap-container"></div>
+        </div>
 
         <div class="dashboard-container">
-
             <div class="charts-row">
-                <div>
+                <div id="scatter-wrapper">
                     <h3 style="margin-top: 0;">Projection PCA</h3>
                     <div id="scatter-container"></div>
                 </div>
 
                 <div class="radar-wrapper">
                     <h3 style="margin-top: 0;">Profil audio</h3>
-
                     <div class="radar-content">
                         <div id="radar-container"></div>
                         <p id="radar-legend">Survolez un cluster…</p>
                     </div>
                 </div>
             </div>
-
             <div id="legend-container" class="legend-bar"></div>
-
         </div>
 
         <div class="card-viz">
