@@ -32,7 +32,8 @@ const height = 1200;
 
 const test = d3.select("#map")
     .append("h2")
-    .text("Cartographie mondiale des musiques spotify");
+    .text("Cartographie mondiale des musiques spotify")
+    .style("font-size", "33px");
 
 const svg = d3.select("#map")
     .append("svg")

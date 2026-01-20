@@ -1,17 +1,21 @@
 .clustering-page main {
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 1600px;
+    width: 95%;
+    padding-bottom: 50px;
 }
 
 .clustering-page h1 {
     font-size: 48px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .clustering-page p {
-    font-size: 21px;
+    font-size: 18px;
     color: #ccc;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .dashboard-container {
@@ -26,7 +30,6 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 30px;
-    align-items: flex-start;
 }
 
 .clustering-page #scatter-container {
@@ -39,8 +42,6 @@
 .radar-wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     height: 100%;
 }
 
@@ -48,14 +49,26 @@
     margin-top: 0;
     font-size: 24px;
     text-align: center;
+    margin-bottom: 0;
+}
+
+.radar-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    width: 100%;
 }
 
 .clustering-page #radar-legend {
-    font-size: 14px;
+    font-size: 16px;
     color: #ccc;
     text-align: center;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
     min-height: 20px;
+    font-weight: 500;
 }
 
 .clustering-page #radar-container {
@@ -80,7 +93,7 @@
     padding: 5px 10px;
     border-radius: 15px;
     transition: background 0.2s;
-    font-size: 18px;
+    cursor: default;
 }
 
 .legend-item:hover {
