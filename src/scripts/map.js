@@ -32,7 +32,7 @@ const height = 1200;
 
 const test = d3.select("#map")
     .append("h2")
-    .text("Carte Planisphère D3.js");
+    .text("Cartographie mondiale des musiques spotify");
 
 const svg = d3.select("#map")
     .append("svg")

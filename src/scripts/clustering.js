@@ -36,9 +36,7 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
     });
 
     // Création du Tooltip
-    const tooltip = d3
-        .select("body")
-        .append("div")
+    const tooltip = d3.select("body").append("div")
         .style("position", "absolute")
         .style("background", "rgba(0,0,0,0.9)")
         .style("color", "#fff")
@@ -62,8 +60,7 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
     });
 
     // --- 1. SCATTER PLOT ---
-    const svgScatter = d3
-        .select("#scatter-container")
+    const svgScatter = d3.select("#scatter-container")
         .append("svg")
         .attr("width", widthScatter + margin.left + margin.right)
         .attr("height", heightScatter + margin.top + margin.bottom)
@@ -71,15 +68,8 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
         .attr("transform", `translate(${margin.left},${margin.top})`);
 
     // Scales
-    const x = d3
-        .scaleLinear()
-        .domain(d3.extent(data, d => d.pca_x))
-        .range([0, widthScatter]);
-
-    const y = d3
-        .scaleLinear()
-        .domain(d3.extent(data, d => d.pca_y))
-        .range([heightScatter, 0]);
+    const x = d3.scaleLinear().domain(d3.extent(data, d => d.pca_x)).range([0, widthScatter]);
+    const y = d3.scaleLinear().domain(d3.extent(data, d => d.pca_y)).range([heightScatter, 0]);
 
     // Points
     svgScatter.selectAll("circle")
@@ -92,12 +82,7 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
         .style("fill", d => colorPalette[d.cluster_name] || "#ccc")
         .style("opacity", 0.6)
         .on("mouseover", function (event, d) {
-            d3.select(this)
-                .transition()
-                .duration(100)
-                .attr("r", 8)
-                .style("opacity", 1)
-                .style("stroke", "#fff");
+            d3.select(this).transition().duration(100).attr("r", 8).style("opacity", 1).style("stroke", "#fff");
 
             tooltip.transition().duration(200).style("opacity", 0.9);
             tooltip.html(`<strong>${d.name}</strong><br>${d.artists}<br><small style="color:${colorPalette[d.cluster_name]}">${d.cluster_name}</small>`)
@@ -107,27 +92,18 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
             updateRadarChart(d.cluster_name);
         })
         .on("mouseout", function () {
-            d3.select(this)
-                .transition()
-                .duration(200)
-                .attr("r", 3)
-                .style("opacity", 0.6)
-                .style("stroke", "none");
-
+            d3.select(this).transition().duration(200).attr("r", 3).style("opacity", 0.6).style("stroke", "none");
             tooltip.transition().duration(500).style("opacity", 0);
         });
 
     // Zoom
-    const zoom = d3
-        .zoom()
-        .scaleExtent([0.5, 5])
+    const zoom = d3.zoom().scaleExtent([0.5, 5])
         .on("zoom", (event) => svgScatter.selectAll("circle").attr("transform", event.transform));
-
     d3.select("#scatter-container svg").call(zoom);
+
 
     // --- 2. RADAR CHART ---
     const widthRadar = 300, heightRadar = 300;
-
     const radius = Math.min(widthRadar, heightRadar) / 2 - 60;
 
     const svgRadar = d3.select("#radar-container")
@@ -141,11 +117,8 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
 
     // Grille Radar
     [0.2, 0.4, 0.6, 0.8, 1].forEach(level => {
-        svgRadar.append("circle")
-            .attr("r", rScale(level))
-            .style("fill", "none")
-            .style("stroke", "#444")
-            .style("stroke-dasharray", "3,3");
+        svgRadar.append("circle").attr("r", rScale(level))
+            .style("fill", "none").style("stroke", "#444").style("stroke-dasharray", "3,3");
     });
 
     // Axes Radar
@@ -165,29 +138,17 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
         .attr("text-anchor", "middle");
 
     // Forme Radar
-    const radarLine = d3
-        .lineRadial()
-        .curve(d3.curveLinearClosed)
-        .radius(d => rScale(d.value))
-        .angle((d, i) => i * angleSlice);
+    const radarLine = d3.lineRadial().curve(d3.curveLinearClosed)
+        .radius(d => rScale(d.value)).angle((d, i) => i * angleSlice);
 
     const path = svgRadar.append("path")
-        .style("fill-opacity", 0.5)
-        .style("stroke-width", 2);
+        .style("fill-opacity", 0.5).style("stroke-width", 2);
 
     function updateRadarChart(clusterName) {
-        const dataValues = audioFeatures.map(f =>
-        ({
-            axis: f, value: clusterAverages[clusterName][f]
-        }));
+        const dataValues = audioFeatures.map(f => ({ axis: f, value: clusterAverages[clusterName][f] }));
+        d3.select("#radar-legend").html(`Cluster : <strong style="color:${colorPalette[clusterName]}">${clusterName}</strong>`);
 
-        d3
-            .select("#radar-legend")
-            .html(`Cluster : <strong style="color:${colorPalette[clusterName]}">${clusterName}</strong>`);
-
-        path.datum(dataValues)
-            .transition()
-            .duration(300)
+        path.datum(dataValues).transition().duration(300)
             .attr("d", radarLine)
             .style("fill", colorPalette[clusterName])
             .style("stroke", colorPalette[clusterName]);
@@ -198,18 +159,14 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
 
     Object.keys(colorPalette).forEach(key => {
         const item = legend.append("div")
-            .style("display", "flex")
-            .style("align-items", "center")
+            .attr("class", "legend-item") // Utilise la classe CSS définie
             .style("cursor", "default")
-            .style("margin-bottom", "8px")
-            .style("padding", "4px")
-            .style("border-radius", "4px")
-            .style("transition", "background 0.2s")
 
             // Interaction
             .on("mouseover", function (event) {
-                d3.select(this).style("background", "rgba(255,255,255,0.1)");
+                // Background géré par le CSS :hover
                 updateRadarChart(key);
+
                 tooltip.transition().duration(200).style("opacity", 0.9);
                 tooltip.html(`
                     <strong style="color:${colorPalette[key]}">${key}</strong><br>
@@ -219,7 +176,6 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
                     .style("top", (event.pageY - 15) + "px");
             })
             .on("mouseout", function () {
-                d3.select(this).style("background", "transparent");
                 tooltip.transition().duration(500).style("opacity", 0);
             });
 
@@ -236,8 +192,9 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
             .style("font-size", "0.9em");
     });
 
-    // Initialisation du Radar Chart avec le premier cluster
+    // Init
     updateRadarChart(clusters[0]);
+
 
     // =========================================================
     // PARTIE 4 : STREAMGRAPH (ÉVOLUTION TEMPORELLE)
@@ -254,28 +211,26 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
         .append("g")
         .attr("transform", `translate(${margin.left},${margin.top})`);
 
-    // Préparation des données : grouper par année et par cluster
+    // 1. Préparation des données : Grouper par Année et par Cluster
+    const streamData = [];
     const yearsMap = new Map();
 
     data.forEach(d => {
         const year = d.album_release_date ? parseInt(d.album_release_date.toString().split('-')[0]) : null;
 
-        // On filtre pour se concentrer sur les données récentes (2020-2025)
-        if (year && year >= 2020 && year <= 2025) {
+        if (year && year >= 2018 && year <= 2024) {
             if (!yearsMap.has(year)) {
                 yearsMap.set(year, { year: year });
-                // Initier tous les clusters à 0 pour cette année
                 Object.keys(colorPalette).forEach(c => yearsMap.get(year)[c] = 0);
             }
             yearsMap.get(year)[d.cluster_name]++;
         }
     });
 
-    // Conversion en tableau trié
     const formattedData = Array.from(yearsMap.values()).sort((a, b) => a.year - b.year);
     const keys = Object.keys(colorPalette);
 
-    // 2. Stack les données
+    // 2. Stack
     const stack = d3.stack()
         .offset(d3.stackOffsetSilhouette)
         .keys(keys);
@@ -296,12 +251,12 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
 
     // 4. Création des aires
     const area = d3.area()
-        .curve(d3.curveBasis) // Courbe fluide
+        .curve(d3.curveBasis)
         .x(d => xStream(d.data.year))
         .y0(d => yStream(d[0]))
         .y1(d => yStream(d[1]));
 
-    // 5. Ajout d'un tooltip spécifique pour le streamgraph
+    // 5. Dessin
     const tooltipStream = d3.select("body").append("div")
         .style("position", "absolute")
         .style("background", "rgba(0,0,0,0.85)")

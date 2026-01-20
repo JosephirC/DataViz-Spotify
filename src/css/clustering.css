@@ -1,5 +1,6 @@
 .clustering-page main {
     margin: 0 auto;
+    max-width: 100%;
 }
 
 .clustering-page h1 {
@@ -7,38 +8,95 @@
     margin-bottom: 10px;
 }
 
-.clustering-page .clustering-grid {
+.clustering-page p {
+    font-size: 21px;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+.dashboard-container {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.charts-row {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 20px;
-    margin-top: 20px;
-    align-items: stretch;
-}
-
-.clustering-page .card-viz {
-    background: rgba(255, 255, 255, 0.05);
-    padding: 20px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.clustering-page .card-viz h3 {
-    margin-top: 0;
-    font-size: 28px;
+    gap: 30px;
+    align-items: flex-start;
 }
 
 .clustering-page #scatter-container {
     width: 100%;
     height: 500px;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    padding-right: 20px;
+}
+
+.radar-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.radar-wrapper h3 {
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center;
 }
 
 .clustering-page #radar-legend {
     font-size: 14px;
     color: #ccc;
+    text-align: center;
+    margin-bottom: 10px;
+    min-height: 20px;
 }
 
 .clustering-page #radar-container {
-    display: center;
+    display: flex;
     justify-content: center;
+}
+
+.legend-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 15px;
+    transition: background 0.2s;
+    font-size: 18px;
+}
+
+.legend-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.card-viz {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.card-viz h3 {
+    margin-top: 0;
+    font-size: 28px;
 }
