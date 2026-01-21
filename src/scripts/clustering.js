@@ -50,7 +50,6 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
         heatmapFeatures.forEach(feature => {
             const meanVal = d3.mean(data.filter(d => d.cluster_name === cluster), d => d[feature]);
             clusterAverages[cluster][feature] = meanVal;
-            // allValues.push(meanVal);
         });
     });
 
@@ -104,24 +103,51 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
         .padding(0.05);
 
     // Axe X (features)
-    svgHeat.append("g")
-        .call(d3.axisTop(xHeat).tickSize(0))
-        .select(".domain").remove();
+    const axisX = svgHeat.append("g")
+        .call(d3.axisTop(xHeat).tickSize(0));
 
-    svgHeat.selectAll(".tick text")
+    axisX.select(".domain").remove();
+
+    axisX.selectAll(".tick text")
         .attr("transform", "translate(0,-10) rotate(-30)")
         .style("text-anchor", "start")
         .style("font-size", "13px")
         .style("fill", "#ccc");
 
     // Axe Y (clusters)
-    svgHeat.append("g")
-        .call(d3.axisLeft(yHeat).tickSize(0))
-        .select(".domain").remove();
+    const axisY = svgHeat.append("g")
+        .call(d3.axisLeft(yHeat).tickSize(0));
 
-    svgHeat.selectAll("g.tick text")
+    axisY.select(".domain").remove();
+
+    axisY.selectAll(".tick text")
         .style("font-size", "13px")
-        .style("fill", "#ccc");
+        .style("fill", d => colorPalette[d] || "#ccc")
+        .style("cursor", "default")
+        .on("mouseover", function (event, clusterName) {
+            updateRadarChart(clusterName);
+
+            tooltip.transition()
+                .duration(150)
+                .style("opacity", 0.95);
+
+            tooltip.html(`
+                <strong style="color:${colorPalette[clusterName] || "#fff"}">${clusterName}</strong><br>
+                <span style="font-size:0.9em; color:#ddd">${clusterDescriptions[clusterName] || ""}</span>
+            `)
+                .style("left", (event.pageX + 15) + "px")
+                .style("top", (event.pageY - 15) + "px");
+        })
+        .on("mousemove", function (event) {
+            tooltip
+                .style("left", (event.pageX + 15) + "px")
+                .style("top", (event.pageY - 15) + "px");
+        })
+        .on("mouseout", function () {
+            tooltip.transition()
+                .duration(300)
+                .style("opacity", 0);
+        });
 
     // Extents par feature (min/max calculés sur les clusters)
     const featureExtent = {};
