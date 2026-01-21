@@ -75,8 +75,8 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
 
     d3.select("#heatmap-container").html("");
 
-    const marginHeat = { top: 90, right: 30, bottom: 90, left: 180 };
-    const heightHeatTotal = 520;
+    const marginHeat = { top: 90, right: 30, bottom: 110, left: 180 };
+    const heightHeatTotal = 550;
 
     const heatContainer = document.getElementById("heatmap-container");
     const containerWidth = heatContainer ? heatContainer.getBoundingClientRect().width : 1200;
@@ -186,9 +186,13 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
         })
         .style("fill", d => textColorFromBg(colorFor(d.feature, d.value)));
 
-    // Mini légende
+    // Mini légende 
+    const legendWidth = Math.min(460, widthHeat);
+    const legendHeight = 10;
+
+    const legendY = heightHeat + 55;
     const legendG = svgHeat.append("g")
-        .attr("transform", `translate(0, ${heightHeat + 50})`);
+        .attr("transform", `translate(${(widthHeat - legendWidth) / 2}, ${legendY})`);
 
     const defs = svgHeat.append("defs");
     const grad = defs.append("linearGradient")
@@ -197,21 +201,38 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
         .attr("y1", "0%").attr("y2", "0%");
 
     grad.append("stop").attr("offset", "0%").attr("stop-color", "#ffffff");
-    grad.append("stop").attr("offset", "100%").attr("stop-color", "#b30000");
+    grad.append("stop").attr("offset", "100%").attr("stop-color", "#67000d");
 
     legendG.append("rect")
-        .attr("width", 220)
-        .attr("height", 12)
+        .attr("width", legendWidth)
+        .attr("height", legendHeight)
         .style("fill", "url(#heat-red-gradient)")
         .style("stroke", "rgba(255,255,255,0.25)")
         .style("stroke-width", 1)
-        .attr("rx", 3);
+        .attr("rx", 4);
 
     legendG.append("text")
         .attr("x", 0)
-        .attr("y", 30)
+        .attr("y", legendHeight + 22)
+        .text("faible")
         .style("fill", "#ccc")
-        .style("font-size", "12px");
+        .style("font-size", "14px");
+
+    legendG.append("text")
+        .attr("x", legendWidth)
+        .attr("y", legendHeight + 22)
+        .text("élevé")
+        .style("fill", "#ccc")
+        .style("font-size", "14px")
+        .style("text-anchor", "end");
+
+    legendG.append("text")
+        .attr("x", legendWidth / 2)
+        .attr("y", legendHeight + 44)
+        .text("Échelle recalculée pour chaque caractéristique (comparaison entre clusters)")
+        .style("fill", "#aaa")
+        .style("font-size", "14px")
+        .style("text-anchor", "middle");
 
     // =========================================================
     // PARTIE 1 : SCATTER PLOT
