@@ -200,8 +200,12 @@ d3.csv("../../data/top_50_clustered.csv").then(data => {
         .attr("x1", "0%").attr("x2", "100%")
         .attr("y1", "0%").attr("y2", "0%");
 
-    grad.append("stop").attr("offset", "0%").attr("stop-color", "#ffffff");
-    grad.append("stop").attr("offset", "100%").attr("stop-color", "#67000d");
+    grad.selectAll("stop")
+        .data(d3.range(0, 1.0001, 0.1))
+        .enter()
+        .append("stop")
+        .attr("offset", d => `${d * 100}%`)
+        .attr("stop-color", d => d3.interpolateReds(d));
 
     legendG.append("rect")
         .attr("width", legendWidth)
