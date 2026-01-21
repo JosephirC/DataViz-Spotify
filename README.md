@@ -9,6 +9,7 @@ Spotify publie des classements **Top 50** par pays, mais ces listes restent diff
 
 Ce projet propose un site de visualisation interactive permettant :
 - d’explorer la répartition géographique des titres populaires (par pays et par période),
+- de comparer la répartition des **genres musicaux** entre différentes années,
 - d’analyser l’évolution des **métriques audio** (tempo, danceability, energy, etc.) au fil du temps,
 - d’étudier des **familles de morceaux** assimilables à des genres via un clustering sur les caractéristiques audio.
 
@@ -19,19 +20,24 @@ Ce projet propose un site de visualisation interactive permettant :
 - **Carte interactive (choroplèthe / planisphère)**
   - Deux modes selon le dataset sélectionné (Top 50 par pays récent / Top 50 mondial par année).
   - Tooltips et interactions (sélection d’un pays, filtre par année, etc.).
-  - Affichage d’un tableau récapitulatif Top 50 en contexte.
+  - Affichage d’un tableau récapitulatif Top 50 en contexte avec lecteur audio.
 
+- **Comparaison des genres**
+  - Comparaison interactive entre deux années via sliders.
+  - Légende commune + tooltips.
+ 
 - **Évolution des métriques audio**
   - Courbes temporelles multi-variables (sélection dynamique des métriques).
   - Tooltips au survol.
 
-- **Diagrammes circulaires (genres)**
-  - Comparaison de deux années via sliders.
-  - Légende commune + tooltips.
-
 - **Clustering**
-  - Regroupement des morceaux selon leurs audio-features.
-  - Visualisation interactive (scatter plot + radar chart).
+  - Heatmap des profils audio moyens par cluster (comparaison relative entre clusters pour chaque caractéristique).
+  - Projection PCA des morceaux pour visualiser les groupes.
+  - Radar chart interactif pour explorer le profil audio détaillé d’un cluster.
+  - Interactions croisées entre les visualisations (hover, sélection).
+  
+- **Sources des données**
+  - Une page dédiée détaille l'origine des datasets (Kaggle) et le processus d'enrichissement via **MusicBrainz**.
 
 ## Données utilisées
 
@@ -53,17 +59,19 @@ Enrichissement :
 - `index.html` : page d’accueil
 - `404.html` : page d’erreur (GitHub Pages)
 - `src/pages/` : pages de visualisation (HTML)
-- `src/scripts/` : scripts D3.js (JS)
-- `src/css/style.css` : feuille de style unique
-- `data/` : datasets utilisés par les visualisations
-- `assets/` : polices, images, favicon
+  - `map.html`, `pie-charts.html`, `time-series.html`, `clustering.html`, `data-sources.html`
+- `src/scripts/` : scripts D3.js correspondant aux visualisations (JS)
+- `src/css/` : feuilles de style (style global `style.css` et styles spécifiques par page)
+- `data/` : datasets finaux utilisés par les visualisations (CSV/JSON)
+- `assets/` : ressources statiques (polices, images, favicon)
 - `data_processing/` : notebooks et scripts de préparation/enrichissement des données (Python)
+- `docs/` : documentation du projet (Cadrage, Suivi)
 
 ## Installation et lancement en local
 
 ### 1) Prérequis
-- Node.js + npm
-- Python 3 (si vous souhaitez exécuter les notebooks / scripts de traitement)
+- Node.js (v23.4) + npm (v11.0)
+- Python 3.12.3 (si vous souhaitez exécuter les notebooks / scripts de traitement)
 
 ### 2) Installer les dépendances front-end
 À la racine du projet :
@@ -76,6 +84,8 @@ npm install
 ```bash
 npm run dev
 ```
+
+Ouvrez ensuite votre navigateur à l'adresse indiquée (généralement `http://localhost:8080` ou similaire).
 
 ### 4) Environnement Python (optionnel, pour le traitement des données)
 Créer un environnement virtuel et installer les dépendances :
